@@ -50,6 +50,7 @@ A personal aerospace project using a reusable orbital launch vehicle as a case s
 個人航天項目，以一枚可重複使用的入軌運載火箭為例，系統理解運載火箭從設計、選材、製造到回收的完整工程邏輯。參考公開航天工程知識，借助 AI 輔助設計工具完成。我負責構思、方向制定和整體統籌。
 
 - **Status · 狀態:** Concept design and digital prototype (interactive 3D model and engineering overview); no physical hardware or testing · 概念設計及數碼原型（互動 3D 模型及工程概覽），並無實體硬件或測試
+- **Interactive 3D model · 互動 3D 模型:** [tylercheng00.github.io/dawn-2](https://tylercheng00.github.io/dawn-2/)
 
 ## Contact · 聯絡
 
