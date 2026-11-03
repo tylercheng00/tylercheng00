@@ -77,7 +77,7 @@ Side projects outside my two focus areas · 主線以外的興趣項目
 | Interest · 興趣 | Project · 項目 | Status · 狀態 | Links · 連結 |
 |---|---|---|---|
 | **Aerospace** · 航天 | DAWN-2 concept launch vehicle — the full engineering logic of a reusable rocket, as a learning case study · 以可重複使用火箭為例，理解完整工程邏輯 | Concept & digital prototype; no hardware · 概念及數碼原型，無實體硬件 | [3D model](https://tylercheng00.github.io/dawn-2/) · [repo](https://github.com/tylercheng00/dawn-2) |
-| **AI security** · AI 資安 | AI Red-Teaming Lab — prompt-injection & jailbreak robustness research, measured safely with canary secrets · 提示注入及越獄穩健性研究，以金絲雀暗號安全量度 | In development · 開發中 | Coming soon · 即將公開 |
+| **AI security** · AI 資安 | AI Red-Teaming Lab — prompt-injection & jailbreak robustness research, measured safely with canary secrets · 提示注入及越獄穩健性研究，以金絲雀暗號安全量度 | In development · 開發中 | [Interactive site](https://tylercheng00.github.io/ai-redteam-lab/) · [repo](https://github.com/tylercheng00/ai-redteam-lab) |
 
 ## Contact · 聯絡
 
