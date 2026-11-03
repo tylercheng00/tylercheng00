@@ -14,33 +14,16 @@ I work across capital markets and science-based ventures — US equities IPO adv
 
 我的工作橫跨資本市場與科研創業：在**富輝集團 Fuway** 從事美股 IPO 顧問及併購業務，並擔任**納米科研技術有限公司 Nanotech Innovation Limited** 聯合創辦人兼營運總監，研發納米塗層及生物醫療標靶技術。
 
-## Three areas · 三大領域
+## Focus areas · 主要領域
 
-| | Area · 領域 | Project · 項目 | Live page · 線上頁面 |
+| | Area · 領域 | Projects · 項目 | Live page · 線上頁面 |
 |---|---|---|---|
-| **01** | **Finance** · 金融 | Portfolio Optimization Lab | [Interactive demo · 互動示範](https://tylercheng00.github.io/portfolio-optimization-lab/) |
-| **02** | **Biotech & MedTech** · 生物科技及醫療科技 | Nanotech Innovation · Variable-Stiffness Catheter | [Showcase · 項目介紹](https://tylercheng00.github.io/biotech-medtech/) |
-| **03** | **Aerospace** · 航天 | DAWN-2 Concept Launch Vehicle | [Interactive 3D model · 互動 3D 模型](https://tylercheng00.github.io/dawn-2/) |
+| **01** | **Biotech & MedTech** · 生物科技及醫療科技 | Nanotech Innovation · Variable-Stiffness Catheter | [Showcase · 項目介紹](https://tylercheng00.github.io/biotech-medtech/) |
+| **02** | **Finance & Investment** · 金融投資 | US equities IPO advisory & M&A · Portfolio Optimization Lab | [Interactive demo · 互動示範](https://tylercheng00.github.io/portfolio-optimization-lab/) |
 
 ---
 
-### 01 · Finance · 金融
-
-#### Portfolio Optimization Lab
-
-An open-source Python toolkit for mean-variance and risk-parity portfolio optimization, built on CVXPY. Research direction: hardware acceleration (FPGA / ASIC) of convex optimization for low-latency portfolio rebalancing.
-
-開源 Python 工具庫，以 CVXPY 實現均值-方差及風險平價投資組合優化。研究方向：以硬件加速（FPGA / ASIC）凸優化運算，實現低延遲投資組合再平衡。
-
-- **Status · 狀態:** In development · 開發中
-- **Repository · 代碼庫:** [tylercheng00/portfolio-optimization-lab](https://github.com/tylercheng00/portfolio-optimization-lab)
-- **Interactive demo · 互動示範:** [tylercheng00.github.io/portfolio-optimization-lab](https://tylercheng00.github.io/portfolio-optimization-lab/)
-
-<sub>For research and educational purposes only; not investment advice. 僅供研究及教育用途，並不構成投資建議。</sub>
-
----
-
-### 02 · Biotech & MedTech · 生物科技及醫療科技
+### 01 · Biotech & MedTech · 生物科技及醫療科技
 
 Repository · 代碼庫: [tylercheng00/biotech-medtech](https://github.com/tylercheng00/biotech-medtech) · Showcase · 項目介紹: [tylercheng00.github.io/biotech-medtech](https://tylercheng00.github.io/biotech-medtech/)
 
@@ -62,9 +45,28 @@ Commercialization of a university-originated programmable-metamaterial technolog
 
 ---
 
-### 03 · Aerospace · 航天
+### 02 · Finance & Investment · 金融投資
 
-#### DAWN-2 Concept Launch Vehicle · 曙光二號概念火箭
+#### Portfolio Optimization Lab
+
+An open-source Python toolkit for mean-variance and risk-parity portfolio optimization, built on CVXPY. Research direction: hardware acceleration (FPGA / ASIC) of convex optimization for low-latency portfolio rebalancing.
+
+開源 Python 工具庫，以 CVXPY 實現均值-方差及風險平價投資組合優化。研究方向：以硬件加速（FPGA / ASIC）凸優化運算，實現低延遲投資組合再平衡。
+
+- **Status · 狀態:** In development · 開發中
+- **Repository · 代碼庫:** [tylercheng00/portfolio-optimization-lab](https://github.com/tylercheng00/portfolio-optimization-lab)
+- **Interactive demo · 互動示範:** [tylercheng00.github.io/portfolio-optimization-lab](https://tylercheng00.github.io/portfolio-optimization-lab/)
+
+<sub>For research and educational purposes only; not investment advice. 僅供研究及教育用途，並不構成投資建議。</sub>
+
+---
+
+## Interests · 興趣
+
+Side projects I build to learn, outside my two focus areas.<br>
+主線以外、出於興趣而做的個人學習項目。
+
+### Aerospace · 航天 — DAWN-2 Concept Launch Vehicle · 曙光二號概念火箭
 
 A personal aerospace project using a reusable orbital launch vehicle as a case study to work through the full engineering logic of a rocket, from design and materials to manufacturing and recovery. Built on publicly available aerospace engineering knowledge with AI-assisted design tools. My role: concept, direction and overall lead.
 
@@ -73,7 +75,6 @@ A personal aerospace project using a reusable orbital launch vehicle as a case s
 - **Status · 狀態:** Concept design and digital prototype (interactive 3D model and engineering overview); no physical hardware or testing · 概念設計及數碼原型（互動 3D 模型及工程概覽），並無實體硬件或測試
 - **Repository · 代碼庫:** [tylercheng00/dawn-2](https://github.com/tylercheng00/dawn-2)
 - **Interactive 3D model · 互動 3D 模型:** [tylercheng00.github.io/dawn-2](https://tylercheng00.github.io/dawn-2/)
-
 
 ## Contact · 聯絡
 
