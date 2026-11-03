@@ -19,7 +19,7 @@ I work across capital markets and science-based ventures — US equities IPO adv
 | | Area · 領域 | Project · 項目 | Live page · 線上頁面 |
 |---|---|---|---|
 | **01** | **Finance** · 金融 | Portfolio Optimization Lab | [Interactive demo · 互動示範](https://tylercheng00.github.io/portfolio-optimization-lab/) |
-| **02** | **Biotech & MedTech** · 生物科技及醫療科技 | Nanotech Innovation · Variable-Stiffness Catheter | Showcase page coming soon · 介紹頁即將上線 |
+| **02** | **Biotech & MedTech** · 生物科技及醫療科技 | Nanotech Innovation · Variable-Stiffness Catheter | [Showcase · 項目介紹](https://tylercheng00.github.io/biotech-medtech/) |
 | **03** | **Aerospace** · 航天 | DAWN-2 Concept Launch Vehicle | [Interactive 3D model · 互動 3D 模型](https://tylercheng00.github.io/dawn-2/) |
 
 ---
@@ -41,6 +41,8 @@ An open-source Python toolkit for mean-variance and risk-parity portfolio optimi
 ---
 
 ### 02 · Biotech & MedTech · 生物科技及醫療科技
+
+Repository · 代碼庫: [tylercheng00/biotech-medtech](https://github.com/tylercheng00/biotech-medtech) · Showcase · 項目介紹: [tylercheng00.github.io/biotech-medtech](https://tylercheng00.github.io/biotech-medtech/)
 
 #### Nanotech Innovation · 納米科研技術
 
