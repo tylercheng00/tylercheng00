@@ -43,6 +43,14 @@ Research and development of nano-coatings and biomedical targeted technologies, 
 
 - **Status · 狀態:** Ongoing since 2021 · 2021 年起持續發展
 
+### DAWN-2 Concept Launch Vehicle · 曙光二號概念火箭
+
+A personal aerospace project using a reusable orbital launch vehicle as a case study to work through the full engineering logic of a rocket, from design and materials to manufacturing and recovery. Built on publicly available aerospace engineering knowledge with AI-assisted design tools. My role: concept, direction and overall lead.
+
+個人航天項目，以一枚可重複使用的入軌運載火箭為例，系統理解運載火箭從設計、選材、製造到回收的完整工程邏輯。參考公開航天工程知識，借助 AI 輔助設計工具完成。我負責構思、方向制定和整體統籌。
+
+- **Status · 狀態:** Concept design and digital prototype (interactive 3D model and engineering overview); no physical hardware or testing · 概念設計及數碼原型（互動 3D 模型及工程概覽），並無實體硬件或測試
+
 ## Contact · 聯絡
 
 Website · 網站: [tylercheng00.github.io](https://tylercheng00.github.io/)
