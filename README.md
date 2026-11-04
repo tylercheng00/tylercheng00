@@ -36,6 +36,12 @@ AI-integrated biotechnology: patented technologies combining nano-targeting with
 - **Role · 角色:** Co-founder · 聯合創辦人
 - **Interactive demo · 互動示範:** [AI × nano-targeting workflow and targeting simulation](https://tylercheng00.github.io/biotech-medtech/#btrdcc) · AI 標靶流程及模擬
 
+#### Patents · 專利
+
+- **3 granted in Hong Kong (2022) · 3 項香港已授權：** HK30065582, HK30064890, HK30064891 — skincare compositions · 護膚配方
+- **4 filed in mainland China (2024) · 4 項中國內地申請：** nanomaterial purification device (202422178473.2), tablet sieving machine (202422178475.1), horizontal centrifuge device, drug-solution preparation tank · 納米材料純化裝置、片劑篩分機、臥式離心裝置、藥液配製罐
+- Details · 詳情：[Patents & R&D direction](https://tylercheng00.github.io/biotech-medtech/#ip)
+
 #### Nanotech Innovation · 納米科研技術
 
 Research and development of nano-coatings and biomedical targeted technologies, supported by a patent portfolio.
@@ -43,6 +49,7 @@ Research and development of nano-coatings and biomedical targeted technologies, 
 研發納米塗層及生物醫療標靶技術，並建立專利組合。
 
 - **Status · 狀態:** Ongoing since 2021 · 2021 年起持續發展
+- **Media · 媒體:** [HKYBA case feature](https://www.hkyba.org.hk/case/nanotech-innovation) · [YouTube video](https://www.youtube.com/watch?v=WWayUYHRCLw)
 
 #### Variable-Stiffness Microsurgical Catheter · 可變剛度微創手術導管
 
@@ -65,6 +72,12 @@ An open-source Python toolkit for mean-variance and risk-parity portfolio optimi
 - **Status · 狀態:** In development · 開發中
 - **Repository · 代碼庫:** [tylercheng00/portfolio-optimization-lab](https://github.com/tylercheng00/portfolio-optimization-lab)
 - **Interactive demo · 互動示範:** [tylercheng00.github.io/portfolio-optimization-lab](https://tylercheng00.github.io/portfolio-optimization-lab/)
+
+#### US equities: IPO & M&A · 美股上市及併購 — 富輝集團 Fuway
+
+- **Case · 案例:** USD 5 million raised in 45 days (client anonymised, approved for publication) · 45 日內完成 500 萬美元融資（客戶匿名，已獲准公開）
+- **Case · 案例:** supporting a company through the US IPO process · 協助企業推進美股上市流程
+- **Walkthrough · 流程介紹:** [US IPO & M&A](https://tylercheng00.github.io/us-equities.html)
 
 <sub>For research and educational purposes only; not investment advice. 僅供研究及教育用途，並不構成投資建議。</sub>
 
