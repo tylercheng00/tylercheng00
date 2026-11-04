@@ -10,9 +10,9 @@
 
 ---
 
-I work across biotechnology and financial markets — Co-founder of **BTRDCC**, which combines AI with biotechnology, nano-targeting and cancer-therapy R&D; Co-founder & COO of **Nanotech Innovation Limited** (nano-coatings and biomedical targeted technologies); and US equities IPO advisory and M&A at **富輝集團 Fuway**.
+I work across biotechnology and financial markets — Co-founder & COO of **Nanotech Innovation Limited** (nano-coatings and biomedical targeted technologies) and co-founder of its **BTRDCC** project, which combines AI with biotechnology, nano-targeting and cancer-therapy R&D; and US equities IPO advisory and M&A at **富輝集團 Fuway**.
 
-我的工作橫跨生物科技與金融市場：**BTRDCC** 聯合創辦人，結合 AI、納米標靶及癌症治療技術研發；**納米科研技術有限公司 Nanotech Innovation Limited** 聯合創辦人兼營運總監，研發納米塗層及生物醫療標靶技術；並在**富輝集團 Fuway** 從事美股 IPO 顧問及併購業務。
+我的工作橫跨生物科技與金融市場：**納米科研技術有限公司 Nanotech Innovation Limited** 聯合創辦人兼營運總監，研發納米塗層及生物醫療標靶技術，並聯合創辦公司旗下 **BTRDCC** 項目，結合 AI、納米標靶及癌症治療技術研發；另在**富輝集團 Fuway** 從事美股 IPO 顧問及併購業務。
 
 ## Focus areas · 主要領域
 
@@ -29,6 +29,8 @@ Repository · 代碼庫: [tylercheng00/biotech-medtech](https://github.com/tyler
 
 #### BTRDCC — Biochemical Technology Research & Development Consultation Centre
 
+*A project of Nanotech Innovation Limited · 納米科研技術有限公司旗下項目*
+
 AI-integrated biotechnology: patented technologies combining nano-targeting with research into cancer-therapy technologies. AI helps analyse biological data and narrow down nano-carrier designs for laboratory validation.
 
 結合 AI 的生物科技：以專利技術結合納米標靶，研發癌症治療技術。以 AI 分析生物數據、篩選納米載體設計，再交由實驗驗證。
@@ -38,8 +40,8 @@ AI-integrated biotechnology: patented technologies combining nano-targeting with
 
 #### Patents · 專利
 
-- **3 granted in Hong Kong (2022) · 3 項香港已授權：** HK30065582, HK30064890, HK30064891 — skincare compositions · 護膚配方
-- **4 filed in mainland China (2024) · 4 項中國內地申請：** nanomaterial purification device (202422178473.2), tablet sieving machine (202422178475.1), horizontal centrifuge device, drug-solution preparation tank · 納米材料純化裝置、片劑篩分機、臥式離心裝置、藥液配製罐
+- **3 granted in Hong Kong (2022), held by Nanotech Innovation Limited · 3 項香港已授權（由納米科研技術有限公司持有）：** HK30065582, HK30064890, HK30064891 — skincare compositions · 護膚配方
+- **Mainland China (2024) · 中國內地：** 2 applications — nanomaterial purification device (202422178473.2), tablet sieving machine (202422178475.1); 2 reported, pending registration — horizontal centrifuge device, drug-solution preparation tank · 兩項申請（納米材料純化裝置、片劑篩分機）；兩項已報備待註冊（臥式離心裝置、藥液配製罐）
 - Details · 詳情：[Patents & R&D direction](https://tylercheng00.github.io/biotech-medtech/#ip)
 
 #### Nanotech Innovation · 納米科研技術
