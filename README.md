@@ -6,6 +6,8 @@
 
 [**tylercheng00.github.io**](https://tylercheng00.github.io/)
 
+[Insights · 觀點](https://tylercheng00.github.io/insights/) · [News · 新聞](https://tylercheng00.github.io/news.html) · [Markets · 美股行情](https://tylercheng00.github.io/markets.html)
+
 </div>
 
 ---
