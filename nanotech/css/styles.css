@@ -619,6 +619,11 @@ html[lang="en"] .zh:not(.zh-hans):not(.zh-hant) {
   margin-bottom: 1rem;
 }
 
+/* English h3 already shows the legal name — hide duplicate subtitle */
+html[lang="en"] .entity .entity-en {
+  display: none !important;
+}
+
 .entity p {
   color: var(--ink-soft);
   font-size: 0.95rem;
@@ -1412,21 +1417,25 @@ html.js .reveal.is-visible {
 .case-stage-controls {
   position: absolute;
   left: 1rem;
+  right: 1rem;
   bottom: 1rem;
   z-index: 2;
   display: flex;
-  gap: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.65rem 0.85rem;
   align-items: center;
+  max-width: calc(100% - 2rem);
 }
 
 .case-legend {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.85rem;
   font-size: 0.75rem;
   color: var(--purple-200);
 }
 
-.case-legend span::before {
+.case-legend > span::before {
   content: "";
   display: inline-block;
   width: 8px;
@@ -1436,9 +1445,9 @@ html.js .reveal.is-visible {
   vertical-align: middle;
 }
 
-.case-legend .tumour::before { background: #c45c8a; }
-.case-legend .healthy::before { background: #6b8cae; }
-.case-legend .nano::before { background: #e8d7ff; }
+.case-legend > .tumour::before { background: #c45c8a; }
+.case-legend > .healthy::before { background: #6b8cae; }
+.case-legend > .nano::before { background: #e8d7ff; }
 
 .ext-link::after {
   content: " ↗";
