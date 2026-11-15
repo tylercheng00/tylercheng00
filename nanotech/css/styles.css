@@ -76,11 +76,20 @@ button {
   margin-inline: auto;
 }
 
-/* —— Language ——
-   Only hide the inactive locale; do not force display on the active one
-   so component rules (e.g. .hero-brand-en { display: block }) still apply. */
-html[lang="en"] .zh,
-html[lang="zh-Hant"] .en {
+/* —— Language (繁 / 简 / EN) ——
+   Hide inactive locales only; keep natural display for the active one. */
+html[lang="zh-Hant"] .zh-hans,
+html[lang="zh-Hant"] .en,
+html[lang="zh-Hans"] .zh-hant,
+html[lang="zh-Hans"] .en,
+html[lang="en"] .zh-hant,
+html[lang="en"] .zh-hans {
+  display: none !important;
+}
+
+/* Back-compat: legacy .zh treated as Traditional */
+html[lang="zh-Hans"] .zh:not(.zh-hans):not(.zh-hant),
+html[lang="en"] .zh:not(.zh-hans):not(.zh-hant) {
   display: none !important;
 }
 
@@ -1219,5 +1228,289 @@ html.js .reveal.is-visible {
 
   .topbar-entities {
     display: none;
+  }
+}
+
+
+/* —— Redesign additions —— */
+.lang-toggle button[data-lang="zh-Hans"] {
+  font-family: "Noto Sans SC", "Noto Sans TC", sans-serif;
+}
+
+.nav-links {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-links a {
+  font-size: 0.82rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.home-tile {
+  background: var(--purple-900);
+  padding: 2rem 1.5rem;
+  transition: background 0.35s var(--ease), transform 0.35s var(--ease);
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.home-tile:hover {
+  background: var(--purple-800);
+  transform: translateY(-2px);
+}
+
+.home-tile .tile-num {
+  font-family: var(--font-display);
+  color: var(--purple-400);
+  margin-bottom: 0.75rem;
+}
+
+.home-tile h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-tile p {
+  color: var(--purple-200);
+  font-size: 0.9rem;
+}
+
+.founder-card {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 2rem 0;
+  border-top: 2px solid var(--purple-700);
+}
+
+.founder-mark {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(201,179,232,0.45), transparent 50%),
+    linear-gradient(145deg, var(--purple-700), var(--purple-950));
+  display: grid;
+  place-items: center;
+  color: var(--mist);
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  letter-spacing: 0.02em;
+}
+
+.founder-card h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 0.35rem;
+}
+
+.founder-role {
+  color: var(--purple-500);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 1rem;
+}
+
+.founder-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.founder-links a {
+  color: var(--purple-600);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.founder-links a:hover {
+  color: var(--purple-500);
+  text-decoration: underline;
+}
+
+/* Tech transfer flow */
+.flow-track {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.75rem;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.flow-step {
+  position: relative;
+  padding: 1.25rem 1rem 1.35rem;
+  background: var(--mist);
+  border-top: 3px solid var(--purple-200);
+  opacity: 0.35;
+  transform: translateY(18px);
+  transition: opacity 0.5s var(--ease), transform 0.5s var(--ease), border-color 0.5s;
+}
+
+.flow-step.is-on {
+  opacity: 1;
+  transform: translateY(0);
+  border-top-color: var(--purple-500);
+}
+
+.flow-step .n {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--purple-500);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.flow-step h3 {
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+}
+
+.flow-step p {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.section-dark .flow-step {
+  background: rgba(246, 242, 250, 0.06);
+  color: var(--mist);
+}
+
+.section-dark .flow-step p {
+  color: var(--purple-200);
+}
+
+/* Case study canvas */
+.case-stage {
+  position: relative;
+  background: var(--purple-950);
+  min-height: 360px;
+  overflow: hidden;
+}
+
+#targeting-canvas {
+  width: 100%;
+  height: 360px;
+  display: block;
+}
+
+.case-stage-controls {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 2;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.case-legend {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: var(--purple-200);
+}
+
+.case-legend span::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+
+.case-legend .tumour::before { background: #c45c8a; }
+.case-legend .healthy::before { background: #6b8cae; }
+.case-legend .nano::before { background: #e8d7ff; }
+
+.ext-link::after {
+  content: " ↗";
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.stat-row strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--purple-600);
+  line-height: 1.1;
+}
+
+.stat-row span {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.section-dark .stat-row strong { color: var(--lilac); }
+.section-dark .stat-row span { color: var(--purple-200); }
+
+.patent-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.patent-summary article {
+  padding: 1.5rem 0;
+  border-top: 2px solid var(--purple-600);
+}
+
+.patent-summary h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.patent-summary p {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 960px) {
+  .home-grid,
+  .flow-track,
+  .patent-summary,
+  .stat-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .flow-track {
+    grid-template-columns: 1fr 1fr;
+  }
+  .founder-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .home-grid,
+  .flow-track,
+  .patent-summary,
+  .stat-row {
+    grid-template-columns: 1fr;
   }
 }

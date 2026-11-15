@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem("nanotech-lang");
+        if (lang === "en" || lang === "zh-Hant" || lang === "zh-Hans") document.documentElement.lang = lang;
+      } catch (e) {}
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>創辦人 · Nanotech Innovation</title>
+  <meta name="description" content="創辦人鄭迪珉 Tyler Tik Man Cheng" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-entities">
+        <span class="zh-hant">納米科研技術有限公司（香港）</span>
+        <span class="zh-hans">纳米科研技术有限公司（香港）</span>
+        <span class="en">Nanotech Innovation Limited (Hong Kong)</span>
+        <span class="zh-hant">康納科研技術（廣州）有限公司</span>
+        <span class="zh-hans">康纳科研技术（广州）有限公司</span>
+        <span class="en">Nanotech Innovation (Guangzhou) Limited</span>
+      </div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="zh-Hant" aria-pressed="true">繁</button>
+        <button type="button" data-lang="zh-Hans" aria-pressed="false">简</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <img class="logo-mark" src="assets/logo.svg" alt="" width="40" height="40" />
+        <span class="logo-text">
+          <strong class="zh-hant">納米科研技術</strong>
+          <strong class="zh-hans">纳米科研技术</strong>
+          <strong class="en">Nanotech Innovation</strong>
+          <small class="zh-hant">香港 · 廣州</small>
+          <small class="zh-hans">香港 · 广州</small>
+          <small class="en">Hong Kong · Guangzhou</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu"><span></span></button>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="about.html"><span class="zh-hant">關於我們</span><span class="zh-hans">关于我们</span><span class="en">About</span></a>
+        <a href="founder.html" aria-current="page"><span class="zh-hant">創辦人</span><span class="zh-hans">创办人</span><span class="en">Founder</span></a>
+        <a href="services.html"><span class="zh-hant">業務</span><span class="zh-hans">业务</span><span class="en">Services</span></a>
+        <a href="technology-transfer.html"><span class="zh-hant">技術轉移</span><span class="zh-hans">技术转移</span><span class="en">Tech transfer</span></a>
+        <a href="btrdcc.html">BTRDCC</a>
+        <a href="case-study.html"><span class="zh-hant">案例</span><span class="zh-hans">案例</span><span class="en">Case study</span></a>
+        <a href="patents.html"><span class="zh-hant">知識產權</span><span class="zh-hans">知识产权</span><span class="en">IP</span></a>
+        <a class="nav-cta" href="contact.html"><span class="zh-hant">聯絡我們</span><span class="zh-hans">联系我们</span><span class="en">Contact</span></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html"><span class="zh-hant">首頁</span><span class="zh-hans">首页</span><span class="en">Home</span></a> / <span class="zh-hant">創辦人</span><span class="zh-hans">创办人</span><span class="en">Founder</span></div>
+        <h1 class="zh-hant">創辦人</h1>
+        <h1 class="zh-hans">创办人</h1>
+        <h1 class="en">Founder</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <article class="founder-card reveal">
+          <div class="founder-mark" aria-hidden="true">TC</div>
+          <div>
+            <h2 class="zh-hant">鄭迪珉 Tyler Tik Man Cheng</h2>
+            <h2 class="zh-hans">郑迪珉 Tyler Tik Man Cheng</h2>
+            <h2 class="en">鄭迪珉 Tyler Tik Man Cheng</h2>
+            <p class="founder-role zh-hant">聯合創辦人兼營運總監 · 納米科研技術有限公司</p>
+            <p class="founder-role zh-hans">联合创办人兼运营总监 · 纳米科研技术有限公司</p>
+            <p class="founder-role en">Co-founder &amp; COO · Nanotech Innovation Limited</p>
+            <p class="zh-hant" style="color:var(--ink-soft);max-width:58ch">跨生物科技、知識產權與技術商業化。於大學期間聯合創辦公司，推動納米塗層與生物醫療標靶技術，並聯合創辦 BTRDCC 項目，結合 AI 與納米標靶研發方向。亦從事美股 IPO 顧問及併購相關工作。</p>
+            <p class="zh-hans" style="color:var(--ink-soft);max-width:58ch">跨生物科技、知识产权与技术商业化。于大学期间联合创办公司，推动纳米涂层与生物医疗靶向技术，并联合创办 BTRDCC 项目，结合 AI 与纳米靶向研发方向。亦从事美股 IPO 顾问及并购相关工作。</p>
+            <p class="en" style="color:var(--ink-soft);max-width:58ch">Works across biotech, IP and technology commercialisation. Co-founded Nanotech Innovation at university and the BTRDCC project at the intersection of AI and nano-targeting; also active in US equities IPO advisory and M&amp;A.</p>
+            <div class="founder-links">
+              <a href="https://tylercheng00.github.io/" target="_blank" rel="noopener noreferrer">tylercheng00.github.io</a>
+              <a href="https://www.linkedin.com/in/tik-man-cheng" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="mailto:tyler.cheng@alumni.ust.hk">tyler.cheng@alumni.ust.hk</a>
+              <a class="ext-link" href="https://tylercheng00.github.io/biotech-medtech/#btrdcc" target="_blank" rel="noopener noreferrer">BTRDCC</a>
+            </div>
+          </div>
+        </article>
+        <div class="stat-row reveal">
+          <div><strong>2021</strong><span class="zh-hant">聯合創辦公司</span><span class="zh-hans">联合创办公司</span><span class="en">Co-founded the company</span></div>
+          <div><strong>3+</strong><span class="zh-hant">香港已授權專利</span><span class="zh-hans">香港已授权专利</span><span class="en">HK patents granted</span></div>
+          <div><strong>HKUST</strong><span class="zh-hant">香港科技大學畢業</span><span class="zh-hans">香港科技大学毕业</span><span class="en">HKUST graduate</span></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <strong class="zh-hant">納米科研技術有限公司</strong>
+          <strong class="zh-hans">纳米科研技术有限公司</strong>
+          <strong class="en">Nanotech Innovation Limited</strong>
+          <p class="zh-hant">香港納米科技與知識產權平台，連同廣州附屬公司服務大灣區研發落地。</p>
+          <p class="zh-hans">香港纳米科技与知识产权平台，连同广州附属公司服务大湾区研发落地。</p>
+          <p class="en">A Hong Kong nanotech and IP platform, with our Guangzhou affiliate supporting Greater Bay Area R&amp;D.</p>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh-hant">導覽</span><span class="zh-hans">导览</span><span class="en">Explore</span></h4>
+          <a href="about.html"><span class="zh-hant">關於我們</span><span class="zh-hans">关于我们</span><span class="en">About</span></a>
+          <a href="founder.html"><span class="zh-hant">創辦人</span><span class="zh-hans">创办人</span><span class="en">Founder</span></a>
+          <a href="services.html"><span class="zh-hant">業務</span><span class="zh-hans">业务</span><span class="en">Services</span></a>
+          <a href="case-study.html"><span class="zh-hant">案例</span><span class="zh-hans">案例</span><span class="en">Case study</span></a>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh-hant">項目</span><span class="zh-hans">项目</span><span class="en">Projects</span></h4>
+          <a href="technology-transfer.html"><span class="zh-hant">技術轉移</span><span class="zh-hans">技术转移</span><span class="en">Tech transfer</span></a>
+          <a class="ext-link" href="https://tylercheng00.github.io/biotech-medtech/#btrdcc" target="_blank" rel="noopener noreferrer">BTRDCC</a>
+          <a href="patents.html"><span class="zh-hant">知識產權</span><span class="zh-hans">知识产权</span><span class="en">IP</span></a>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh-hant">聯絡</span><span class="zh-hans">联络</span><span class="en">Contact</span></h4>
+          <a href="mailto:tyler.cheng@alumni.ust.hk">tyler.cheng@alumni.ust.hk</a>
+          <a href="contact.html"><span class="zh-hant">聯絡表格</span><span class="zh-hans">联络表格</span><span class="en">Enquiry form</span></a>
+          <a href="https://tylercheng00.github.io/" target="_blank" rel="noopener noreferrer">tylercheng00.github.io</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="zh-hant">© 2026 納米科研技術有限公司 · 康納科研技術（廣州）有限公司</span>
+        <span class="zh-hans">© 2026 纳米科研技术有限公司 · 康纳科研技术（广州）有限公司</span>
+        <span class="en">© 2026 Nanotech Innovation Limited · Nanotech Innovation (Guangzhou) Limited</span>
+      </div>
+      <p class="disclaimer zh-hant">本網站僅作公司介紹，不包含機密技術細節、臨床數據或已獲批醫療產品聲明。</p>
+      <p class="disclaimer zh-hans">本网站仅作公司介绍，不包含机密技术细节、临床数据或已获批医疗产品声明。</p>
+      <p class="disclaimer en">For company introduction only — no confidential technical details, clinical data, or approved medical product claims.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
