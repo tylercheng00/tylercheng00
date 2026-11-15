@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem("nanotech-lang");
+        if (lang === "en" || lang === "zh-Hant") document.documentElement.lang = lang;
+      } catch (e) {}
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BTRDCC · 納米科研技術有限公司</title>
+  <meta name="description" content="BTRDCC — 生化科技研發諮詢中心：AI、納米標靶與癌症治療技術研發。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-entities">
+        <span class="zh">納米科研技術有限公司（香港）</span>
+        <span class="en">Nanotech Innovation Limited (Hong Kong)</span>
+        <span class="zh">康納科研技術（廣州）有限公司</span>
+        <span class="en">Nanotech Innovation (Guangzhou) Limited</span>
+      </div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="zh-Hant" aria-pressed="true">繁</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <img class="logo-mark" src="assets/logo.svg" alt="" width="40" height="40" />
+        <span class="logo-text">
+          <strong class="zh">納米科研技術</strong>
+          <strong class="en">Nanotech Innovation</strong>
+          <small class="zh">香港 · 廣州</small>
+          <small class="en">Hong Kong · Guangzhou</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu"><span></span></button>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a>
+        <a href="services.html"><span class="zh">業務領域</span><span class="en">Services</span></a>
+        <a href="btrdcc.html" aria-current="page">BTRDCC</a>
+        <a href="patents.html"><span class="zh">知識產權</span><span class="en">IP</span></a>
+        <a class="nav-cta" href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a> / BTRDCC</div>
+        <h1>BTRDCC</h1>
+        <p class="zh">生化科技研發諮詢中心 · Biochemical Technology Research &amp; Development Consultation Centre<br />納米科研技術有限公司旗下項目</p>
+        <p class="en">Biochemical Technology Research &amp; Development Consultation Centre<br />A project of Nanotech Innovation Limited</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="reveal">
+          <span class="section-label"><span class="zh">定位</span><span class="en">Focus</span></span>
+          <h2 class="section-title zh">人工智能遇上生物科技</h2>
+          <h2 class="section-title en">Where AI meets biotechnology</h2>
+          <p class="zh" style="color: var(--ink-soft); margin-bottom: 1rem;">BTRDCC 專注於人工智能與生物科技的結合。其技術方向把納米標靶與癌症治療技術研發結合：以 AI 分析生物數據、篩選納米載體設計，令後續實驗工作集中在最有潛力的方案上，並配合知識產權保護。</p>
+          <p class="en" style="color: var(--ink-soft); margin-bottom: 1rem;">BTRDCC works where artificial intelligence meets biotechnology. Its direction combines nano-targeting with cancer-therapy technology research: AI helps analyse biological data and narrow nano-carrier designs so laboratory work focuses on the most promising candidates — with IP protection in parallel.</p>
+        </div>
+        <div class="split-visual reveal" aria-hidden="true">
+          <span class="visual-label">AI → Design → Lab → IP</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><span class="zh">能力</span><span class="en">Capabilities</span></span>
+          <h2 class="section-title zh">諮詢與合作範圍</h2>
+          <h2 class="section-title en">Consulting and collaboration scope</h2>
+        </div>
+        <div class="pillars">
+          <article class="pillar reveal">
+            <div class="pillar-num">01</div>
+            <h3 class="zh">AI 輔助研發</h3>
+            <h3 class="en">AI-assisted R&amp;D</h3>
+            <p class="zh">以數據驅動方式縮小候選設計空間，提高實驗效率。</p>
+            <p class="en">Data-driven narrowing of design space to improve experimental efficiency.</p>
+          </article>
+          <article class="pillar reveal">
+            <div class="pillar-num">02</div>
+            <h3 class="zh">納米標靶</h3>
+            <h3 class="en">Nano-targeting</h3>
+            <p class="zh">探討載體設計與標靶策略的概念與可行性路徑。</p>
+            <p class="en">Exploring carrier design and targeting strategies at a concept and feasibility level.</p>
+          </article>
+          <article class="pillar reveal">
+            <div class="pillar-num">03</div>
+            <h3 class="zh">癌症治療技術研發</h3>
+            <h3 class="en">Cancer-therapy tech R&amp;D</h3>
+            <p class="zh">支援相關技術方向的研究規劃與合作對接（非臨床服務）。</p>
+            <p class="en">Supporting research planning and partnership matching in related directions (not a clinical service).</p>
+          </article>
+          <article class="pillar reveal">
+            <div class="pillar-num">04</div>
+            <h3 class="zh">知識產權銜接</h3>
+            <h3 class="en">IP linkage</h3>
+            <p class="zh">與公司專利及技術轉移能力銜接，保護合作成果。</p>
+            <p class="en">Linked to the company’s patent and tech-transfer capacity to protect collaboration outcomes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container reveal" style="max-width: 640px;">
+        <span class="section-label"><span class="zh">聲明</span><span class="en">Disclaimer</span></span>
+        <h2 class="section-title zh">概念層面介紹</h2>
+        <h2 class="section-title en">Concept-level overview</h2>
+        <p class="section-lead zh">本頁只作概念層面介紹，不包含機密技術細節、專利請求項、研發數據或臨床結果，亦不涉及任何已獲批的醫療產品或療法。</p>
+        <p class="section-lead en">This page is a concept-level overview only. It contains no confidential technical details, patent claims, R&amp;D data or clinical results, and describes no approved medical product or treatment.</p>
+        <a class="btn btn-dark" href="contact.html"><span class="zh">洽談 BTRDCC 合作</span><span class="en">Discuss a BTRDCC collaboration</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <strong class="zh">納米科研技術有限公司</strong>
+          <strong class="en">Nanotech Innovation Limited</strong>
+          <p class="zh">香港納米科技與知識產權平台，連同廣州附屬公司服務大灣區研發落地。</p>
+          <p class="en">A Hong Kong nanotech and IP platform, with Nanotech Innovation (Guangzhou) supporting Greater Bay Area R&amp;D execution.</p>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh">導覽</span><span class="en">Explore</span></h4>
+          <a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a>
+          <a href="services.html"><span class="zh">業務領域</span><span class="en">Services</span></a>
+          <a href="btrdcc.html">BTRDCC</a>
+          <a href="patents.html"><span class="zh">知識產權</span><span class="en">IP</span></a>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh">實體</span><span class="en">Entities</span></h4>
+          <a href="about.html#hk"><span class="zh">納米科研技術（香港）</span><span class="en">Nanotech (HK)</span></a>
+          <a href="about.html#gz"><span class="zh">康納科研技術（廣州）</span><span class="en">Nanotech (Guangzhou)</span></a>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh">聯絡</span><span class="en">Contact</span></h4>
+          <a href="mailto:tyler.cheng@alumni.ust.hk">tyler.cheng@alumni.ust.hk</a>
+          <a href="contact.html"><span class="zh">聯絡表格</span><span class="en">Enquiry form</span></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="zh">© 2026 納米科研技術有限公司 · 康納科研技術（廣州）有限公司</span>
+        <span class="en">© 2026 Nanotech Innovation Limited · Nanotech Innovation (Guangzhou) Limited</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

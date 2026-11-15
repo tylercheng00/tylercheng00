@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem("nanotech-lang");
+        if (lang === "en" || lang === "zh-Hant") document.documentElement.lang = lang;
+      } catch (e) {}
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>業務領域 · 納米科研技術有限公司</title>
+  <meta name="description" content="技術轉移、BTRDCC、專利申請協助與共同研發服務。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-entities">
+        <span class="zh">納米科研技術有限公司（香港）</span>
+        <span class="en">Nanotech Innovation Limited (Hong Kong)</span>
+        <span class="zh">康納科研技術（廣州）有限公司</span>
+        <span class="en">Nanotech Innovation (Guangzhou) Limited</span>
+      </div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="zh-Hant" aria-pressed="true">繁</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <img class="logo-mark" src="assets/logo.svg" alt="" width="40" height="40" />
+        <span class="logo-text">
+          <strong class="zh">納米科研技術</strong>
+          <strong class="en">Nanotech Innovation</strong>
+          <small class="zh">香港 · 廣州</small>
+          <small class="en">Hong Kong · Guangzhou</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu"><span></span></button>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a>
+        <a href="services.html" aria-current="page"><span class="zh">業務領域</span><span class="en">Services</span></a>
+        <a href="btrdcc.html">BTRDCC</a>
+        <a href="patents.html"><span class="zh">知識產權</span><span class="en">IP</span></a>
+        <a class="nav-cta" href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a> / <span class="zh">業務領域</span><span class="en">Services</span></div>
+        <h1 class="zh">業務領域</h1>
+        <h1 class="en">Services</h1>
+        <p class="zh">技術轉移、研發諮詢、專利佈局與共同開發——為科研與產業夥伴提供一站式轉化支援。</p>
+        <p class="en">Technology transfer, R&amp;D consulting, patent strategy and co-development — end-to-end support for research and industry partners.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container service-blocks">
+        <article class="service-block reveal" id="transfer">
+          <div class="service-id">01</div>
+          <div>
+            <h2 class="zh">技術轉移 Technology Transfer</h2>
+            <h2 class="en">Technology Transfer</h2>
+            <p class="zh">我們協助把實驗室成果轉化為可授權、可落地、可融資的技術資產。服務對象包括高校研究組、初創團隊、企業創新部門，以及尋求外部技術導入的製造商。</p>
+            <p class="en">We help turn laboratory results into licensable, executable and investable technology assets — for university groups, startups, corporate innovation teams and manufacturers seeking inbound technology.</p>
+            <ul>
+              <li class="zh">技術成熟度（TRL）評估與差距分析</li>
+              <li class="en">Technology readiness (TRL) assessment and gap analysis</li>
+              <li class="zh">商業化路徑與合作模式設計（授權、合資、共同開發）</li>
+              <li class="en">Commercialisation pathway and deal-structure design (licence, JV, co-dev)</li>
+              <li class="zh">技術說明書、演示包與潛在被授權方對接</li>
+              <li class="en">Technical briefs, demo packages and licensee outreach</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-block reveal" id="btrdcc">
+          <div class="service-id">02</div>
+          <div>
+            <h2>BTRDCC</h2>
+            <p class="zh">生化科技研發諮詢中心（Biochemical Technology Research &amp; Development Consultation Centre）是公司旗下項目，聚焦 AI × 生物科技 × 納米標靶。詳見專頁。</p>
+            <p class="en">The Biochemical Technology Research &amp; Development Consultation Centre is our flagship project at the intersection of AI, biotechnology and nano-targeting. See the dedicated page.</p>
+            <p style="margin-top: 1rem"><a class="btn btn-dark" href="btrdcc.html"><span class="zh">前往 BTRDCC</span><span class="en">Go to BTRDCC</span></a></p>
+          </div>
+        </article>
+
+        <article class="service-block reveal" id="patents">
+          <div class="service-id">03</div>
+          <div>
+            <h2 class="zh">專利申請協助</h2>
+            <h2 class="en">Patent filing support</h2>
+            <p class="zh">我們協助發明人與機構把技術構想整理為可申請的知識產權資產，並就香港、中國內地等司法管轄區的佈局提出建議。我們可協調代理人網絡，並以自身專利實務經驗支援交底與策略討論。</p>
+            <p class="en">We help inventors and organisations turn technical ideas into fileable IP assets, advising on Hong Kong, mainland China and related jurisdictions. We can coordinate agent networks and support disclosures with our own patenting experience.</p>
+            <ul>
+              <li class="zh">發明披露梳理與可專利性分析（高層次）</li>
+              <li class="en">Invention disclosure structuring and high-level patentability discussion</li>
+              <li class="zh">申請策略：地區、類型（發明／新型）、時序</li>
+              <li class="en">Filing strategy: geography, type (invention / utility model), timing</li>
+              <li class="zh">與代理人、翻譯及技術圖紙協調</li>
+              <li class="en">Coordination with agents, translation and technical drawings</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-block reveal" id="rnd">
+          <div class="service-id">04</div>
+          <div>
+            <h2 class="zh">共同研發新技術</h2>
+            <h2 class="en">Collaborative R&amp;D</h2>
+            <p class="zh">類似香港應用納米及先進材料研發院（NAMI）所代表的「產學研共創」模式，我們歡迎與夥伴聯合開發新技術：從概念驗證、原型迭代、工藝放大，到共同知識產權安排。</p>
+            <p class="en">In the spirit of applied research platforms such as NAMI in Hong Kong, we co-develop new technologies with partners — from proof-of-concept and prototype iteration to process scale-up and shared IP arrangements.</p>
+            <ul>
+              <li class="zh">聯合項目定義與里程碑管理</li>
+              <li class="en">Joint project definition and milestone management</li>
+              <li class="zh">材料／裝置原型與工藝驗證支援</li>
+              <li class="en">Materials/device prototyping and process validation support</li>
+              <li class="zh">知識產權歸屬與商業化條款協商框架</li>
+              <li class="en">Frameworks for IP ownership and commercialisation terms</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container reveal" style="text-align: center; max-width: 640px; margin-inline: auto;">
+        <h2 class="section-title" style="max-width: none; margin-inline: auto;">
+          <span class="zh">準備開始合作？</span>
+          <span class="en">Ready to collaborate?</span>
+        </h2>
+        <p class="section-lead" style="margin-inline: auto;">
+          <span class="zh">請告訴我們您的技術背景與目標，我們會安排初步交流。</span>
+          <span class="en">Tell us your technical background and goals — we will arrange an initial conversation.</span>
+        </p>
+        <a class="btn btn-primary" href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact us</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <strong class="zh">納米科研技術有限公司</strong>
+          <strong class="en">Nanotech Innovation Limited</strong>
+          <p class="zh">香港納米科技與知識產權平台，連同廣州附屬公司服務大灣區研發落地。</p>
+          <p class="en">A Hong Kong nanotech and IP platform, with Nanotech Innovation (Guangzhou) supporting Greater Bay Area R&amp;D execution.</p>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh">導覽</span><span class="en">Explore</span></h4>
+          <a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a>
+          <a href="services.html"><span class="zh">業務領域</span><span class="en">Services</span></a>
+          <a href="btrdcc.html">BTRDCC</a>
+          <a href="patents.html"><span class="zh">知識產權</span><span class="en">IP</span></a>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh">實體</span><span class="en">Entities</span></h4>
+          <a href="about.html#hk"><span class="zh">納米科研技術（香港）</span><span class="en">Nanotech (HK)</span></a>
+          <a href="about.html#gz"><span class="zh">康納科研技術（廣州）</span><span class="en">Nanotech (Guangzhou)</span></a>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh">聯絡</span><span class="en">Contact</span></h4>
+          <a href="mailto:tyler.cheng@alumni.ust.hk">tyler.cheng@alumni.ust.hk</a>
+          <a href="contact.html"><span class="zh">聯絡表格</span><span class="en">Enquiry form</span></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="zh">© 2026 納米科研技術有限公司 · 康納科研技術（廣州）有限公司</span>
+        <span class="en">© 2026 Nanotech Innovation Limited · Nanotech Innovation (Guangzhou) Limited</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
