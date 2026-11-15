@@ -16,6 +16,8 @@ I work across biotechnology and financial markets — Co-founder & COO of **Nano
 
 我的工作橫跨生物科技與金融市場：**納米科研技術有限公司 Nanotech Innovation Limited** 聯合創辦人兼營運總監，研發納米塗層及生物醫療標靶技術，並聯合創辦公司旗下 **BTRDCC** 項目，結合 AI、納米標靶及癌症治療技術研發；另在**富輝集團 Fuway** 從事美股 IPO 顧問及併購業務。
 
+**Official company site · 公司官網:** [nanotech/](./nanotech/) · [Live path · 線上路徑](https://tylercheng00.github.io/nanotech/)
+
 ## Focus areas · 主要領域
 
 | | Area · 領域 | Projects · 項目 | Live page · 線上頁面 |
