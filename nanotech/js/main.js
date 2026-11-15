@@ -2,17 +2,34 @@
   const root = document.documentElement;
   const STORAGE_KEY = "nanotech-lang";
 
+  root.classList.add("js");
+
+  function readStoredLang() {
+    try {
+      return localStorage.getItem(STORAGE_KEY);
+    } catch {
+      return null;
+    }
+  }
+
+  function writeStoredLang(value) {
+    try {
+      localStorage.setItem(STORAGE_KEY, value);
+    } catch {
+      /* private mode / blocked storage — ignore */
+    }
+  }
+
   function setLang(lang) {
     const next = lang === "en" ? "en" : "zh-Hant";
     root.lang = next;
-    localStorage.setItem(STORAGE_KEY, next);
+    writeStoredLang(next);
     document.querySelectorAll(".lang-toggle button").forEach((btn) => {
       btn.setAttribute("aria-pressed", String(btn.dataset.lang === next));
     });
   }
 
-  const saved = localStorage.getItem(STORAGE_KEY);
-  setLang(saved || "zh-Hant");
+  setLang(readStoredLang() || root.lang || "zh-Hant");
 
   document.querySelectorAll(".lang-toggle button").forEach((btn) => {
     btn.addEventListener("click", () => setLang(btn.dataset.lang));
@@ -74,7 +91,7 @@
       const body = encodeURIComponent(
         `Name / 姓名: ${name}\nOrganisation / 機構: ${org}\nEmail / 電郵: ${email}\nTopic / 主題: ${topic}\n\n${message}`
       );
-      window.location.href = `mailto:info@tylerfuture.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:tyler.cheng@alumni.ust.hk?subject=${subject}&body=${body}`;
     });
   }
 })();

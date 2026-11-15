@@ -3,7 +3,7 @@
 Official bilingual website for:
 
 - **Nanotech Innovation Limited** / 納米科研技術有限公司 (Hong Kong)
-- **Kangna Research Technology (Guangzhou) Co., Ltd.** / 康納科研技術（廣州）有限公司
+- **Nanotech Innovation (Guangzhou) Limited** / 康納科研技術（廣州）有限公司
 
 ## Local preview
 

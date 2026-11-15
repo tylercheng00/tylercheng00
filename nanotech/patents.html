@@ -2,6 +2,14 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem("nanotech-lang");
+        if (lang === "en" || lang === "zh-Hant") document.documentElement.lang = lang;
+      } catch (e) {}
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>知識產權 · 納米科研技術有限公司</title>
   <meta name="description" content="納米科研技術有限公司專利組合：香港已授權配方專利與中國內地工藝設備申請。" />
@@ -18,7 +26,7 @@
         <span class="zh">納米科研技術有限公司（香港）</span>
         <span class="en">Nanotech Innovation Limited (Hong Kong)</span>
         <span class="zh">康納科研技術（廣州）有限公司</span>
-        <span class="en">Kangna Research Technology (Guangzhou) Co., Ltd.</span>
+        <span class="en">Nanotech Innovation (Guangzhou) Limited</span>
       </div>
       <div class="lang-toggle" role="group" aria-label="Language">
         <button type="button" data-lang="zh-Hant" aria-pressed="true">繁</button>
@@ -179,8 +187,8 @@
         <div class="footer-brand">
           <strong class="zh">納米科研技術有限公司</strong>
           <strong class="en">Nanotech Innovation Limited</strong>
-          <p class="zh">香港納米科技與知識產權平台，連同廣州康納科研服務大灣區研發落地。</p>
-          <p class="en">A Hong Kong nanotech and IP platform, with Guangzhou Kangna supporting Greater Bay Area R&amp;D execution.</p>
+          <p class="zh">香港納米科技與知識產權平台，連同廣州附屬公司服務大灣區研發落地。</p>
+          <p class="en">A Hong Kong nanotech and IP platform, with Nanotech Innovation (Guangzhou) supporting Greater Bay Area R&amp;D execution.</p>
         </div>
         <div class="footer-col">
           <h4><span class="zh">導覽</span><span class="en">Explore</span></h4>
@@ -192,17 +200,17 @@
         <div class="footer-col">
           <h4><span class="zh">實體</span><span class="en">Entities</span></h4>
           <a href="about.html#hk"><span class="zh">納米科研技術（香港）</span><span class="en">Nanotech (HK)</span></a>
-          <a href="about.html#gz"><span class="zh">康納科研技術（廣州）</span><span class="en">Kangna (Guangzhou)</span></a>
+          <a href="about.html#gz"><span class="zh">康納科研技術（廣州）</span><span class="en">Nanotech (Guangzhou)</span></a>
         </div>
         <div class="footer-col">
           <h4><span class="zh">聯絡</span><span class="en">Contact</span></h4>
-          <a href="mailto:info@tylerfuture.com">info@tylerfuture.com</a>
+          <a href="mailto:tyler.cheng@alumni.ust.hk">tyler.cheng@alumni.ust.hk</a>
           <a href="contact.html"><span class="zh">聯絡表格</span><span class="en">Enquiry form</span></a>
         </div>
       </div>
       <div class="footer-bottom">
         <span class="zh">© 2026 納米科研技術有限公司 · 康納科研技術（廣州）有限公司</span>
-        <span class="en">© 2026 Nanotech Innovation Limited · Kangna Research Technology (Guangzhou) Co., Ltd.</span>
+        <span class="en">© 2026 Nanotech Innovation Limited · Nanotech Innovation (Guangzhou) Limited</span>
       </div>
     </div>
   </footer>

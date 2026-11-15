@@ -37,6 +37,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-h) + 36px + 1rem);
 }
 
 body {
@@ -75,32 +76,12 @@ button {
   margin-inline: auto;
 }
 
-/* —— Language —— */
+/* —— Language ——
+   Only hide the inactive locale; do not force display on the active one
+   so component rules (e.g. .hero-brand-en { display: block }) still apply. */
 html[lang="en"] .zh,
 html[lang="zh-Hant"] .en {
-  display: none;
-}
-
-html[lang="en"] .en,
-html[lang="zh-Hant"] .zh {
-  display: inline;
-}
-
-html[lang="en"] p.en,
-html[lang="zh-Hant"] p.zh,
-html[lang="en"] .block.en,
-html[lang="zh-Hant"] .block.zh,
-html[lang="en"] li.en,
-html[lang="zh-Hant"] li.zh,
-html[lang="en"] h1.en,
-html[lang="zh-Hant"] h1.zh,
-html[lang="en"] h2.en,
-html[lang="zh-Hant"] h2.zh,
-html[lang="en"] h3.en,
-html[lang="zh-Hant"] h3.zh,
-html[lang="en"] span.block.en,
-html[lang="zh-Hant"] span.block.zh {
-  display: block;
+  display: none !important;
 }
 
 /* —— Top bar —— */
@@ -1028,14 +1009,16 @@ html[lang="zh-Hant"] span.block.zh {
   line-height: 1.5;
 }
 
-/* —— Reveal animations —— */
-.reveal {
+/* —— Reveal animations ——
+   Progressive enhancement: only hide when JS marked <html class="js">.
+   Without JS (or if main.js aborts early), content stays visible. */
+html.js .reveal {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
 }
 
-.reveal.is-visible {
+html.js .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
