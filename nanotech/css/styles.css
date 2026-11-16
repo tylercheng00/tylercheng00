@@ -169,9 +169,7 @@ html[lang="en"] .zh:not(.zh-hans):not(.zh-hant) {
   height: 44px;
   flex-shrink: 0;
   object-fit: contain;
-  background: #fff;
-  border-radius: 6px;
-  padding: 3px;
+  background: transparent;
 }
 
 .logo-text {
@@ -371,13 +369,11 @@ html[lang="en"] .zh:not(.zh-hans):not(.zh-hant) {
 }
 
 .hero-logo {
-  width: clamp(96px, 16vw, 148px);
+  width: clamp(110px, 18vw, 168px);
   height: auto;
-  margin-bottom: 1.1rem;
-  background: #fff;
-  border-radius: 12px;
-  padding: 0.55rem;
-  box-shadow: 0 12px 40px rgba(12, 6, 20, 0.35);
+  margin-bottom: 0.85rem;
+  background: transparent;
+  filter: drop-shadow(0 10px 28px rgba(12, 6, 20, 0.45));
   animation: hero-rise 0.9s var(--ease) both;
 }
 
