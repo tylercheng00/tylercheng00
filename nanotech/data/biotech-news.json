@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T12:19:42.475901Z",
+  "updatedAt": "2026-11-24T12:19:54.466933Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -9,7 +9,9 @@
     "sciencedaily-biotech",
     "pubmed-eutils"
   ],
-  "errors": [],
+  "errors": [
+    "fail fda-press: HTTP Error 404: Not Found"
+  ],
   "items": [
     {
       "id": "93e02becb4e76988",
@@ -56,50 +58,6 @@
       }
     },
     {
-      "id": "b72cd5dbe3b8fa7f",
-      "publishedAt": "2026-11-23T18:25:08Z",
-      "source": "FDA",
-      "title": {
-        "en": "FDA Approves First Treatment for Limb-Girdle Muscular Dystrophy Type 2I/R9"
-      },
-      "summary": {
-        "en": "The U.S. Food and Drug Administration today approved the first medicine for treating limb-girdle muscular dystrophy type 2I/R9 (LGMD2I/R9), a rare inherited muscle disease, for adults and pediatric patients weighing at least 30 kg."
-      },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-limb-girdle-muscular-dystrophy-type-2ir9",
-      "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "f3bce6bac1efd8dd",
-      "publishedAt": "2026-11-23T15:55:37Z",
-      "source": "FDA",
-      "title": {
-        "en": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years"
-      },
-      "summary": {
-        "en": "The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease."
-      },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
-      "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
       "id": "2be1bdffbfcdc34c",
       "publishedAt": "2026-11-23T00:00:00Z",
       "source": "Nature Biotechnology subject",
@@ -114,72 +72,6 @@
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
         "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "16998746c4fb494b",
-      "publishedAt": "2026-11-18T19:13:26Z",
-      "source": "FDA",
-      "title": {
-        "en": "FDA Approves First Drug to Treat Neurological Symptoms of Type 3 Gaucher Disease"
-      },
-      "summary": {
-        "en": "FDA today approved Infilbray (venglustat) tablets, the first treatment for the neurological symptoms of Type 3 Gaucher disease (GD3) in adults and pediatric patients weighing at least 15 kg (approximately 33 pounds)."
-      },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-neurological-symptoms-type-3-gaucher-disease",
-      "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "2e1f4d2037865204",
-      "publishedAt": "2026-11-17T20:32:16Z",
-      "source": "FDA",
-      "title": {
-        "en": "FDA Launches the Global Reliance Disclosure Program to Expand Patient Access to Medicines Worldwide"
-      },
-      "summary": {
-        "en": "FDA today announced the Global Reliance Disclosure Program (GRDP), a landmark initiative that will fundamentally transform how the FDA's regulatory drug and biologic approval decisions are leveraged by health authorities around the world."
-      },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-launches-global-reliance-disclosure-program-expand-patient-access-medicines-worldwide",
-      "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "7546fa8228f78bbb",
-      "publishedAt": "2026-11-17T19:15:22Z",
-      "source": "FDA",
-      "title": {
-        "en": "FDA Approves First Drug Shown to Help Patients with Infantile-Onset Niemann-Pick Disease Type C Live Longer"
-      },
-      "summary": {
-        "en": "FDA approved Lembaz (adrabetadex) injection, the first treatment shown to help people with a severe form of Niemann-Pick disease type C (NPC) live longer."
-      },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-shown-help-patients-infantile-onset-niemann-pick-disease-type-c-live-longer",
-      "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
       },
       "langNote": {
         "en": "Source language: English",
@@ -232,20 +124,20 @@
       }
     },
     {
-      "id": "01562bb1dc805e91",
-      "publishedAt": "2026-11-09T22:15:46Z",
-      "source": "FDA",
+      "id": "988e4c59e32c3454",
+      "publishedAt": "2026-10-17T01:06:05Z",
+      "source": "ScienceDaily",
       "title": {
-        "en": "FDA Approves First Factor Xla Inhibitor to Help Prevent Stroke in Certain Adults at High Risk"
+        "en": "Stanford’s new microscope reveals living cells like never before"
       },
       "summary": {
-        "en": "FDA today approved Sunharbo (asundexian) 50 mg tablets, the first factor XIa (FXIa) inhibitor for use in combination with antiplatelet therapy to reduce the risk of stroke in adults following a recent mild-to-moderate non-cardioembolic ischemic stroke or a high-risk transient…"
+        "en": "Stanford scientists have developed a revolutionary microscope that reveals the hidden inner workings of living cells in real time, without the fluorescent labels that can interfere with observations. The breakthrough could provide new insights into cancer, infectious diseases…"
       },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073231.htm",
       "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
       },
       "langNote": {
         "en": "Source language: English",
@@ -254,20 +146,130 @@
       }
     },
     {
-      "id": "913d5fa72216481d",
-      "publishedAt": "2026-11-05T22:30:38Z",
-      "source": "FDA",
+      "id": "fba3829baaf74e0b",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "source": "PubMed · Gut microbes",
       "title": {
-        "en": "FDA Grants Accelerated Approval to a New Treatment for Head and Neck Squamous Cell Carcinoma"
+        "en": "BiotaPredictor: A machine learning framework for predicting drug depletion by the human gut microbiota"
       },
       "summary": {
-        "en": "The U.S. Food and Drug Administration today granted accelerated approval to Rybrevant Faspro (amivantamab and hyaluronidase-lpuj) for the treatment of adults with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) whose disease has progressed on or after…"
+        "en": "Gut microbes. PMID 42878173."
       },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-treatment-head-and-neck-squamous-cell-carcinoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42878173/",
       "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
+        "en": "Read on PubMed",
+        "zh-Hant": "前往 PubMed",
+        "zh-Hans": "前往 PubMed"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "56396745701d0846",
+      "publishedAt": "2026-09-27T02:01:42Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "Scientists say house cats could help unlock better cancer treatments for humans"
+      },
+      "summary": {
+        "en": "Scientists have mapped the genetics of cat cancer on an unprecedented scale and found surprising similarities with tumors in humans. The findings could help bring precision cancer treatments to cats while also revealing new clues about how human cancers develop and respond to…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/09/260924231826.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "7a722eef3a5b1e1d",
+      "publishedAt": "2026-09-12T00:25:05Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "The secret to longer life may be hidden in bat DNA"
+      },
+      "summary": {
+        "en": "Long-lived bats appear to combine powerful immune defenses with unusual strategies for eliminating damaged cells, potentially helping them avoid cancer and disease for decades. Researchers hope these genetic tricks could eventually reveal new ways to protect human health during…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911003852.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "7867223289169aa5",
+      "publishedAt": "2026-08-23T12:14:40Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "A hidden “on switch” in human DNA has finally been decoded"
+      },
+      "summary": {
+        "en": "Researchers have used AI to uncover the DNA signature of a key genetic “switch” involved in turning genes on. After analyzing about 500,000 DNA sequences, the model identified the initiator in roughly 60% of human genes. The breakthrough could help predict the effects of…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823014943.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "9a3be6014f08515c",
+      "publishedAt": "2026-08-19T07:46:13Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "Japanese scientists use tiny silver particles to make DNA assembly up to 5x more efficient"
+      },
+      "summary": {
+        "en": "Silver nanoparticles can precisely slice DNA and create longer “sticky ends,” helping genetic fragments join up to five times more efficiently than conventional methods. The breakthrough could eventually simplify the construction of large DNA sequences for gene therapies…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/08/260816044842.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "73ffe7c740b2023c",
+      "publishedAt": "2026-09-04T00:00:00Z",
+      "source": "PubMed · Computational biology and chemistry",
+      "title": {
+        "en": "A source-aware chemometric benchmark reveals transportability gaps in heterogeneous lipid nanoparticle data"
+      },
+      "summary": {
+        "en": "Computational biology and chemistry. PMID 42710147."
+      },
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42710147/",
+      "linkLabel": {
+        "en": "Read on PubMed",
+        "zh-Hant": "前往 PubMed",
+        "zh-Hans": "前往 PubMed"
       },
       "langNote": {
         "en": "Source language: English",
