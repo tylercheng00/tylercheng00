@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    (function () {
+      try {
+        var lang = localStorage.getItem("nanotech-lang");
+        if (lang === "en" || lang === "zh-Hant" || lang === "zh-Hans") document.documentElement.lang = lang;
+      } catch (e) {}
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>生物科技洞察 · Nanotech Innovation</title>
+  <meta name="description" content="生物科技新聞、評論、最新研發專利與刊物精選" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-entities">
+        <span class="zh-hant">納米科研技術有限公司（香港）</span>
+        <span class="zh-hans">纳米科研技术有限公司（香港）</span>
+        <span class="en">Nanotech Innovation Limited (Hong Kong)</span>
+        <span class="zh-hant">康納科研技術（廣州）有限公司</span>
+        <span class="zh-hans">康纳科研技术（广州）有限公司</span>
+        <span class="en">Nanotech Innovation (Guangzhou) Limited</span>
+      </div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="zh-Hant" aria-pressed="true">繁</button>
+        <button type="button" data-lang="zh-Hans" aria-pressed="false">简</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <img class="logo-mark" src="assets/logo-mark.png" alt="" width="40" height="40" />
+        <span class="logo-text">
+          <strong class="zh-hant">納米科研技術有限公司</strong>
+          <strong class="zh-hans">纳米科研技术有限公司</strong>
+          <strong class="en">Nanotech Innovation Limited</strong>
+          <small class="zh-hant">香港 · 廣州</small>
+          <small class="zh-hans">香港 · 广州</small>
+          <small class="en">Hong Kong · Guangzhou</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu"><span></span></button>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="about.html"><span class="zh-hant">關於我們</span><span class="zh-hans">关于我们</span><span class="en">About</span></a>
+        <a href="founder.html"><span class="zh-hant">創辦人</span><span class="zh-hans">创办人</span><span class="en">Founder</span></a>
+        <a href="services.html"><span class="zh-hant">業務</span><span class="zh-hans">业务</span><span class="en">Services</span></a>
+        <a href="case-study.html"><span class="zh-hant">案例</span><span class="zh-hans">案例</span><span class="en">Case study</span></a>
+        <a href="insights.html" aria-current="page"><span class="zh-hant">洞察</span><span class="zh-hans">洞察</span><span class="en">Insights</span></a>
+        <a href="patents.html"><span class="zh-hant">知識產權</span><span class="zh-hans">知识产权</span><span class="en">IP</span></a>
+        <a class="nav-cta" href="contact.html"><span class="zh-hant">聯絡我們</span><span class="zh-hans">联系我们</span><span class="en">Contact</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Photo: Unsplash biotech-lab.jpg — see assets/media/CREDITS.md -->
+    <section class="page-hero has-photo">
+      <div class="page-hero-photo" aria-hidden="true" style="background-image:url('assets/media/biotech-lab.jpg')"></div>
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html"><span class="zh-hant">首頁</span><span class="zh-hans">首页</span><span class="en">Home</span></a> / <span class="zh-hant">生物科技洞察</span><span class="zh-hans">生物科技洞察</span><span class="en">Biotech Insights</span></div>
+        <h1 class="zh-hant">生物科技洞察</h1>
+        <h1 class="zh-hans">生物科技洞察</h1>
+        <h1 class="en">Biotech Insights</h1>
+        <p class="zh-hant">精選產業新聞、評論、最新研發專利與學術刊物——外部來源連結，非本公司論文。</p>
+        <p class="zh-hans">精选产业新闻、评论、最新研发专利与学术刊物——外部来源链接，非本公司论文。</p>
+        <p class="en">Curated industry news, commentary, recent R&amp;D patents and publications — external sources, not Nanotech-owned papers.</p>
+      </div>
+    </section>
+
+    <nav class="insights-jump container reveal" aria-label="Sections">
+      <a href="#news"><span class="zh-hant">新聞</span><span class="zh-hans">新闻</span><span class="en">News</span></a>
+      <a href="#commentary"><span class="zh-hant">評論</span><span class="zh-hans">评论</span><span class="en">Commentary</span></a>
+      <a href="#patents-rd"><span class="zh-hant">最新研發專利</span><span class="zh-hans">最新研发专利</span><span class="en">R&amp;D patents</span></a>
+      <a href="#publications"><span class="zh-hant">刊物</span><span class="zh-hans">刊物</span><span class="en">Publications</span></a>
+    </nav>
+
+    <section class="section" id="news">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><span class="zh-hant">新聞</span><span class="zh-hans">新闻</span><span class="en">News</span></span>
+          <h2 class="section-title zh-hant">產業動態</h2>
+          <h2 class="section-title zh-hans">产业动态</h2>
+          <h2 class="section-title en">Industry signals</h2>
+          <p class="section-lead zh-hant">與 AI、納米遞送及醫療器材監管相關的公開消息。</p>
+          <p class="section-lead zh-hans">与 AI、纳米递送及医疗器材监管相关的公开消息。</p>
+          <p class="section-lead en">Public updates on AI, nano-delivery and medical-device regulation.</p>
+        </div>
+        <ul class="insight-list">
+          <li class="insight-item reveal">
+            <div class="insight-meta"><span class="zh-hant">2025-01 · FDA</span><span class="zh-hans">2025-01 · FDA</span><span class="en">Jan 2025 · FDA</span></div>
+            <h3 class="zh-hant">FDA 發布 AI 醫療器材全生命週期草案指引</h3>
+            <h3 class="zh-hans">FDA 发布 AI 医疗器材全生命周期草案指引</h3>
+            <h3 class="en">FDA draft guidance on AI-enabled medical devices</h3>
+            <p class="zh-hant">美國 FDA 提出涵蓋設計、文件、透明度與偏誤管理的建議，並與既有「預定變更控制計畫」指引相互呼應——對結合 AI 與硬體／軟體的醫材路徑具參考價值。</p>
+            <p class="zh-hans">美国 FDA 提出涵盖设计、文件、透明度与偏误管理的建议，并与既有「预定变更控制计划」指引相互呼应——对结合 AI 与硬件／软件的医材路径具参考价值。</p>
+            <p class="en">FDA proposed lifecycle recommendations on design, documentation, transparency and bias — complementary to predetermined change control plans for AI-enabled devices.</p>
+            <a class="ext-link" href="https://www.fda.gov/news-events/press-announcements/fda-issues-comprehensive-draft-guidance-developers-artificial-intelligence-enabled-medical-devices" target="_blank" rel="noopener noreferrer"><span class="zh-hant">FDA 新聞稿</span><span class="zh-hans">FDA 新闻稿</span><span class="en">FDA press announcement</span></a>
+          </li>
+          <li class="insight-item reveal">
+            <div class="insight-meta"><span class="zh-hant">2024-12 · Nature Biotechnology</span><span class="zh-hans">2024-12 · Nature Biotechnology</span><span class="en">Dec 2024 · Nature Biotechnology</span></div>
+            <h3 class="zh-hant">AI 設計脂質納米粒用於肺部基因遞送</h3>
+            <h3 class="zh-hans">AI 设计脂质纳米粒用于肺部基因递送</h3>
+            <h3 class="en">AI-designed LNPs for pulmonary gene therapy</h3>
+            <p class="zh-hant">Witten 等以神經網絡篩選脂質結構，報告對雪貂肺部 mRNA 遞送具潛力的配方方向——顯示「AI × 納米載體」已進入主流期刊視野。</p>
+            <p class="zh-hans">Witten 等以神经网络筛选脂质结构，报告对雪貂肺部 mRNA 递送具潜力的配方方向——显示「AI × 纳米载体」已进入主流期刊视野。</p>
+            <p class="en">Witten et al. used neural nets to screen lipids for ferret lung mRNA delivery — a high-profile signal for AI × nano-carrier design.</p>
+            <a class="ext-link" href="https://www.nature.com/nbt/volumes/43/issues/11" target="_blank" rel="noopener noreferrer"><span class="zh-hant">Nature Biotechnology 卷期頁</span><span class="zh-hans">Nature Biotechnology 卷期页</span><span class="en">Nature Biotechnology issue page</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="commentary">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><span class="zh-hant">評論</span><span class="zh-hans">评论</span><span class="en">Commentary</span></span>
+          <h2 class="section-title zh-hant">我們的觀察</h2>
+          <h2 class="section-title zh-hans">我们的观察</h2>
+          <h2 class="section-title en">Our take</h2>
+          <p class="section-lead zh-hant">簡短觀點，不構成投資、臨床或法規建議。</p>
+          <p class="section-lead zh-hans">简短观点，不构成投资、临床或法规建议。</p>
+          <p class="section-lead en">Brief perspectives — not investment, clinical or regulatory advice.</p>
+        </div>
+        <article class="insight-item insight-commentary reveal">
+          <h3 class="zh-hant">從「海量配方」到「可授權資產」</h3>
+          <h3 class="zh-hans">从「海量配方」到「可授权资产」</h3>
+          <h3 class="en">From combinatorial libraries to licensable assets</h3>
+          <p class="zh-hant">AI 加速 LNP／納米載體設計，真正卡點往往在：可重複製程、清晰的權利邊界，以及能否對接監管與產業夥伴。技術轉移流程若與實驗設計同步規劃，比事後補專利更有效率——這也是我們在 BTRDCC 與技術轉移服務上持續強調的路徑。</p>
+          <p class="zh-hans">AI 加速 LNP／纳米载体设计，真正卡点往往在：可重复制程、清晰的权利边界，以及能否对接监管与产业伙伴。技术转移流程若与实验设计同步规划，比事后补专利更有效率——这也是我们在 BTRDCC 与技术转移服务上持续强调的路径。</p>
+          <p class="en">AI speeds LNP and nano-carrier design; the harder gates are reproducible process, clean IP boundaries, and partner-ready regulatory paths. Aligning tech-transfer planning with experimental design — a theme we stress in BTRDCC and transfer work — usually beats filing after the fact.</p>
+          <p style="margin-top:1rem"><a class="btn btn-dark" href="btrdcc.html">BTRDCC</a> <a class="btn btn-ghost" href="technology-transfer.html" style="border-color:var(--purple-500);color:var(--purple-700);margin-left:0.5rem"><span class="zh-hant">技術轉移</span><span class="zh-hans">技术转移</span><span class="en">Tech transfer</span></a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Photo: Unsplash lab-glassware.jpg — see assets/media/CREDITS.md -->
+    <section class="photo-band reveal" style="background-image:url('assets/media/lab-glassware.jpg')">
+      <div class="container">
+        <p class="zh-hant">以下專利與刊物為公開第三方資料，僅供產業掃描。</p>
+        <p class="zh-hans">以下专利与刊物为公开第三方资料，仅供产业扫描。</p>
+        <p class="en">Patents and papers below are third-party public sources for industry scanning.</p>
+        <p class="photo-credit">Photo via Unsplash · commercial licence</p>
+      </div>
+    </section>
+
+    <section class="section" id="patents-rd">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><span class="zh-hant">最新研發專利</span><span class="zh-hans">最新研发专利</span><span class="en">Recent R&amp;D patents</span></span>
+          <h2 class="section-title zh-hant">公開專利申請掃描</h2>
+          <h2 class="section-title zh-hans">公开专利申请扫描</h2>
+          <h2 class="section-title en">Published applications to watch</h2>
+          <p class="section-lead zh-hant">Google Patents 公開文本；狀態可能變更，請以官方資料庫為準。</p>
+          <p class="section-lead zh-hans">Google Patents 公开文本；状态可能变更，请以官方数据库为准。</p>
+          <p class="section-lead en">From Google Patents public texts — status can change; verify in official databases.</p>
+        </div>
+        <ul class="insight-list">
+          <li class="insight-item reveal">
+            <div class="insight-meta">WO2024156083A1 · 2024</div>
+            <h3 class="zh-hant">AI 輔助設計 LNP 以實現中樞神經 RNA 遞送</h3>
+            <h3 class="zh-hans">AI 辅助设计 LNP 以实现中枢神经 RNA 递送</h3>
+            <h3 class="en">AI-assisted LNP design for CNS RNA delivery</h3>
+            <p class="zh-hant">申請人含 METiS／濟泰相關實體；描述以 AiLNP 平台快速優化面向 CNS 的 LNP，並報告動物模型中的遞送與敲降結果摘要。</p>
+            <p class="zh-hans">申请人含 METiS／济泰相关实体；描述以 AiLNP 平台快速优化面向 CNS 的 LNP，并报告动物模型中的递送与敲降结果摘要。</p>
+            <p class="en">Applicants include METiS / Jitai-related entities; describes AiLNP-driven CNS-targeted LNPs with summarised in-vivo delivery/knockdown claims.</p>
+            <a class="ext-link" href="https://patents.google.com/patent/WO2024156083A1/en" target="_blank" rel="noopener noreferrer">Google Patents</a>
+          </li>
+          <li class="insight-item reveal">
+            <div class="insight-meta">WO2025087303A1 · 2025</div>
+            <h3 class="zh-hant">具非共價雙功能結合劑的主動靶向脂質納米粒</h3>
+            <h3 class="zh-hans">具非共价双功能结合剂的主动靶向脂质纳米粒</h3>
+            <h3 class="en">LNPs with non-covalent bifunctional binders for active targeting</h3>
+            <p class="zh-hant">申請人含 Guangdong Halobio、Mote Therapeutics；主張以非共價「自結合＋靶結合」模組為 LNP 加上主動靶向能力，並攜帶核酸貨物。</p>
+            <p class="zh-hans">申请人含 Guangdong Halobio、Mote Therapeutics；主张以非共价「自结合＋靶结合」模块为 LNP 加上主动靶向能力，并携带核酸货物。</p>
+            <p class="en">Applicants include Guangdong Halobio and Mote Therapeutics; proposes non-covalent self-/target-binder modules for actively targeted LNPs carrying nucleic acids.</p>
+            <a class="ext-link" href="https://patents.google.com/patent/WO2025087303A1/en" target="_blank" rel="noopener noreferrer">Google Patents</a>
+          </li>
+          <li class="insight-item reveal">
+            <div class="insight-meta">WO2025196660A1 · 2025</div>
+            <h3 class="zh-hant">RGD 肽修飾共價有機框架用於靶向癌症治療</h3>
+            <h3 class="zh-hans">RGD 肽修饰共价有机框架用于靶向癌症治疗</h3>
+            <h3 class="en">RGD-peptide modified COFs for targeted cancer therapy</h3>
+            <p class="zh-hant">申請人 New York University Abu Dhabi；描述將 RGD 肽接上共價有機框架納米粒，朝向整合素過表達腫瘤的靶向遞藥方向。</p>
+            <p class="zh-hans">申请人 New York University Abu Dhabi；描述将 RGD 肽接上共价有机框架纳米粒，朝向整合素过表达肿瘤的靶向递药方向。</p>
+            <p class="en">Applicant New York University Abu Dhabi; RGD-functionalised covalent organic framework nanoparticles aimed at integrin-overexpressing tumours.</p>
+            <a class="ext-link" href="https://patents.google.com/patent/WO2025196660A1/en" target="_blank" rel="noopener noreferrer">Google Patents</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="publications">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><span class="zh-hant">刊物</span><span class="zh-hans">刊物</span><span class="en">Publications</span></span>
+          <h2 class="section-title zh-hant">開放取用文獻精選</h2>
+          <h2 class="section-title zh-hans">开放取用文献精选</h2>
+          <h2 class="section-title en">Selected open-access papers</h2>
+          <p class="section-lead zh-hant">PMC 開放全文；摘要僅供導讀。</p>
+          <p class="section-lead zh-hans">PMC 开放全文；摘要仅供导读。</p>
+          <p class="section-lead en">Open full text on PMC — summaries for orientation only.</p>
+        </div>
+        <ul class="insight-list">
+          <li class="insight-item reveal">
+            <div class="insight-meta">Pharmaceutics · 2025 · PMC12389219</div>
+            <h3 class="zh-hant">AI 驅動策略：RNA–LNP 癌症疫苗的靶向遞送與穩定性</h3>
+            <h3 class="zh-hans">AI 驱动策略：RNA–LNP 癌症疫苗的靶向递送与稳定性</h3>
+            <h3 class="en">AI-driven strategies for RNA–LNP cancer vaccine delivery and stability</h3>
+            <p class="zh-hant">Bhujel 等系統回顧機器學習、生成模型與數位孿生如何加速 LNP 工程，並討論資料品質與監管銜接挑戰。</p>
+            <p class="zh-hans">Bhujel 等系统回顾机器学习、生成模型与数字孪生如何加速 LNP 工程，并讨论数据质量与监管衔接挑战。</p>
+            <p class="en">Bhujel et al. review ML, generative models and digital twins for LNP engineering, plus data-quality and regulatory gaps.</p>
+            <a class="ext-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12389219/" target="_blank" rel="noopener noreferrer">PMC12389219</a>
+          </li>
+          <li class="insight-item reveal">
+            <div class="insight-meta">Advanced Science · 2025 · PMC12376635</div>
+            <h3 class="zh-hant">機器學習強化納米粒設計以實現精準癌症遞藥</h3>
+            <h3 class="zh-hans">机器学习强化纳米粒设计以实现精准癌症递药</h3>
+            <h3 class="en">ML-enhanced nanoparticle design for precision cancer drug delivery</h3>
+            <p class="zh-hant">Wang 等梳理 ML 在配方合成、蛋白冠、腫瘤穿透與胞內攝取等環節的應用與限制。</p>
+            <p class="zh-hans">Wang 等梳理 ML 在配方合成、蛋白冠、肿瘤穿透与胞内摄取等环节的应用与限制。</p>
+            <p class="en">Wang et al. map ML across formulation, protein corona, tumour penetration and uptake — with remaining limits.</p>
+            <a class="ext-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12376635/" target="_blank" rel="noopener noreferrer">PMC12376635</a>
+          </li>
+          <li class="insight-item reveal">
+            <div class="insight-meta">WIREs Nanomed. Nanobiotechnol. · 2025 · PMC12353477</div>
+            <h3 class="zh-hant">納米醫學中的機器學習與人工智能</h3>
+            <h3 class="zh-hans">纳米医学中的机器学习与人工智能</h3>
+            <h3 class="en">Machine learning and AI in nanomedicine</h3>
+            <p class="zh-hant">Chou 等回顧 AI／ML 貫穿納米醫學開發各階段，並指出資料標準化與尚缺專門 FDA 指引等結構性問題。</p>
+            <p class="zh-hans">Chou 等回顾 AI／ML 贯穿纳米医学开发各阶段，并指出数据标准化与尚缺专门 FDA 指引等结构性问题。</p>
+            <p class="en">Chou et al. survey AI/ML across nanomedicine development and flag data standards plus the lack of dedicated FDA AI–nanomedicine guidance.</p>
+            <a class="ext-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12353477/" target="_blank" rel="noopener noreferrer">PMC12353477</a>
+          </li>
+        </ul>
+        <p class="reveal disclaimer" style="margin-top:2rem;color:var(--ink-soft)">
+          <span class="zh-hant">本頁為產業資訊策展，不代表納米科研技術擁有或背書所列專利／論文；亦不構成醫療、法律或投資建議。</span>
+          <span class="zh-hans">本页为产业资讯策展，不代表纳米科研技术拥有或背书所列专利／论文；亦不构成医疗、法律或投资建议。</span>
+          <span class="en">Curated industry reading — Nanotech Innovation does not own or endorse listed patents/papers; not medical, legal or investment advice.</span>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <strong class="zh-hant">納米科研技術有限公司</strong>
+          <strong class="zh-hans">纳米科研技术有限公司</strong>
+          <strong class="en">Nanotech Innovation Limited</strong>
+          <p class="zh-hant">香港納米科技與知識產權平台，連同廣州附屬公司服務大灣區研發落地。</p>
+          <p class="zh-hans">香港纳米科技与知识产权平台，连同广州附属公司服务大湾区研发落地。</p>
+          <p class="en">A Hong Kong nanotech and IP platform, with our Guangzhou affiliate supporting Greater Bay Area R&amp;D.</p>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh-hant">導覽</span><span class="zh-hans">导览</span><span class="en">Explore</span></h4>
+          <a href="about.html"><span class="zh-hant">關於我們</span><span class="zh-hans">关于我们</span><span class="en">About</span></a>
+          <a href="founder.html"><span class="zh-hant">創辦人</span><span class="zh-hans">创办人</span><span class="en">Founder</span></a>
+          <a href="services.html"><span class="zh-hant">業務</span><span class="zh-hans">业务</span><span class="en">Services</span></a>
+          <a href="case-study.html"><span class="zh-hant">案例</span><span class="zh-hans">案例</span><span class="en">Case study</span></a>
+          <a href="insights.html"><span class="zh-hant">生物科技洞察</span><span class="zh-hans">生物科技洞察</span><span class="en">Biotech Insights</span></a>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh-hant">業務</span><span class="zh-hans">业务</span><span class="en">Services</span></h4>
+          <a href="services.html"><span class="zh-hant">業務概覽</span><span class="zh-hans">业务概览</span><span class="en">Overview</span></a>
+          <a href="technology-transfer.html"><span class="zh-hant">技術轉移</span><span class="zh-hans">技术转移</span><span class="en">Tech transfer</span></a>
+          <a href="btrdcc.html">BTRDCC</a>
+          <a class="ext-link" href="https://tyler-future-city.apps.grok.bot" target="_blank" rel="noopener noreferrer">Tyler’s Future City</a>
+        </div>
+        <div class="footer-col">
+          <h4><span class="zh-hant">聯絡</span><span class="zh-hans">联络</span><span class="en">Contact</span></h4>
+          <a href="mailto:tyler.cheng@alumni.ust.hk">tyler.cheng@alumni.ust.hk</a>
+          <a href="contact.html"><span class="zh-hant">聯絡表格</span><span class="zh-hans">联络表格</span><span class="en">Enquiry form</span></a>
+          <a href="https://tylercheng00.github.io/" target="_blank" rel="noopener noreferrer">tylercheng00.github.io</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="zh-hant">© 2026 納米科研技術有限公司 · 康納科研技術（廣州）有限公司</span>
+        <span class="zh-hans">© 2026 纳米科研技术有限公司 · 康纳科研技术（广州）有限公司</span>
+        <span class="en">© 2026 Nanotech Innovation Limited · Nanotech Innovation (Guangzhou) Limited</span>
+      </div>
+      <p class="disclaimer zh-hant">本網站僅作公司介紹，不包含機密技術細節、臨床數據或已獲批醫療產品聲明。</p>
+      <p class="disclaimer zh-hans">本网站仅作公司介绍，不包含机密技术细节、临床数据或已获批医疗产品声明。</p>
+      <p class="disclaimer en">For company introduction only — no confidential technical details, clinical data, or approved medical product claims.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
