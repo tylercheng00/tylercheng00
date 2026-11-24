@@ -281,7 +281,7 @@ def parse_pubmed_date(rec: dict) -> str | None:
     """Prefer electronic publication date over journal print date (can be future)."""
     now = datetime.now(timezone.utc)
     # Allow slight future dating; reject far-ahead print schedules.
-    soft_horizon = now + timedelta(days=45)
+    soft_horizon = now + timedelta(days=14)
     for key in ("epubdate", "sortpubdate", "pubdate"):
         dt = parse_one_pubmed_date(rec.get(key) or "")
         if not dt:

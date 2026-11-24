@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T12:19:26.280378Z",
+  "updatedAt": "2026-11-24T12:19:42.475901Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -11,28 +11,6 @@
   ],
   "errors": [],
   "items": [
-    {
-      "id": "aa58db49664a480a",
-      "publishedAt": "2027-01-01T00:00:00Z",
-      "source": "PubMed · Methods in molecular biology (Clifton, N.J.)",
-      "title": {
-        "en": "The Transformative Role of Artificial Intelligence in Wearable Health Monitoring: Applications in Diagnosis, Therapy, and Rehabilitation"
-      },
-      "summary": {
-        "en": "Methods in molecular biology (Clifton, N.J.). PMID 43052671."
-      },
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43052671/",
-      "linkLabel": {
-        "en": "Read on PubMed",
-        "zh-Hant": "前往 PubMed",
-        "zh-Hans": "前往 PubMed"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
     {
       "id": "93e02becb4e76988",
       "publishedAt": "2026-11-24T00:00:00Z",
@@ -264,6 +242,28 @@
         "en": "FDA today approved Sunharbo (asundexian) 50 mg tablets, the first factor XIa (FXIa) inhibitor for use in combination with antiplatelet therapy to reduce the risk of stroke in adults following a recent mild-to-moderate non-cardioembolic ischemic stroke or a high-risk transient…"
       },
       "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "913d5fa72216481d",
+      "publishedAt": "2026-11-05T22:30:38Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Grants Accelerated Approval to a New Treatment for Head and Neck Squamous Cell Carcinoma"
+      },
+      "summary": {
+        "en": "The U.S. Food and Drug Administration today granted accelerated approval to Rybrevant Faspro (amivantamab and hyaluronidase-lpuj) for the treatment of adults with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) whose disease has progressed on or after…"
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-treatment-head-and-neck-squamous-cell-carcinoma",
       "linkLabel": {
         "en": "Read on FDA",
         "zh-Hant": "前往 FDA",
