@@ -1,0 +1,284 @@
+{
+  "updatedAt": "2026-11-24T12:19:42.475901Z",
+  "refreshHours": 6,
+  "generator": "nanotech/scripts/fetch_biotech_news.py",
+  "sources": [
+    "fda-press",
+    "nature-nbt",
+    "nature-biotech",
+    "sciencedaily-biotech",
+    "pubmed-eutils"
+  ],
+  "errors": [],
+  "items": [
+    {
+      "id": "93e02becb4e76988",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "source": "Nature Biotechnology",
+      "title": {
+        "en": "Modular mRNA-encoded helper proteins enhance DNA delivery"
+      },
+      "summary": {
+        "en": "Modular mRNA-encoded helper proteins enhance DNA delivery"
+      },
+      "url": "https://www.nature.com/articles/s41587-026-03351-6",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology",
+        "zh-Hant": "前往 Nature Biotechnology",
+        "zh-Hans": "前往 Nature Biotechnology"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "aa180da6d4f0baa4",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Reverse vaccinology guided novel antigen construct intended for an mRNA vaccine targeting Jamestown Canyon Virus (JCV)"
+      },
+      "summary": {
+        "en": "Reverse vaccinology guided novel antigen construct intended for an mRNA vaccine targeting Jamestown Canyon Virus (JCV)"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-77125-0",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "b72cd5dbe3b8fa7f",
+      "publishedAt": "2026-11-23T18:25:08Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Approves First Treatment for Limb-Girdle Muscular Dystrophy Type 2I/R9"
+      },
+      "summary": {
+        "en": "The U.S. Food and Drug Administration today approved the first medicine for treating limb-girdle muscular dystrophy type 2I/R9 (LGMD2I/R9), a rare inherited muscle disease, for adults and pediatric patients weighing at least 30 kg."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-limb-girdle-muscular-dystrophy-type-2ir9",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "f3bce6bac1efd8dd",
+      "publishedAt": "2026-11-23T15:55:37Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years"
+      },
+      "summary": {
+        "en": "The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "2be1bdffbfcdc34c",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+      },
+      "summary": {
+        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-82004-9",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "16998746c4fb494b",
+      "publishedAt": "2026-11-18T19:13:26Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Approves First Drug to Treat Neurological Symptoms of Type 3 Gaucher Disease"
+      },
+      "summary": {
+        "en": "FDA today approved Infilbray (venglustat) tablets, the first treatment for the neurological symptoms of Type 3 Gaucher disease (GD3) in adults and pediatric patients weighing at least 15 kg (approximately 33 pounds)."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-neurological-symptoms-type-3-gaucher-disease",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "2e1f4d2037865204",
+      "publishedAt": "2026-11-17T20:32:16Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Launches the Global Reliance Disclosure Program to Expand Patient Access to Medicines Worldwide"
+      },
+      "summary": {
+        "en": "FDA today announced the Global Reliance Disclosure Program (GRDP), a landmark initiative that will fundamentally transform how the FDA's regulatory drug and biologic approval decisions are leveraged by health authorities around the world."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-launches-global-reliance-disclosure-program-expand-patient-access-medicines-worldwide",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "7546fa8228f78bbb",
+      "publishedAt": "2026-11-17T19:15:22Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Approves First Drug Shown to Help Patients with Infantile-Onset Niemann-Pick Disease Type C Live Longer"
+      },
+      "summary": {
+        "en": "FDA approved Lembaz (adrabetadex) injection, the first treatment shown to help people with a severe form of Niemann-Pick disease type C (NPC) live longer."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-shown-help-patients-infantile-onset-niemann-pick-disease-type-c-live-longer",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "eccd40bbc340cd3e",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "source": "Nature Biotechnology",
+      "title": {
+        "en": "A comprehensive analysis of CBER experience with AAV gene therapy IND submissions"
+      },
+      "summary": {
+        "en": "A comprehensive analysis of CBER experience with AAV gene therapy IND submissions"
+      },
+      "url": "https://www.nature.com/articles/s41587-026-03378-9",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology",
+        "zh-Hant": "前往 Nature Biotechnology",
+        "zh-Hans": "前往 Nature Biotechnology"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "cb10f6f335562ac8",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "source": "Nature Biotechnology",
+      "title": {
+        "en": "China plans ban on biotech exports"
+      },
+      "summary": {
+        "en": "China plans ban on biotech exports"
+      },
+      "url": "https://www.nature.com/articles/s41587-026-03397-6",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology",
+        "zh-Hant": "前往 Nature Biotechnology",
+        "zh-Hans": "前往 Nature Biotechnology"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "01562bb1dc805e91",
+      "publishedAt": "2026-11-09T22:15:46Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Approves First Factor Xla Inhibitor to Help Prevent Stroke in Certain Adults at High Risk"
+      },
+      "summary": {
+        "en": "FDA today approved Sunharbo (asundexian) 50 mg tablets, the first factor XIa (FXIa) inhibitor for use in combination with antiplatelet therapy to reduce the risk of stroke in adults following a recent mild-to-moderate non-cardioembolic ischemic stroke or a high-risk transient…"
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "913d5fa72216481d",
+      "publishedAt": "2026-11-05T22:30:38Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Grants Accelerated Approval to a New Treatment for Head and Neck Squamous Cell Carcinoma"
+      },
+      "summary": {
+        "en": "The U.S. Food and Drug Administration today granted accelerated approval to Rybrevant Faspro (amivantamab and hyaluronidase-lpuj) for the treatment of adults with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) whose disease has progressed on or after…"
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-treatment-head-and-neck-squamous-cell-carcinoma",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    }
+  ],
+  "disclaimer": {
+    "en": "Third-party news for industry scanning — not Nanotech Innovation publications or endorsements.",
+    "zh-Hant": "第三方產業新聞掃描——非納米科研技術之論文或背書。",
+    "zh-Hans": "第三方产业新闻扫描——非纳米科研技术之论文或背书。"
+  }
+}
