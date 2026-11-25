@@ -20,6 +20,8 @@ NEWS = ROOT / "data" / "biotech-news.json"
 OUT = ROOT / "data" / "biotech-notes.json"
 HK = timezone(timedelta(hours=8))
 NOTES_PER_DAY = 5
+# Keep today plus recent days so the commentary section stays fuller.
+HISTORY_DAYS = 4
 
 # Hand-checked against the primary sources on 25 Nov 2026 (Hong Kong).
 # Later days are drafted by draft_note() from the feed.
@@ -265,33 +267,88 @@ def draft_from_feed(day: str) -> list[dict]:
     return notes
 
 
+def load_previous_days() -> dict[str, list[dict]]:
+    if not OUT.exists():
+        return {}
+    try:
+        prev = json.loads(OUT.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    days: dict[str, list[dict]] = {}
+    if isinstance(prev.get("days"), dict):
+        for key, value in prev["days"].items():
+            if isinstance(value, list) and value:
+                days[key] = value
+    # Legacy single-day file: fold today's articles under prev["day"].
+    if not days and prev.get("day") and isinstance(prev.get("articles"), list):
+        days[str(prev["day"])] = prev["articles"]
+    return days
+
+
+def notes_for_day(day: str) -> tuple[list[dict], str]:
+    if day in DESK:
+        return DESK[day], "desk"
+    return draft_from_feed(day), "wire"
+
+
 def main() -> int:
     day = hk_today()
-    if day in DESK:
-        articles = DESK[day]
-        origin = "desk"
-    else:
-        articles = draft_from_feed(day)
-        origin = "wire"
-    if len(articles) < NOTES_PER_DAY:
-        print(f"only {len(articles)} notes for {day}; leaving the previous file if it has a full day")
-        if OUT.exists():
-            try:
-                prev = json.loads(OUT.read_text(encoding="utf-8"))
-            except Exception:
-                prev = {}
-            if len(prev.get("articles") or []) >= NOTES_PER_DAY:
-                return 0
+    articles, origin = notes_for_day(day)
+    days = load_previous_days()
+
+    if len(articles) >= NOTES_PER_DAY:
+        days[day] = articles
+    elif day not in days:
         if not articles:
-            return 1
+            # Keep whatever history we already have rather than wiping the page.
+            if days:
+                print(f"no notes for {day}; keeping previous history")
+            else:
+                return 1
+        else:
+            days[day] = articles
+    else:
+        print(f"only {len(articles)} notes for {day}; keeping prior set for that day")
+
+    # Backfill recent calendar days so the page has more than one desk day.
+    today = datetime.strptime(day, "%Y-%m-%d").date()
+    for offset in range(1, HISTORY_DAYS):
+        past = (today - timedelta(days=offset)).isoformat()
+        if past in days and len(days[past]) >= NOTES_PER_DAY:
+            continue
+        past_notes, _ = notes_for_day(past)
+        if past_notes:
+            days[past] = past_notes
+
+    keep = {
+        (today - timedelta(days=offset)).isoformat()
+        for offset in range(HISTORY_DAYS)
+    }
+    days = {k: v for k, v in days.items() if k in keep and v}
+    ordered_days = sorted(days.keys(), reverse=True)
+    flat: list[dict] = []
+    seen_ids: set[str] = set()
+    for d in ordered_days:
+        for note in days[d][:NOTES_PER_DAY]:
+            nid = note.get("id") or note.get("url") or ""
+            if nid and nid in seen_ids:
+                continue
+            if nid:
+                seen_ids.add(nid)
+            flat.append(note)
+
+    if not flat:
+        return 1
 
     payload = {
         "day": day,
         "timezone": "Asia/Hong_Kong",
         "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "perDay": NOTES_PER_DAY,
+        "historyDays": HISTORY_DAYS,
         "origin": origin,
-        "articles": articles,
+        "days": {d: days[d][:NOTES_PER_DAY] for d in ordered_days},
+        "articles": flat,
         "disclaimer": {
             "zh-Hant": "當日生物科技公開消息的閱讀筆記，不是投資、臨床或法規建議，也不是本公司論文。",
             "zh-Hans": "当日生物科技公开消息的阅读笔记，不是投资、临床或法规建议，也不是本公司论文。",
@@ -300,7 +357,10 @@ def main() -> int:
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"wrote {OUT} day={day} origin={origin} n={len(articles)}")
+    print(
+        f"wrote {OUT} day={day} origin={origin} "
+        f"n_today={len(days.get(day, []))} n_total={len(flat)} days={ordered_days}"
+    )
     return 0
 
 

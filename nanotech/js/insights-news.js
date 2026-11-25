@@ -9,8 +9,8 @@
     "https://raw.githubusercontent.com/tylercheng00/tylercheng00/main/nanotech/data/biotech-notes.json",
     "https://cdn.jsdelivr.net/gh/tylercheng00/tylercheng00@main/nanotech/data/biotech-notes.json",
   ];
-  const NEWS_CACHE = "nanotech-biotech-news-v2";
-  const NOTES_CACHE = "nanotech-biotech-notes-v1";
+  const NEWS_CACHE = "nanotech-biotech-news-v3";
+  const NOTES_CACHE = "nanotech-biotech-notes-v2";
   const LANGS = ["zh-Hant", "zh-Hans", "en"];
 
   const newsList = document.getElementById("news-feed");
@@ -160,9 +160,16 @@
   function betterNotes(a, b) {
     if (!a) return b;
     if (!b) return a;
+    const na = Array.isArray(a.articles) ? a.articles.length : 0;
+    const nb = Array.isArray(b.articles) ? b.articles.length : 0;
     const da = String(a.day || "");
     const db = String(b.day || "");
+    // Prefer a fuller history list, then the newer Hong Kong day, then fresher update.
+    if (na !== nb && (na >= 5 || nb >= 5)) {
+      if (Math.abs(na - nb) >= 3) return na > nb ? a : b;
+    }
     if (da !== db) return da > db ? a : b;
+    if (na !== nb) return na > nb ? a : b;
     const ta = Date.parse(a.updatedAt || 0) || 0;
     const tb = Date.parse(b.updatedAt || 0) || 0;
     return ta >= tb ? a : b;
@@ -218,10 +225,12 @@
     const articles = Array.isArray(feed.articles) ? feed.articles : [];
     if (notesMeta) {
       const day = feed.day || "";
+      const n = articles.length;
+      const hist = feed.historyDays || 1;
       notesMeta.innerHTML = `
-        <span class="zh-hant">${escapeHtml(day)}（香港日期）· 五則，跟當日公開消息</span>
-        <span class="zh-hans">${escapeHtml(day)}（香港日期）· 五则，跟当日公开消息</span>
-        <span class="en">${escapeHtml(day)} (Hong Kong date) · five notes on that day's public record</span>
+        <span class="zh-hant">${escapeHtml(day)}（香港日期）· 每日五則；顯示近 ${escapeHtml(String(hist))} 日共 ${escapeHtml(String(n))} 則</span>
+        <span class="zh-hans">${escapeHtml(day)}（香港日期）· 每日五则；显示近 ${escapeHtml(String(hist))} 日共 ${escapeHtml(String(n))} 则</span>
+        <span class="en">${escapeHtml(day)} (Hong Kong date) · five notes/day; showing ${escapeHtml(String(n))} across the last ${escapeHtml(String(hist))} days</span>
       `;
       notesMeta.hidden = !day;
     }

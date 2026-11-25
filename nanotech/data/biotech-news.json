@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:14:40.618382Z",
+  "updatedAt": "2026-11-25T09:14:41.929813Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -29,28 +29,6 @@
         "en": "Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better."
       },
       "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
-      "linkLabel": {
-        "en": "Read on BioPharma Dive",
-        "zh-Hant": "前往 BioPharma Dive",
-        "zh-Hans": "前往 BioPharma Dive"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "9e9f16d7dd8f991b",
-      "publishedAt": "2026-11-24T15:36:00Z",
-      "source": "BioPharma Dive",
-      "title": {
-        "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
-      },
-      "summary": {
-        "en": "The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product."
-      },
-      "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
       "linkLabel": {
         "en": "Read on BioPharma Dive",
         "zh-Hant": "前往 BioPharma Dive",
@@ -107,6 +85,50 @@
       }
     },
     {
+      "id": "af740ab5cf40a3e2",
+      "publishedAt": "2026-11-24T09:30:00Z",
+      "source": "STAT",
+      "title": {
+        "en": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?"
+      },
+      "summary": {
+        "en": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care."
+      },
+      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "483e6265b6d45469",
+      "publishedAt": "2026-11-24T09:30:00Z",
+      "source": "STAT",
+      "title": {
+        "en": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier"
+      },
+      "summary": {
+        "en": "In Alaska, a small network of hospitals is betting on AI tools to triage stroke patients and get them to the right care, faster."
+      },
+      "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
       "id": "93e02becb4e76988",
       "publishedAt": "2026-11-24T00:00:00Z",
       "source": "Nature Biotechnology",
@@ -143,6 +165,204 @@
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
         "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "946c39f644df85fe",
+      "publishedAt": "2026-11-23T10:00:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "Why today’s leading drug developers are fine-tuning open models on their own data"
+      },
+      "summary": {
+        "en": "Open or proprietary AI models? What drug developers should weigh before they fine-tune."
+      },
+      "url": "https://www.biopharmadive.com/spons/why-todays-leading-drug-developers-are-fine-tuning-open-models-on-their-ow/875153/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "2be1bdffbfcdc34c",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+      },
+      "summary": {
+        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-82004-9",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "f8730274a97d9144",
+      "publishedAt": "2026-11-21T20:46:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "FDA again turns back Capricor Duchenne cell therapy"
+      },
+      "summary": {
+        "en": "In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025."
+      },
+      "url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "73c9c528a0727161",
+      "publishedAt": "2026-11-20T19:53:09Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "Will the first approved psychedelic become a blockbuster?"
+      },
+      "summary": {
+        "en": "Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner."
+      },
+      "url": "https://www.biopharmadive.com/news/race-first-psilocybin-blockbuster-compass-usona/875369/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "709fe845a7dbe98e",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Electroactive and antibacterial bioadhesive based on bio-ionic liquids for tissue repair"
+      },
+      "summary": {
+        "en": "Electroactive and antibacterial bioadhesive based on bio-ionic liquids for tissue repair"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-79603-x",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "8953e1490a73aa80",
+      "publishedAt": "2026-11-23T10:45:53Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "Mysterious new viruses reveal a missing link in evolution"
+      },
+      "summary": {
+        "en": "Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. The surprising findings challenge a longstanding evolutionary theory and suggest that viruses may have hidden capabilities far beyond simply…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "d4dafcb66499fa42",
+      "publishedAt": "2026-11-22T11:31:14Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "DNA’s secret sunscreen may have helped life survive on early Earth"
+      },
+      "summary": {
+        "en": "Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. The discovery could help solve a decades-old evolutionary…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "1c66389d1efbe2e8",
+      "publishedAt": "2026-11-21T14:06:15Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "A 50-year-old theory about evolution may have been wrong all along"
+      },
+      "summary": {
+        "en": "A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. An extensive new analysis of mutations in bacteria and yeast found no evidence that essential genes mutate less frequently than other genes. Researchers…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "4e16ba5dd1e27e19",
+      "publishedAt": "2026-11-19T10:33:03Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "Something strange is living beneath the skin of deep-sea pigs"
+      },
+      "summary": {
+        "en": "Scientists have discovered a strange bacterium hiding beneath the skin of deep-sea creatures known as sea pigs, revealing an unexpected biological partnership. The microbe has an unusually tiny genome, yet more than a quarter of its DNA is devoted to making surface proteins…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
       },
       "langNote": {
         "en": "Source language: English",
