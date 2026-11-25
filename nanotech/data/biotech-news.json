@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T12:20:06.558974Z",
+  "updatedAt": "2026-11-25T01:59:26.404836Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -28,6 +28,50 @@
         "en": "Read on Nature Biotechnology",
         "zh-Hant": "前往 Nature Biotechnology",
         "zh-Hans": "前往 Nature Biotechnology"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "5906760e20a2e75c",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Author Correction: A sensitive red/far-red photoswitch for controllable gene therapy in mouse models of metabolic diseases"
+      },
+      "summary": {
+        "en": "Author Correction: A sensitive red/far-red photoswitch for controllable gene therapy in mouse models of metabolic diseases"
+      },
+      "url": "https://www.nature.com/articles/s41467-026-79407-7",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "6cb9574a0cd232e6",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Effect of nano urea, GA3, boron and calcium on growth, yield, and quality of strawberry (Fragaria × ananassa Duch.) cv. winter dawn"
+      },
+      "summary": {
+        "en": "Effect of nano urea, GA3, boron and calcium on growth, yield, and quality of strawberry (Fragaria × ananassa Duch.) cv. winter dawn"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-72486-y",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
       },
       "langNote": {
         "en": "Source language: English",
@@ -226,50 +270,6 @@
         "en": "Read on ScienceDaily",
         "zh-Hant": "前往 ScienceDaily",
         "zh-Hans": "前往 ScienceDaily"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "9a3be6014f08515c",
-      "publishedAt": "2026-08-19T07:46:13Z",
-      "source": "ScienceDaily",
-      "title": {
-        "en": "Japanese scientists use tiny silver particles to make DNA assembly up to 5x more efficient"
-      },
-      "summary": {
-        "en": "Silver nanoparticles can precisely slice DNA and create longer “sticky ends,” helping genetic fragments join up to five times more efficiently than conventional methods. The breakthrough could eventually simplify the construction of large DNA sequences for gene therapies…"
-      },
-      "url": "https://www.sciencedaily.com/releases/2026/08/260816044842.htm",
-      "linkLabel": {
-        "en": "Read on ScienceDaily",
-        "zh-Hant": "前往 ScienceDaily",
-        "zh-Hans": "前往 ScienceDaily"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "73ffe7c740b2023c",
-      "publishedAt": "2026-09-04T00:00:00Z",
-      "source": "PubMed · Computational biology and chemistry",
-      "title": {
-        "en": "A source-aware chemometric benchmark reveals transportability gaps in heterogeneous lipid nanoparticle data"
-      },
-      "summary": {
-        "en": "Computational biology and chemistry. PMID 42710147."
-      },
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42710147/",
-      "linkLabel": {
-        "en": "Read on PubMed",
-        "zh-Hant": "前往 PubMed",
-        "zh-Hans": "前往 PubMed"
       },
       "langNote": {
         "en": "Source language: English",
