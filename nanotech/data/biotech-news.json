@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T09:15:02.673312Z",
+  "updatedAt": "2026-11-25T16:55:50.879546Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -19,6 +19,72 @@
   ],
   "items": [
     {
+      "id": "c5338289ec5002c0",
+      "publishedAt": "2026-11-25T16:24:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head"
+      },
+      "summary": {
+        "en": "It’s the second big change to Bristol Myers’ executive ranks this month. Elsewhere, Cogent secured a cancer drug approval while Arcus Biosciences and Belite Bio hit setbacks."
+      },
+      "url": "https://www.biopharmadive.com/news/arcus-quemliclustat-belite-amgen-opdivo-biosimilar/875512/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "9d40b6b62a7c2a17",
+      "publishedAt": "2026-11-25T09:30:00Z",
+      "source": "STAT",
+      "title": {
+        "en": "Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach"
+      },
+      "summary": {
+        "en": "“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. Kinch."
+      },
+      "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "84f78ecd002ea84c",
+      "publishedAt": "2026-11-25T09:30:00Z",
+      "source": "STAT",
+      "title": {
+        "en": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment"
+      },
+      "summary": {
+        "en": "New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. biomedical workforce."
+      },
+      "url": "https://www.statnews.com/2026/11/25/foreign-students-us-biomedical-science-enrollment-drop-trump/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
       "id": "0fc887a01ff2ece7",
       "publishedAt": "2026-11-24T16:36:00Z",
       "source": "BioPharma Dive",
@@ -29,6 +95,28 @@
         "en": "Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better."
       },
       "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "9e9f16d7dd8f991b",
+      "publishedAt": "2026-11-24T15:36:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
+      },
+      "summary": {
+        "en": "The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product."
+      },
+      "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
       "linkLabel": {
         "en": "Read on BioPharma Dive",
         "zh-Hant": "前往 BioPharma Dive",
@@ -73,50 +161,6 @@
         "en": "For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information."
       },
       "url": "https://www.statnews.com/pharmalot/2026/11/24/fda-cites-two-drugmakers-for-failing-to-report-clinical-trial-results/?utm_campaign=rss",
-      "linkLabel": {
-        "en": "Read on STAT",
-        "zh-Hant": "前往 STAT",
-        "zh-Hans": "前往 STAT"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "af740ab5cf40a3e2",
-      "publishedAt": "2026-11-24T09:30:00Z",
-      "source": "STAT",
-      "title": {
-        "en": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?"
-      },
-      "summary": {
-        "en": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care."
-      },
-      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
-      "linkLabel": {
-        "en": "Read on STAT",
-        "zh-Hant": "前往 STAT",
-        "zh-Hans": "前往 STAT"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "483e6265b6d45469",
-      "publishedAt": "2026-11-24T09:30:00Z",
-      "source": "STAT",
-      "title": {
-        "en": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier"
-      },
-      "summary": {
-        "en": "In Alaska, a small network of hospitals is betting on AI tools to triage stroke patients and get them to the right care, faster."
-      },
-      "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/?utm_campaign=rss",
       "linkLabel": {
         "en": "Read on STAT",
         "zh-Hant": "前往 STAT",
@@ -217,60 +261,16 @@
       }
     },
     {
-      "id": "f8730274a97d9144",
-      "publishedAt": "2026-11-21T20:46:00Z",
-      "source": "BioPharma Dive",
-      "title": {
-        "en": "FDA again turns back Capricor Duchenne cell therapy"
-      },
-      "summary": {
-        "en": "In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025."
-      },
-      "url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
-      "linkLabel": {
-        "en": "Read on BioPharma Dive",
-        "zh-Hant": "前往 BioPharma Dive",
-        "zh-Hans": "前往 BioPharma Dive"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "73c9c528a0727161",
-      "publishedAt": "2026-11-20T19:53:09Z",
-      "source": "BioPharma Dive",
-      "title": {
-        "en": "Will the first approved psychedelic become a blockbuster?"
-      },
-      "summary": {
-        "en": "Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner."
-      },
-      "url": "https://www.biopharmadive.com/news/race-first-psilocybin-blockbuster-compass-usona/875369/",
-      "linkLabel": {
-        "en": "Read on BioPharma Dive",
-        "zh-Hant": "前往 BioPharma Dive",
-        "zh-Hans": "前往 BioPharma Dive"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "709fe845a7dbe98e",
-      "publishedAt": "2026-11-24T00:00:00Z",
+      "id": "f947adad42e1d580",
+      "publishedAt": "2026-11-25T00:00:00Z",
       "source": "Nature Biotechnology subject",
       "title": {
-        "en": "Electroactive and antibacterial bioadhesive based on bio-ionic liquids for tissue repair"
+        "en": "When heat switches genes off"
       },
       "summary": {
-        "en": "Electroactive and antibacterial bioadhesive based on bio-ionic liquids for tissue repair"
+        "en": "When heat switches genes off"
       },
-      "url": "https://www.nature.com/articles/s41598-026-79603-x",
+      "url": "https://www.nature.com/articles/s41477-026-02483-6",
       "linkLabel": {
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",

@@ -1,11 +1,93 @@
 {
-  "day": "2026-11-25",
+  "day": "2026-11-26",
   "timezone": "Asia/Hong_Kong",
-  "updatedAt": "2026-11-25T09:15:02.732842Z",
+  "updatedAt": "2026-11-25T16:55:50.930718Z",
   "perDay": 5,
   "historyDays": 4,
-  "origin": "desk",
+  "origin": "wire",
   "days": {
+    "2026-11-26": [
+      {
+        "id": "c5338289ec5002c0",
+        "publishedAt": "2026-11-25",
+        "source": "BioPharma Dive",
+        "url": "https://www.biopharmadive.com/news/arcus-quemliclustat-belite-amgen-opdivo-biosimilar/875512/",
+        "title": {
+          "zh-Hant": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head",
+          "zh-Hans": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head",
+          "en": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head"
+        },
+        "body": {
+          "zh-Hant": "BioPharma Dive 在 11 月 25 日 的報導，題目是「Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head」。報導寫道：It’s the second big change to Bristol Myers’ executive ranks this month. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "BioPharma Dive 在 11 月 25 日 的报道，题目是「Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head」。报道写道：It’s the second big change to Bristol Myers’ executive ranks this month. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "BioPharma Dive, 25 November: Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head. The report says: It’s the second big change to Bristol Myers’ executive ranks this month. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      },
+      {
+        "id": "9d40b6b62a7c2a17",
+        "publishedAt": "2026-11-25",
+        "source": "STAT",
+        "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+        "title": {
+          "zh-Hant": "Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach",
+          "zh-Hans": "Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach",
+          "en": "Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach"
+        },
+        "body": {
+          "zh-Hant": "STAT 在 11 月 25 日 的報導，題目是「Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach」。報導寫道：“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "STAT 在 11 月 25 日 的报道，题目是「Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach」。报道写道：“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "STAT, 25 November: Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach. The report says: “Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      },
+      {
+        "id": "84f78ecd002ea84c",
+        "publishedAt": "2026-11-25",
+        "source": "STAT",
+        "url": "https://www.statnews.com/2026/11/25/foreign-students-us-biomedical-science-enrollment-drop-trump/?utm_campaign=rss",
+        "title": {
+          "zh-Hant": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment",
+          "zh-Hans": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment",
+          "en": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment"
+        },
+        "body": {
+          "zh-Hant": "STAT 在 11 月 25 日 的報導，題目是「Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment」。報導寫道：New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "STAT 在 11 月 25 日 的报道，题目是「Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment」。报道写道：New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "STAT, 25 November: Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment. The report says: New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      },
+      {
+        "id": "0fc887a01ff2ece7",
+        "publishedAt": "2026-11-24",
+        "source": "BioPharma Dive",
+        "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
+        "title": {
+          "zh-Hant": "FDA approves BridgeBio muscular dystrophy drug",
+          "zh-Hans": "FDA approves BridgeBio muscular dystrophy drug",
+          "en": "FDA approves BridgeBio muscular dystrophy drug"
+        },
+        "body": {
+          "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA approves BridgeBio muscular dystrophy drug」。報導寫道：Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
+          "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA approves BridgeBio muscular dystrophy drug」。报道写道：Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
+          "en": "BioPharma Dive, 24 November: FDA approves BridgeBio muscular dystrophy drug. The report says: Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
+        }
+      },
+      {
+        "id": "9e9f16d7dd8f991b",
+        "publishedAt": "2026-11-24",
+        "source": "BioPharma Dive",
+        "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
+        "title": {
+          "zh-Hant": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
+          "zh-Hans": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
+          "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
+        },
+        "body": {
+          "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。報導寫道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。报道写道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "BioPharma Dive, 24 November: FDA clears Roche’s oral SERD as treatment in early-stage breast cancer. The report says: The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      }
+    ],
     "2026-11-25": [
       {
         "id": "mend-2026-11-24",
@@ -251,91 +333,89 @@
           "en": "STAT, 24 November: STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?. The report says: As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. Keep the date, the subject and the number. Drop the adjectives from the release."
         }
       }
-    ],
-    "2026-11-22": [
-      {
-        "id": "f8730274a97d9144",
-        "publishedAt": "2026-11-21",
-        "source": "BioPharma Dive",
-        "url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
-        "title": {
-          "zh-Hant": "FDA again turns back Capricor Duchenne cell therapy",
-          "zh-Hans": "FDA again turns back Capricor Duchenne cell therapy",
-          "en": "FDA again turns back Capricor Duchenne cell therapy"
-        },
-        "body": {
-          "zh-Hant": "BioPharma Dive 在 11 月 21 日 的報導，題目是「FDA again turns back Capricor Duchenne cell therapy」。報導寫道：In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "BioPharma Dive 在 11 月 21 日 的报道，题目是「FDA again turns back Capricor Duchenne cell therapy」。报道写道：In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "BioPharma Dive, 21 November: FDA again turns back Capricor Duchenne cell therapy. The report says: In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025. Keep the date, the subject and the number. Drop the adjectives from the release."
-        }
-      },
-      {
-        "id": "73c9c528a0727161",
-        "publishedAt": "2026-11-20",
-        "source": "BioPharma Dive",
-        "url": "https://www.biopharmadive.com/news/race-first-psilocybin-blockbuster-compass-usona/875369/",
-        "title": {
-          "zh-Hant": "Will the first approved psychedelic become a blockbuster?",
-          "zh-Hans": "Will the first approved psychedelic become a blockbuster?",
-          "en": "Will the first approved psychedelic become a blockbuster?"
-        },
-        "body": {
-          "zh-Hant": "BioPharma Dive 在 11 月 20 日 的報導，題目是「Will the first approved psychedelic become a blockbuster?」。報導寫道：Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
-          "zh-Hans": "BioPharma Dive 在 11 月 20 日 的报道，题目是「Will the first approved psychedelic become a blockbuster?」。报道写道：Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
-          "en": "BioPharma Dive, 20 November: Will the first approved psychedelic become a blockbuster?. The report says: Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
-        }
-      },
-      {
-        "id": "8953e1490a73aa80",
-        "publishedAt": "2026-11-23",
-        "source": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
-        "title": {
-          "zh-Hant": "Mysterious new viruses reveal a missing link in evolution",
-          "zh-Hans": "Mysterious new viruses reveal a missing link in evolution",
-          "en": "Mysterious new viruses reveal a missing link in evolution"
-        },
-        "body": {
-          "zh-Hant": "ScienceDaily 在 11 月 23 日 的報導，題目是「Mysterious new viruses reveal a missing link in evolution」。報導寫道：Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "ScienceDaily 在 11 月 23 日 的报道，题目是「Mysterious new viruses reveal a missing link in evolution」。报道写道：Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "ScienceDaily, 23 November: Mysterious new viruses reveal a missing link in evolution. The report says: Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. Keep the date, the subject and the number. Drop the adjectives from the release."
-        }
-      },
-      {
-        "id": "d4dafcb66499fa42",
-        "publishedAt": "2026-11-22",
-        "source": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm",
-        "title": {
-          "zh-Hant": "DNA’s secret sunscreen may have helped life survive on early Earth",
-          "zh-Hans": "DNA’s secret sunscreen may have helped life survive on early Earth",
-          "en": "DNA’s secret sunscreen may have helped life survive on early Earth"
-        },
-        "body": {
-          "zh-Hant": "ScienceDaily 在 11 月 22 日 的報導，題目是「DNA’s secret sunscreen may have helped life survive on early Earth」。報導寫道：Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "ScienceDaily 在 11 月 22 日 的报道，题目是「DNA’s secret sunscreen may have helped life survive on early Earth」。报道写道：Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "ScienceDaily, 22 November: DNA’s secret sunscreen may have helped life survive on early Earth. The report says: Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. Keep the date, the subject and the number. Drop the adjectives from the release."
-        }
-      },
-      {
-        "id": "1c66389d1efbe2e8",
-        "publishedAt": "2026-11-21",
-        "source": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
-        "title": {
-          "zh-Hant": "A 50-year-old theory about evolution may have been wrong all along",
-          "zh-Hans": "A 50-year-old theory about evolution may have been wrong all along",
-          "en": "A 50-year-old theory about evolution may have been wrong all along"
-        },
-        "body": {
-          "zh-Hant": "ScienceDaily 在 11 月 21 日 的報導，題目是「A 50-year-old theory about evolution may have been wrong all along」。報導寫道：A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "ScienceDaily 在 11 月 21 日 的报道，题目是「A 50-year-old theory about evolution may have been wrong all along」。报道写道：A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "ScienceDaily, 21 November: A 50-year-old theory about evolution may have been wrong all along. The report says: A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. Keep the date, the subject and the number. Drop the adjectives from the release."
-        }
-      }
     ]
   },
   "articles": [
+    {
+      "id": "c5338289ec5002c0",
+      "publishedAt": "2026-11-25",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/arcus-quemliclustat-belite-amgen-opdivo-biosimilar/875512/",
+      "title": {
+        "zh-Hant": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head",
+        "zh-Hans": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head",
+        "en": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head"
+      },
+      "body": {
+        "zh-Hant": "BioPharma Dive 在 11 月 25 日 的報導，題目是「Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head」。報導寫道：It’s the second big change to Bristol Myers’ executive ranks this month. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "BioPharma Dive 在 11 月 25 日 的报道，题目是「Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head」。报道写道：It’s the second big change to Bristol Myers’ executive ranks this month. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "BioPharma Dive, 25 November: Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head. The report says: It’s the second big change to Bristol Myers’ executive ranks this month. Keep the date, the subject and the number. Drop the adjectives from the release."
+      }
+    },
+    {
+      "id": "9d40b6b62a7c2a17",
+      "publishedAt": "2026-11-25",
+      "source": "STAT",
+      "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+      "title": {
+        "zh-Hant": "Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach",
+        "zh-Hans": "Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach",
+        "en": "Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach"
+      },
+      "body": {
+        "zh-Hant": "STAT 在 11 月 25 日 的報導，題目是「Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach」。報導寫道：“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "STAT 在 11 月 25 日 的报道，题目是「Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach」。报道写道：“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "STAT, 25 November: Opinion: Washington and Beijing are building walls around biotechnology. That’s the wrong approach. The report says: “Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. Keep the date, the subject and the number. Drop the adjectives from the release."
+      }
+    },
+    {
+      "id": "84f78ecd002ea84c",
+      "publishedAt": "2026-11-25",
+      "source": "STAT",
+      "url": "https://www.statnews.com/2026/11/25/foreign-students-us-biomedical-science-enrollment-drop-trump/?utm_campaign=rss",
+      "title": {
+        "zh-Hant": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment",
+        "zh-Hans": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment",
+        "en": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment"
+      },
+      "body": {
+        "zh-Hant": "STAT 在 11 月 25 日 的報導，題目是「Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment」。報導寫道：New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "STAT 在 11 月 25 日 的报道，题目是「Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment」。报道写道：New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "STAT, 25 November: Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment. The report says: New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. Keep the date, the subject and the number. Drop the adjectives from the release."
+      }
+    },
+    {
+      "id": "0fc887a01ff2ece7",
+      "publishedAt": "2026-11-24",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
+      "title": {
+        "zh-Hant": "FDA approves BridgeBio muscular dystrophy drug",
+        "zh-Hans": "FDA approves BridgeBio muscular dystrophy drug",
+        "en": "FDA approves BridgeBio muscular dystrophy drug"
+      },
+      "body": {
+        "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA approves BridgeBio muscular dystrophy drug」。報導寫道：Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
+        "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA approves BridgeBio muscular dystrophy drug」。报道写道：Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
+        "en": "BioPharma Dive, 24 November: FDA approves BridgeBio muscular dystrophy drug. The report says: Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
+      }
+    },
+    {
+      "id": "9e9f16d7dd8f991b",
+      "publishedAt": "2026-11-24",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
+      "title": {
+        "zh-Hant": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
+        "zh-Hans": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
+        "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
+      },
+      "body": {
+        "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。報導寫道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。报道写道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "BioPharma Dive, 24 November: FDA clears Roche’s oral SERD as treatment in early-stage breast cancer. The report says: The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. Keep the date, the subject and the number. Drop the adjectives from the release."
+      }
+    },
     {
       "id": "mend-2026-11-24",
       "publishedAt": "2026-11-24",
@@ -417,38 +497,6 @@
       }
     },
     {
-      "id": "0fc887a01ff2ece7",
-      "publishedAt": "2026-11-24",
-      "source": "BioPharma Dive",
-      "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
-      "title": {
-        "zh-Hant": "FDA approves BridgeBio muscular dystrophy drug",
-        "zh-Hans": "FDA approves BridgeBio muscular dystrophy drug",
-        "en": "FDA approves BridgeBio muscular dystrophy drug"
-      },
-      "body": {
-        "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA approves BridgeBio muscular dystrophy drug」。報導寫道：Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
-        "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA approves BridgeBio muscular dystrophy drug」。报道写道：Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
-        "en": "BioPharma Dive, 24 November: FDA approves BridgeBio muscular dystrophy drug. The report says: Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
-      }
-    },
-    {
-      "id": "9e9f16d7dd8f991b",
-      "publishedAt": "2026-11-24",
-      "source": "BioPharma Dive",
-      "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
-      "title": {
-        "zh-Hant": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
-        "zh-Hans": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
-        "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
-      },
-      "body": {
-        "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。報導寫道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。报道写道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "BioPharma Dive, 24 November: FDA clears Roche’s oral SERD as treatment in early-stage breast cancer. The report says: The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. Keep the date, the subject and the number. Drop the adjectives from the release."
-      }
-    },
-    {
       "id": "90962b3f4119d456",
       "publishedAt": "2026-11-24",
       "source": "STAT",
@@ -494,86 +542,6 @@
         "zh-Hant": "STAT 在 11 月 24 日 的報導，題目是「STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?」。報導寫道：As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
         "zh-Hans": "STAT 在 11 月 24 日 的报道，题目是「STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?」。报道写道：As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
         "en": "STAT, 24 November: STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?. The report says: As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. Keep the date, the subject and the number. Drop the adjectives from the release."
-      }
-    },
-    {
-      "id": "f8730274a97d9144",
-      "publishedAt": "2026-11-21",
-      "source": "BioPharma Dive",
-      "url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
-      "title": {
-        "zh-Hant": "FDA again turns back Capricor Duchenne cell therapy",
-        "zh-Hans": "FDA again turns back Capricor Duchenne cell therapy",
-        "en": "FDA again turns back Capricor Duchenne cell therapy"
-      },
-      "body": {
-        "zh-Hant": "BioPharma Dive 在 11 月 21 日 的報導，題目是「FDA again turns back Capricor Duchenne cell therapy」。報導寫道：In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "BioPharma Dive 在 11 月 21 日 的报道，题目是「FDA again turns back Capricor Duchenne cell therapy」。报道写道：In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "BioPharma Dive, 21 November: FDA again turns back Capricor Duchenne cell therapy. The report says: In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025. Keep the date, the subject and the number. Drop the adjectives from the release."
-      }
-    },
-    {
-      "id": "73c9c528a0727161",
-      "publishedAt": "2026-11-20",
-      "source": "BioPharma Dive",
-      "url": "https://www.biopharmadive.com/news/race-first-psilocybin-blockbuster-compass-usona/875369/",
-      "title": {
-        "zh-Hant": "Will the first approved psychedelic become a blockbuster?",
-        "zh-Hans": "Will the first approved psychedelic become a blockbuster?",
-        "en": "Will the first approved psychedelic become a blockbuster?"
-      },
-      "body": {
-        "zh-Hant": "BioPharma Dive 在 11 月 20 日 的報導，題目是「Will the first approved psychedelic become a blockbuster?」。報導寫道：Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
-        "zh-Hans": "BioPharma Dive 在 11 月 20 日 的报道，题目是「Will the first approved psychedelic become a blockbuster?」。报道写道：Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
-        "en": "BioPharma Dive, 20 November: Will the first approved psychedelic become a blockbuster?. The report says: Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
-      }
-    },
-    {
-      "id": "8953e1490a73aa80",
-      "publishedAt": "2026-11-23",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
-      "title": {
-        "zh-Hant": "Mysterious new viruses reveal a missing link in evolution",
-        "zh-Hans": "Mysterious new viruses reveal a missing link in evolution",
-        "en": "Mysterious new viruses reveal a missing link in evolution"
-      },
-      "body": {
-        "zh-Hant": "ScienceDaily 在 11 月 23 日 的報導，題目是「Mysterious new viruses reveal a missing link in evolution」。報導寫道：Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "ScienceDaily 在 11 月 23 日 的报道，题目是「Mysterious new viruses reveal a missing link in evolution」。报道写道：Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "ScienceDaily, 23 November: Mysterious new viruses reveal a missing link in evolution. The report says: Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. Keep the date, the subject and the number. Drop the adjectives from the release."
-      }
-    },
-    {
-      "id": "d4dafcb66499fa42",
-      "publishedAt": "2026-11-22",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm",
-      "title": {
-        "zh-Hant": "DNA’s secret sunscreen may have helped life survive on early Earth",
-        "zh-Hans": "DNA’s secret sunscreen may have helped life survive on early Earth",
-        "en": "DNA’s secret sunscreen may have helped life survive on early Earth"
-      },
-      "body": {
-        "zh-Hant": "ScienceDaily 在 11 月 22 日 的報導，題目是「DNA’s secret sunscreen may have helped life survive on early Earth」。報導寫道：Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "ScienceDaily 在 11 月 22 日 的报道，题目是「DNA’s secret sunscreen may have helped life survive on early Earth」。报道写道：Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "ScienceDaily, 22 November: DNA’s secret sunscreen may have helped life survive on early Earth. The report says: Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. Keep the date, the subject and the number. Drop the adjectives from the release."
-      }
-    },
-    {
-      "id": "1c66389d1efbe2e8",
-      "publishedAt": "2026-11-21",
-      "source": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
-      "title": {
-        "zh-Hant": "A 50-year-old theory about evolution may have been wrong all along",
-        "zh-Hans": "A 50-year-old theory about evolution may have been wrong all along",
-        "en": "A 50-year-old theory about evolution may have been wrong all along"
-      },
-      "body": {
-        "zh-Hant": "ScienceDaily 在 11 月 21 日 的報導，題目是「A 50-year-old theory about evolution may have been wrong all along」。報導寫道：A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "ScienceDaily 在 11 月 21 日 的报道，题目是「A 50-year-old theory about evolution may have been wrong all along」。报道写道：A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "ScienceDaily, 21 November: A 50-year-old theory about evolution may have been wrong all along. The report says: A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. Keep the date, the subject and the number. Drop the adjectives from the release."
       }
     }
   ],
