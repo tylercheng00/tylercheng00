@@ -1,0 +1,94 @@
+{
+  "day": "2026-11-25",
+  "timezone": "Asia/Hong_Kong",
+  "updatedAt": "2026-11-25T08:03:14.752765Z",
+  "perDay": 5,
+  "origin": "desk",
+  "articles": [
+    {
+      "id": "mend-2026-11-24",
+      "publishedAt": "2026-11-24",
+      "source": "Nature Biotechnology",
+      "url": "https://www.nature.com/articles/s41587-026-03351-6",
+      "title": {
+        "zh-Hant": "DNA 進核這關，小鼠肝臟只認 BAF v3",
+        "zh-Hans": "DNA 进核这关，小鼠肝脏只认 BAF v3",
+        "en": "In mouse liver, only BAF v3 moved the DNA"
+      },
+      "body": {
+        "zh-Hant": "Nature Biotechnology 11 月 24 日刊出 MEND：同一顆 LNP 裡再放一段 mRNA，讓細胞先做出輔助蛋白，再處理外來 DNA。小鼠肝臟裡，BAF v3 把表達拉到大約 16 倍；體外很亮的 PWWP 和 H3.3 融合蛋白，到了靜止期的肝細胞就沒有同樣倍數。HepG2 的排名不能直接拿去排肝靶配方。下一題是這些外來蛋白會不會讓方案變得不能重複給藥，而不是再堆一個體外倍數。",
+        "zh-Hans": "Nature Biotechnology 11 月 24 日刊出 MEND：同一颗 LNP 里再放一段 mRNA，让细胞先做出辅助蛋白，再处理外来 DNA。小鼠肝脏里，BAF v3 把表达拉到大约 16 倍；体外很亮的 PWWP 和 H3.3 融合蛋白，到了静止期的肝细胞就没有同样倍数。HepG2 的排名不能直接拿去排肝靶配方。下一题是这些外来蛋白会不会让方案变得不能重复给药，而不是再堆一个体外倍数。",
+        "en": "Nature Biotechnology on 24 November describes MEND: an extra mRNA in the same LNP so the cell makes a helper protein before it deals with the DNA. In mouse liver, BAF v3 reached about 16-fold over a plain DNA-LNP. The PWWP and H3.3 fusions that looked strong in dividing cells did not carry over. A HepG2 rank list is not a liver-formulation rank list. The next argument is whether those foreign proteins wreck redosing, not whether the in-vitro fold can be pushed higher."
+      }
+    },
+    {
+      "id": "krro-121-2026-11-24",
+      "publishedAt": "2026-11-24",
+      "source": "Korro Bio / FDA orphan designation",
+      "url": "https://www.techtimes.com/articles/331430/20261124/rna-editing-drug-krro-121-wins-fda-orphan-status-before-any-patient-ammonia-disorder-dosed.htm",
+      "title": {
+        "zh-Hant": "KRRO-121 的孤兒藥資格，病人還沒打第一針",
+        "zh-Hans": "KRRO-121 的孤儿药资格，病人还没打第一针",
+        "en": "KRRO-121 has an orphan label and zero patients dosed"
+      },
+      "body": {
+        "zh-Hant": "11 月 24 日 Korro 說 FDA 給了 KRRO-121 孤兒藥資格，稿件把尿素循環障礙和肝性腦病都寫了進去。藥是 GalNAc 偶聯的寡核苷酸，招募細胞自己的 ADAR，改谷氨醯胺合成酶的 RNA，不是改 DNA，所以效力會掉，要再打。公司同時寫明兩種病人都還沒有人用過，第一批數據放到 2027 年下半年。歐洲先前的指定只覆蓋尿素循環障礙。孤兒藥資格是稅務抵免和獨佔期，不是療效證明。",
+        "zh-Hans": "11 月 24 日 Korro 说 FDA 给了 KRRO-121 孤儿药资格，稿件把尿素循环障碍和肝性脑病都写了进去。药是 GalNAc 偶联的寡核苷酸，招募细胞自己的 ADAR，改谷氨酰胺合成酶的 RNA，不是改 DNA，所以效力会掉，要再打。公司同时写明两种病人都还没有人用过，第一批数据放到 2027 年下半年。欧洲先前的指定只覆盖尿素循环障碍。孤儿药资格是税务抵免和独占期，不是疗效证明。",
+        "en": "On 24 November Korro said the FDA granted orphan designation to KRRO-121, and the release names both urea-cycle disorders and hepatic encephalopathy. The drug is a GalNAc oligonucleotide that recruits the cell's own ADAR to edit glutamine-synthetase RNA. It is not a DNA edit, so the change fades and has to be redosed. Korro also says no patient in either group has received it, with first data guided to the second half of 2027. The earlier European designation covered urea-cycle disorders only. Orphan status is a tax credit and an exclusivity clock, not evidence the drug works."
+      }
+    },
+    {
+      "id": "mhra-gt-2026-11-24",
+      "publishedAt": "2026-11-24",
+      "source": "MHRA",
+      "url": "https://www.gov.uk/government/news/mhra-sets-out-regulatory-approach-to-next-generation-innovation",
+      "title": {
+        "zh-Hant": "英國把基因編輯寫進定義，審批門檻沒有一起降下來",
+        "zh-Hans": "英国把基因编辑写进定义，审批门槛没有一起降下来",
+        "en": "The UK rewrote the gene-therapy definition, not the approval bar"
+      },
+      "body": {
+        "zh-Hant": "MHRA 11 月 24 日公布基因治療監管諮詢的回應。83% 回應者支持改《2012 年人體藥品規例》裡的定義，讓一部分合成基因治療和基因組編輯產品可以放進現有的先進療法框架。已獲批的藥不用重新歸類。稿件寫得很直：安全、質量、療效的標準不變。對做編輯載體的人，有用的是「算不算基因治療藥」這句開始有方向；審評時鐘不會因此變短。修例仍要走國際通報和國會。",
+        "zh-Hans": "MHRA 11 月 24 日公布基因治疗监管咨询的回应。83% 回应者支持改《2012 年人体药品规例》里的定义，让一部分合成基因治疗和基因组编辑产品可以放进现有的先进疗法框架。已获批的药不用重新归类。稿件写得很直：安全、质量、疗效的标准不变。对做编辑载体的人，有用的是「算不算基因治疗药」这句开始有方向；审评时钟不会因此变短。修例仍要走国际通报和国会。",
+        "en": "On 24 November the MHRA published the response on gene-therapy regulation. Eighty-three percent of respondents backed changing the definition in the Human Medicines Regulations 2012 so some synthetic gene therapies and genome-editing products sit inside the existing advanced-therapy framework. Licensed medicines would not be reclassified. The release is plain that safety, quality and efficacy standards stay put. Useful if you needed to know whether an editing product is a gene therapy at all. Useless if you hoped the review clock got shorter. The amendment still needs international notification and Parliament."
+      }
+    },
+    {
+      "id": "welgemda-2026-11-23",
+      "publishedAt": "2026-11-23",
+      "source": "FDA",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-limb-girdle-muscular-dystrophy-type-2ir9",
+      "title": {
+        "zh-Hant": "LGMD2I/R9 第一個藥是口服核糖醇，不是基因治療",
+        "zh-Hans": "LGMD2I/R9 第一个药是口服核糖醇，不是基因治疗",
+        "en": "The first LGMD2I/R9 drug is oral ribitol, not a gene therapy"
+      },
+      "body": {
+        "zh-Hant": "FDA 11 月 23 日批了 Welgemda（ribitol 口服溶液），給體重至少 30 公斤、FKRP 相關的 LGMD2I/R9。這是肢帶型肌營養不良裡第一個獲批的藥。機制尚未完全講清，方向是補回 α-dystroglycan 上的糖鏈，不是把基因送回去。NCT05775848 收了 112 人，這次批的是 12 個月中期分析，試驗本身寫到 36 個月。BridgeBio 報 100 米步行速度相對安慰劑多 0.27 米/秒。標籤上腹瀉是 39%，甘露醇對照組是 53%，腸胃反應要連對照一起讀。心臟結果這次中期沒有。",
+        "zh-Hans": "FDA 11 月 23 日批了 Welgemda（ribitol 口服溶液），给体重至少 30 公斤、FKRP 相关的 LGMD2I/R9。这是肢带型肌营养不良里第一个获批的药。机制尚未完全讲清，方向是补回 α-dystroglycan 上的糖链，不是把基因送回去。NCT05775848 收了 112 人，这次批的是 12 个月中期分析，试验本身写到 36 个月。BridgeBio 报 100 米步行速度相对安慰剂多 0.27 米/秒。标签上腹泻是 39%，甘露醇对照组是 53%，肠胃反应要连对照一起读。心脏结果这次中期没有。",
+        "en": "On 23 November the FDA approved Welgemda (ribitol oral solution) for FKRP-related LGMD2I/R9 in people weighing at least 30 kg. It is the first approved drug for a limb-girdle muscular dystrophy. The mechanism is not fully worked out; the idea is to restore the sugar chain on alpha-dystroglycan, not to deliver a gene. NCT05775848 randomised 112 people. Approval rests on a 12-month interim of a study written out to 36 months. BridgeBio reports a 0.27 m/s benefit on the 100-metre timed test versus placebo. On the label, diarrhoea is 39% on drug and 53% on the mannitol control, so the gut signal only makes sense next to that control. Cardiac outcomes were not in this interim."
+      }
+    },
+    {
+      "id": "denv-n8r-2026-11-23",
+      "publishedAt": "2026-11-23",
+      "source": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-026-82004-9",
+      "title": {
+        "zh-Hant": "四價登革熱 mRNA：先把 DENV2 的份量壓下去",
+        "zh-Hans": "四价登革热 mRNA：先把 DENV2 的份量压下去",
+        "en": "A tetravalent dengue mRNA, with DENV2 turned down"
+      },
+      "body": {
+        "zh-Hant": "Scientific Reports 11 月 23 日，韓文忠團隊的四價登革熱 mRNA-LNP。信封蛋白第 8 位天冬酰胺改成精氨酸（N8R），脂質用 AS-CL-28，四型 mRNA 配成 4:1:4:4，用來壓 DENV2 的免疫主導。被動保護裡，N8R 對多個血清型多了一層保護。登革熱疫苗的老問題是抗體依賴增強：交叉但中和不足的抗體會幫病毒進細胞。這篇處理的是配比和一個表位，數據停在動物和血清轉移。不能寫成已經平衡好的臨床疫苗。",
+        "zh-Hans": "Scientific Reports 11 月 23 日，韩文忠团队的四价登革热 mRNA-LNP。信封蛋白第 8 位天冬酰胺改成精氨酸（N8R），脂质用 AS-CL-28，四型 mRNA 配成 4:1:4:4，用来压 DENV2 的免疫主导。被动保护里，N8R 对多个血清型多了一层保护。登革热疫苗的老问题是抗体依赖增强：交叉但中和不足的抗体会帮病毒进细胞。这篇处理的是配比和一个表位，数据停在动物和血清转移。不能写成已经平衡好的临床疫苗。",
+        "en": "Scientific Reports on 23 November, from Han-Chung Wu's group: a tetravalent dengue mRNA-LNP. Asparagine 8 on the envelope protein is switched to arginine (N8R), the ionisable lipid is AS-CL-28, and the four mRNAs are mixed 4:1:4:4 so DENV2 does not dominate the response. In passive-protection tests the N8R change added protection across serotypes. Dengue vaccines fail when cross-reactive, weakly neutralising antibodies help the virus into cells. This paper is about ratio and one epitope. The data stop at animals and transferred serum. That is not a clinically balanced vaccine."
+      }
+    }
+  ],
+  "disclaimer": {
+    "zh-Hant": "當日生物科技公開消息的閱讀筆記，不是投資、臨床或法規建議，也不是本公司論文。",
+    "zh-Hans": "当日生物科技公开消息的阅读笔记，不是投资、临床或法规建议，也不是本公司论文。",
+    "en": "Reading notes on that day's public biotech record. Not investment, clinical or regulatory advice, and not a Nanotech paper."
+  }
+}

@@ -24,6 +24,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "biotech-news.json"
 MAX_ITEMS = 12
+# Drop stale wires. A keyword-heavy August item was outranking this week's news.
+MAX_AGE_DAYS = 12
 # Agency RSS hosts often 404 non-browser UAs.
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -38,16 +40,40 @@ FEEDS = [
         "prefer_keywords": True,
     },
     {
+        "id": "fda-biologics",
+        "source": "FDA biologics",
+        "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/biologics/rss.xml",
+        "prefer_keywords": True,
+    },
+    {
         "id": "nature-nbt",
         "source": "Nature Biotechnology",
         "url": "https://www.nature.com/nbt.rss",
-        "prefer_keywords": False,
+        "prefer_keywords": True,
     },
     {
         "id": "nature-biotech",
         "source": "Nature Biotechnology subject",
         "url": "https://www.nature.com/subjects/biotechnology.rss",
+        "prefer_keywords": True,
+    },
+    {
+        "id": "fierce-biotech",
+        "source": "Fierce Biotech",
+        "url": "https://www.fiercebiotech.com/rss/xml",
         "prefer_keywords": False,
+    },
+    {
+        "id": "biopharma-dive",
+        "source": "BioPharma Dive",
+        "url": "https://www.biopharmadive.com/feeds/news/",
+        "prefer_keywords": True,
+    },
+    {
+        "id": "stat",
+        "source": "STAT",
+        "url": "https://www.statnews.com/feed/",
+        "prefer_keywords": True,
     },
     {
         "id": "sciencedaily-biotech",
@@ -57,10 +83,18 @@ FEEDS = [
     },
 ]
 
+# Feed dates often mark "updated today" on old pages. Skip those, and newsletter roundups.
+SKIP_TITLES = re.compile(
+    r"meeting announcement|data files|pharmalittle|we.?re reading about|"
+    r"support team|advisory committee|drugs@fda|author correction|"
+    r"\bprea\b|in this edition|list of ",
+    re.I,
+)
+
 KEYWORDS = re.compile(
     r"\b("
     r"AI|artificial intelligence|machine learning|deep learning|"
-    r"nano(?:particle|medicine|tech|carrier)?|lipid nanoparticle|LNP|"
+    r"nano(?:particle|medicine|technology|carrier|material)|lipid nanoparticle|LNP|"
     r"mRNA|siRNA|gene therap(?:y|ies)|CRISPR|"
     r"biotech(?:nology)?|biomedical|medtech|medical device|"
     r"cancer|oncolog|vaccine|drug deliver|"
@@ -343,20 +377,30 @@ def fetch_pubmed(limit: int = 6) -> list[dict]:
     return result
 
 
+def age_days(item: dict) -> float | None:
+    raw = item.get("publishedAt")
+    if not raw:
+        return None
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except Exception:
+        return None
+    return (datetime.now(timezone.utc) - dt).total_seconds() / 86400
+
+
 def score_item(item: dict, prefer_keywords: bool) -> float:
     blob = f"{item['title']} {item['summary']}"
     score = 0.0
     if KEYWORDS.search(blob):
         score += 3.0
     elif prefer_keywords:
-        score -= 1.0
-    if item.get("publishedAt"):
-        try:
-            dt = datetime.fromisoformat(item["publishedAt"].replace("Z", "+00:00"))
-            age_days = (datetime.now(timezone.utc) - dt).total_seconds() / 86400
-            score += max(0.0, 2.0 - age_days / 30.0)
-        except Exception:
-            pass
+        score -= 2.0
+    age = age_days(item)
+    if age is None:
+        score -= 5.0
+    else:
+        # Recent wires beat a keyword-heavy item from last season.
+        score += max(0.0, 8.0 - age)
     return score
 
 
@@ -413,26 +457,55 @@ def main() -> int:
         errors.append(f"fail pubmed: {exc}")
         print(f"fail pubmed: {exc}", file=sys.stderr)
 
-    # Rank + dedupe by URL
+    # Newest first. Undated and anything older than MAX_AGE_DAYS stays out,
+    # otherwise August ScienceDaily items keep occupying the page.
+    fresh = []
+    for it in collected:
+        age = age_days(it)
+        if age is None or age < -1 or age > MAX_AGE_DAYS:
+            continue
+        if it.get("_prefer") and not KEYWORDS.search(f"{it['title']} {it['summary']}"):
+            continue
+        fresh.append(it)
+
     ranked = sorted(
-        collected,
-        key=lambda it: score_item(it, it.get("_prefer", False)),
+        fresh,
+        key=lambda it: (
+            score_item(it, it.get("_prefer", False)),
+            it.get("publishedAt") or "",
+        ),
         reverse=True,
     )
     seen = set()
+    per_source: dict[str, int] = {}
     selected = []
     for it in ranked:
+        title = it.get("title") or ""
+        if SKIP_TITLES.search(title) or SKIP_TITLES.search(it.get("summary") or ""):
+            continue
+        # Newsletter roundups list several topics in one headline.
+        if title.count(",") >= 2:
+            continue
+        if re.search(r"types a and b|trivalent", title, re.I):
+            continue
         key = re.sub(r"[?#].*$", "", it["url"]).rstrip("/").lower()
         if key in seen:
             continue
-        if it.get("_prefer") and score_item(it, True) < 2.0:
+        source_key = re.sub(
+            r"\s+subject$",
+            "",
+            it["source"].split("·")[0].strip().lower(),
+        )
+        if per_source.get(source_key, 0) >= 2:
             continue
         seen.add(key)
+        per_source[source_key] = per_source.get(source_key, 0) + 1
         selected.append(normalize(it))
         if len(selected) >= MAX_ITEMS:
             break
 
-    # Keep previous curated bilingual items if fetch nearly empty
+    # If a source outage leaves the page almost empty, keep prior items that
+    # are still inside the same age window. Never resurrect older wires.
     previous = []
     if OUT.exists():
         try:
@@ -441,11 +514,14 @@ def main() -> int:
             previous = []
 
     if len(selected) < 3 and previous:
-        print("warning: few fresh items; merging with previous feed", file=sys.stderr)
+        print("warning: few fresh items; merging recent previous feed", file=sys.stderr)
         for old in previous:
             if len(selected) >= MAX_ITEMS:
                 break
-            oid = old.get("id") or item_id(old.get("url", ""), old.get("title", {}).get("en", ""))
+            age = age_days(old)
+            if age is None or age > MAX_AGE_DAYS:
+                continue
+            oid = old.get("id") or item_id(old.get("url", ""), (old.get("title") or {}).get("en", ""))
             if any(s["id"] == oid for s in selected):
                 continue
             selected.append(old)
