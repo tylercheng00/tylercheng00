@@ -1,13 +1,25 @@
 (() => {
-  const FEED_LOCAL = "data/biotech-news.json";
-  const FEED_REMOTE =
-    "https://raw.githubusercontent.com/tylercheng00/tylercheng00/main/nanotech/data/biotech-news.json";
-  const CACHE_KEY = "nanotech-biotech-news-v1";
-  const listEl = document.getElementById("news-feed");
-  const metaEl = document.getElementById("news-updated");
-  if (!listEl) return;
-
+  const NEWS_LOCAL = "data/biotech-news.json";
+  const NOTES_LOCAL = "data/biotech-notes.json";
+  const NEWS_REMOTES = [
+    "https://raw.githubusercontent.com/tylercheng00/tylercheng00/main/nanotech/data/biotech-news.json",
+    "https://cdn.jsdelivr.net/gh/tylercheng00/tylercheng00@main/nanotech/data/biotech-news.json",
+  ];
+  const NOTES_REMOTES = [
+    "https://raw.githubusercontent.com/tylercheng00/tylercheng00/main/nanotech/data/biotech-notes.json",
+    "https://cdn.jsdelivr.net/gh/tylercheng00/tylercheng00@main/nanotech/data/biotech-notes.json",
+  ];
+  const NEWS_CACHE = "nanotech-biotech-news-v2";
+  const NOTES_CACHE = "nanotech-biotech-notes-v1";
   const LANGS = ["zh-Hant", "zh-Hans", "en"];
+
+  const newsList = document.getElementById("news-feed");
+  const newsMeta = document.getElementById("news-updated");
+  const notesList = document.getElementById("commentary-feed");
+  const notesMeta = document.getElementById("notes-updated");
+
+  let newsFeed = null;
+  let notesFeed = null;
 
   function currentLang() {
     const lang = document.documentElement.lang;
@@ -39,7 +51,7 @@
         day: "numeric",
         hour: "2-digit",
         minute: "2-digit",
-        timeZone: "UTC",
+        timeZone: "Asia/Hong_Kong",
         timeZoneName: "short",
       }).format(d);
     } catch {
@@ -51,62 +63,101 @@
     if (!iso) return "";
     try {
       const d = new Date(iso);
-      if (Number.isNaN(d.getTime())) return iso.slice(0, 10);
+      if (Number.isNaN(d.getTime())) return String(iso).slice(0, 10);
       const locale = lang === "en" ? "en-GB" : lang === "zh-Hans" ? "zh-CN" : "zh-HK";
       return new Intl.DateTimeFormat(locale, {
         year: "numeric",
         month: "short",
         day: "numeric",
+        timeZone: "Asia/Hong_Kong",
       }).format(d);
     } catch {
-      return iso.slice(0, 10);
+      return String(iso).slice(0, 10);
     }
   }
 
-  function readCache() {
+  function readCache(key) {
     try {
-      const raw = localStorage.getItem(CACHE_KEY);
+      const raw = localStorage.getItem(key);
       return raw ? JSON.parse(raw) : null;
     } catch {
       return null;
     }
   }
 
-  function writeCache(feed) {
+  function writeCache(key, feed) {
     try {
-      localStorage.setItem(CACHE_KEY, JSON.stringify(feed));
+      localStorage.setItem(key, JSON.stringify(feed));
     } catch {
-      /* ignore */
+      /* ignore quota */
     }
   }
 
-  async function fetchFeed(url) {
-    const res = await fetch(url, { cache: "no-cache" });
+  async function fetchJson(url) {
+    const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return res.json();
   }
 
-  function newer(a, b) {
-    const ta = Date.parse(a?.updatedAt || 0) || 0;
-    const tb = Date.parse(b?.updatedAt || 0) || 0;
+  function itemTime(item) {
+    const raw = item && (item.publishedAt || item.day);
+    const t = Date.parse(raw || 0);
+    return Number.isNaN(t) ? 0 : t;
+  }
+
+  function newsScore(feed) {
+    const items = Array.isArray(feed && feed.items) ? feed.items : [];
+    const now = Date.now();
+    let recent = 0;
+    let newest = 0;
+    for (const item of items) {
+      const t = itemTime(item);
+      if (t > newest) newest = t;
+      if (t && now - t < 5 * 86400000) recent += 1;
+    }
+    return {
+      recent,
+      newest,
+      updated: Date.parse((feed && feed.updatedAt) || 0) || 0,
+    };
+  }
+
+  function betterNews(a, b) {
+    if (!a) return b;
+    if (!b) return a;
+    const fa = newsScore(a);
+    const fb = newsScore(b);
+    if (fa.recent !== fb.recent) return fa.recent > fb.recent ? a : b;
+    if (fa.newest !== fb.newest) return fa.newest > fb.newest ? a : b;
+    return fa.updated >= fb.updated ? a : b;
+  }
+
+  function betterNotes(a, b) {
+    if (!a) return b;
+    if (!b) return a;
+    const da = String(a.day || "");
+    const db = String(b.day || "");
+    if (da !== db) return da > db ? a : b;
+    const ta = Date.parse(a.updatedAt || 0) || 0;
+    const tb = Date.parse(b.updatedAt || 0) || 0;
     return ta >= tb ? a : b;
   }
 
-  function render(feed) {
+  function renderNews(feed) {
+    if (!newsList || !feed) return;
     const lang = currentLang();
     const items = Array.isArray(feed.items) ? feed.items : [];
-    if (metaEl) {
+    if (newsMeta) {
       const stamp = formatStamp(feed.updatedAt, lang);
-      metaEl.innerHTML = `
-        <span class="zh-hant">新聞資料更新：${escapeHtml(stamp)}（約每 6 小時）</span>
-        <span class="zh-hans">新闻资料更新：${escapeHtml(stamp)}（约每 6 小时）</span>
-        <span class="en">News feed updated: ${escapeHtml(stamp)} (about every 6 hours)</span>
+      newsMeta.innerHTML = `
+        <span class="zh-hant">新聞資料更新：${escapeHtml(stamp)}（香港時間，約每 6 小時。只保留約 12 日內的消息。）</span>
+        <span class="zh-hans">新闻资料更新：${escapeHtml(stamp)}（香港时间，约每 6 小时。只保留约 12 日内的消息。）</span>
+        <span class="en">News feed updated: ${escapeHtml(stamp)} (Hong Kong time, about every 6 hours. Items older than about 12 days are dropped.)</span>
       `;
-      metaEl.hidden = !feed.updatedAt;
+      newsMeta.hidden = !feed.updatedAt;
     }
-
     if (!items.length) {
-      listEl.innerHTML = `
+      newsList.innerHTML = `
         <li class="insight-item">
           <p class="zh-hant">暫時未能載入新聞。請稍後再試。</p>
           <p class="zh-hans">暂时未能载入新闻。请稍后再试。</p>
@@ -114,8 +165,7 @@
         </li>`;
       return;
     }
-
-    listEl.innerHTML = items
+    newsList.innerHTML = items
       .map((item) => {
         const title = escapeHtml(pick(item.title, lang));
         const summary = escapeHtml(pick(item.summary, lang));
@@ -124,11 +174,12 @@
         const when = formatPub(item.publishedAt, lang);
         const meta = escapeHtml([when, item.source].filter(Boolean).join(" · "));
         const url = escapeHtml(item.url || "#");
+        const same = title && summary && title === summary;
         return `
           <li class="insight-item is-visible">
             <div class="insight-meta">${meta}</div>
             <h3>${title}</h3>
-            <p>${summary}</p>
+            ${same ? "" : `<p>${summary}</p>`}
             ${note ? `<p class="insight-lang-note">${note}</p>` : ""}
             <a class="ext-link" href="${url}" target="_blank" rel="noopener noreferrer">${linkLabel}</a>
           </li>`;
@@ -136,24 +187,75 @@
       .join("");
   }
 
-  async function load() {
-    const cached = readCache();
-    if (cached?.items?.length) render(cached);
-
-    const results = await Promise.allSettled([
-      fetchFeed(FEED_LOCAL),
-      fetchFeed(`${FEED_REMOTE}?t=${Date.now()}`),
-    ]);
-
-    let best = cached;
-    for (const r of results) {
-      if (r.status === "fulfilled" && r.value?.items) {
-        best = best ? newer(best, r.value) : r.value;
-      }
+  function renderNotes(feed) {
+    if (!notesList || !feed) return;
+    const lang = currentLang();
+    const articles = Array.isArray(feed.articles) ? feed.articles : [];
+    if (notesMeta) {
+      const day = feed.day || "";
+      notesMeta.innerHTML = `
+        <span class="zh-hant">${escapeHtml(day)}（香港日期）· 五則，跟當日公開消息</span>
+        <span class="zh-hans">${escapeHtml(day)}（香港日期）· 五则，跟当日公开消息</span>
+        <span class="en">${escapeHtml(day)} (Hong Kong date) · five notes on that day's public record</span>
+      `;
+      notesMeta.hidden = !day;
     }
+    if (!articles.length) {
+      notesList.innerHTML = `
+        <article class="insight-item">
+          <p class="zh-hant">今日的五則短評尚未寫好。</p>
+          <p class="zh-hans">今日的五则短评尚未写好。</p>
+          <p class="en">Today's five notes are not ready yet.</p>
+        </article>`;
+      return;
+    }
+    notesList.innerHTML = articles
+      .map((item) => {
+        const when = formatPub(item.publishedAt, lang);
+        const meta = escapeHtml([when, item.source].filter(Boolean).join(" · "));
+        const url = escapeHtml(item.url || "#");
+        return `
+          <article class="insight-item insight-commentary is-visible">
+            <div class="insight-meta">${meta}</div>
+            <h3 class="zh-hant">${escapeHtml(pick(item.title, "zh-Hant"))}</h3>
+            <h3 class="zh-hans">${escapeHtml(pick(item.title, "zh-Hans"))}</h3>
+            <h3 class="en">${escapeHtml(pick(item.title, "en"))}</h3>
+            <p class="zh-hant">${escapeHtml(pick(item.body, "zh-Hant"))}</p>
+            <p class="zh-hans">${escapeHtml(pick(item.body, "zh-Hans"))}</p>
+            <p class="en">${escapeHtml(pick(item.body, "en"))}</p>
+            <a class="ext-link" href="${url}" target="_blank" rel="noopener noreferrer"><span class="zh-hant">看原文</span><span class="zh-hans">看原文</span><span class="en">Source</span></a>
+          </article>`;
+      })
+      .join("");
+  }
 
+  async function gather(localUrl, remotes) {
+    const jobs = [fetchJson(localUrl)].concat(
+      remotes.map((url) => fetchJson(`${url}${url.includes("?") ? "&" : "?"}t=${Date.now()}`))
+    );
+    const results = await Promise.allSettled(jobs);
+    const ok = [];
+    results.forEach((result, index) => {
+      if (result.status === "fulfilled" && result.value) {
+        result.value._from = index === 0 ? "local" : "remote";
+        ok.push(result.value);
+      }
+    });
+    return ok;
+  }
+
+  async function loadNews() {
+    if (!newsList) return;
+    const cached = readCache(NEWS_CACHE);
+    if (cached && cached.items) renderNews(cached);
+    const found = await gather(NEWS_LOCAL, NEWS_REMOTES);
+    let best = cached && cached.items ? cached : null;
+    for (const feed of found) {
+      if (!feed.items) continue;
+      best = betterNews(best, feed);
+    }
     if (!best) {
-      listEl.innerHTML = `
+      newsList.innerHTML = `
         <li class="insight-item">
           <p class="zh-hant">無法取得新聞資料。</p>
           <p class="zh-hans">无法取得新闻资料。</p>
@@ -161,18 +263,34 @@
         </li>`;
       return;
     }
-
-    writeCache(best);
-    render(best);
+    newsFeed = best;
+    writeCache(NEWS_CACHE, best);
+    renderNews(best);
   }
 
-  // Re-render on language switch
+  async function loadNotes() {
+    if (!notesList) return;
+    const cached = readCache(NOTES_CACHE);
+    if (cached && cached.articles) renderNotes(cached);
+    const found = await gather(NOTES_LOCAL, NOTES_REMOTES);
+    let best = cached && cached.articles ? cached : null;
+    for (const feed of found) {
+      if (!feed.articles) continue;
+      best = betterNotes(best, feed);
+    }
+    if (!best) return;
+    notesFeed = best;
+    writeCache(NOTES_CACHE, best);
+    renderNotes(best);
+  }
+
   document.querySelectorAll(".lang-toggle button").forEach((btn) => {
     btn.addEventListener("click", () => {
-      const cached = readCache();
-      if (cached) render(cached);
+      if (newsFeed) renderNews(newsFeed);
+      if (notesFeed) renderNotes(notesFeed);
     });
   });
 
-  load();
+  loadNews();
+  loadNotes();
 })();

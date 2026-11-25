@@ -1,18 +1,108 @@
 {
-  "updatedAt": "2026-11-25T01:59:26.404836Z",
+  "updatedAt": "2026-11-25T08:02:37.313299Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
     "fda-press",
+    "fda-biologics",
     "nature-nbt",
     "nature-biotech",
+    "fierce-biotech",
+    "biopharma-dive",
+    "stat",
     "sciencedaily-biotech",
     "pubmed-eutils"
   ],
-  "errors": [
-    "fail fda-press: HTTP Error 404: Not Found"
-  ],
+  "errors": [],
   "items": [
+    {
+      "id": "0fc887a01ff2ece7",
+      "publishedAt": "2026-11-24T16:36:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "FDA approves BridgeBio muscular dystrophy drug"
+      },
+      "summary": {
+        "en": "Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better."
+      },
+      "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "9e9f16d7dd8f991b",
+      "publishedAt": "2026-11-24T15:36:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
+      },
+      "summary": {
+        "en": "The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product."
+      },
+      "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "90962b3f4119d456",
+      "publishedAt": "2026-11-24T14:26:07Z",
+      "source": "STAT",
+      "title": {
+        "en": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod"
+      },
+      "summary": {
+        "en": "Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery."
+      },
+      "url": "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "ad395e52d32d1367",
+      "publishedAt": "2026-11-24T13:39:31Z",
+      "source": "STAT",
+      "title": {
+        "en": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database"
+      },
+      "summary": {
+        "en": "For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information."
+      },
+      "url": "https://www.statnews.com/pharmalot/2026/11/24/fda-cites-two-drugmakers-for-failing-to-report-clinical-trial-results/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
     {
       "id": "93e02becb4e76988",
       "publishedAt": "2026-11-24T00:00:00Z",
@@ -28,50 +118,6 @@
         "en": "Read on Nature Biotechnology",
         "zh-Hant": "前往 Nature Biotechnology",
         "zh-Hans": "前往 Nature Biotechnology"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "5906760e20a2e75c",
-      "publishedAt": "2026-11-24T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "Author Correction: A sensitive red/far-red photoswitch for controllable gene therapy in mouse models of metabolic diseases"
-      },
-      "summary": {
-        "en": "Author Correction: A sensitive red/far-red photoswitch for controllable gene therapy in mouse models of metabolic diseases"
-      },
-      "url": "https://www.nature.com/articles/s41467-026-79407-7",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "6cb9574a0cd232e6",
-      "publishedAt": "2026-11-24T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "Effect of nano urea, GA3, boron and calcium on growth, yield, and quality of strawberry (Fragaria × ananassa Duch.) cv. winter dawn"
-      },
-      "summary": {
-        "en": "Effect of nano urea, GA3, boron and calcium on growth, yield, and quality of strawberry (Fragaria × ananassa Duch.) cv. winter dawn"
-      },
-      "url": "https://www.nature.com/articles/s41598-026-72486-y",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
       },
       "langNote": {
         "en": "Source language: English",
@@ -102,20 +148,20 @@
       }
     },
     {
-      "id": "2be1bdffbfcdc34c",
-      "publishedAt": "2026-11-23T00:00:00Z",
-      "source": "Nature Biotechnology subject",
+      "id": "b72cd5dbe3b8fa7f",
+      "publishedAt": "2026-11-23T18:25:08Z",
+      "source": "FDA",
       "title": {
-        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+        "en": "FDA Approves First Treatment for Limb-Girdle Muscular Dystrophy Type 2I/R9"
       },
       "summary": {
-        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+        "en": "The U.S. Food and Drug Administration today approved the first medicine for treating limb-girdle muscular dystrophy type 2I/R9 (LGMD2I/R9), a rare inherited muscle disease, for adults and pediatric patients weighing at least 30 kg."
       },
-      "url": "https://www.nature.com/articles/s41598-026-82004-9",
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-limb-girdle-muscular-dystrophy-type-2ir9",
       "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
       },
       "langNote": {
         "en": "Source language: English",
@@ -124,20 +170,20 @@
       }
     },
     {
-      "id": "eccd40bbc340cd3e",
-      "publishedAt": "2026-11-12T00:00:00Z",
-      "source": "Nature Biotechnology",
+      "id": "f3bce6bac1efd8dd",
+      "publishedAt": "2026-11-23T15:55:37Z",
+      "source": "FDA",
       "title": {
-        "en": "A comprehensive analysis of CBER experience with AAV gene therapy IND submissions"
+        "en": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years"
       },
       "summary": {
-        "en": "A comprehensive analysis of CBER experience with AAV gene therapy IND submissions"
+        "en": "The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease."
       },
-      "url": "https://www.nature.com/articles/s41587-026-03378-9",
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
       "linkLabel": {
-        "en": "Read on Nature Biotechnology",
-        "zh-Hant": "前往 Nature Biotechnology",
-        "zh-Hans": "前往 Nature Biotechnology"
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
       },
       "langNote": {
         "en": "Source language: English",
@@ -146,20 +192,20 @@
       }
     },
     {
-      "id": "cb10f6f335562ac8",
-      "publishedAt": "2026-11-10T00:00:00Z",
-      "source": "Nature Biotechnology",
+      "id": "297f173c84be5111",
+      "publishedAt": "2026-11-22T20:53:18Z",
+      "source": "FDA biologics",
       "title": {
-        "en": "China plans ban on biotech exports"
+        "en": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products"
       },
       "summary": {
-        "en": "China plans ban on biotech exports"
+        "en": "The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER."
       },
-      "url": "https://www.nature.com/articles/s41587-026-03397-6",
+      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/fda-establishes-cber-safety-council-strengthen-postmarketing-oversight-biological-products",
       "linkLabel": {
-        "en": "Read on Nature Biotechnology",
-        "zh-Hant": "前往 Nature Biotechnology",
-        "zh-Hans": "前往 Nature Biotechnology"
+        "en": "Read on FDA biologics",
+        "zh-Hant": "前往 FDA biologics",
+        "zh-Hans": "前往 FDA biologics"
       },
       "langNote": {
         "en": "Source language: English",
@@ -168,108 +214,20 @@
       }
     },
     {
-      "id": "988e4c59e32c3454",
-      "publishedAt": "2026-10-17T01:06:05Z",
-      "source": "ScienceDaily",
+      "id": "e8642e87b974c2c3",
+      "publishedAt": "2026-11-20T23:11:20Z",
+      "source": "FDA biologics",
       "title": {
-        "en": "Stanford’s new microscope reveals living cells like never before"
+        "en": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy"
       },
       "summary": {
-        "en": "Stanford scientists have developed a revolutionary microscope that reveals the hidden inner workings of living cells in real time, without the fluorescent labels that can interfere with observations. The breakthrough could provide new insights into cancer, infectious diseases…"
+        "en": "FDA determined that the available evidence does not meet the evidentiary standard required for approval"
       },
-      "url": "https://www.sciencedaily.com/releases/2026/10/261015073231.htm",
+      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
       "linkLabel": {
-        "en": "Read on ScienceDaily",
-        "zh-Hant": "前往 ScienceDaily",
-        "zh-Hans": "前往 ScienceDaily"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "fba3829baaf74e0b",
-      "publishedAt": "2026-10-15T00:00:00Z",
-      "source": "PubMed · Gut microbes",
-      "title": {
-        "en": "BiotaPredictor: A machine learning framework for predicting drug depletion by the human gut microbiota"
-      },
-      "summary": {
-        "en": "Gut microbes. PMID 42878173."
-      },
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42878173/",
-      "linkLabel": {
-        "en": "Read on PubMed",
-        "zh-Hant": "前往 PubMed",
-        "zh-Hans": "前往 PubMed"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "56396745701d0846",
-      "publishedAt": "2026-09-27T02:01:42Z",
-      "source": "ScienceDaily",
-      "title": {
-        "en": "Scientists say house cats could help unlock better cancer treatments for humans"
-      },
-      "summary": {
-        "en": "Scientists have mapped the genetics of cat cancer on an unprecedented scale and found surprising similarities with tumors in humans. The findings could help bring precision cancer treatments to cats while also revealing new clues about how human cancers develop and respond to…"
-      },
-      "url": "https://www.sciencedaily.com/releases/2026/09/260924231826.htm",
-      "linkLabel": {
-        "en": "Read on ScienceDaily",
-        "zh-Hant": "前往 ScienceDaily",
-        "zh-Hans": "前往 ScienceDaily"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "7a722eef3a5b1e1d",
-      "publishedAt": "2026-09-12T00:25:05Z",
-      "source": "ScienceDaily",
-      "title": {
-        "en": "The secret to longer life may be hidden in bat DNA"
-      },
-      "summary": {
-        "en": "Long-lived bats appear to combine powerful immune defenses with unusual strategies for eliminating damaged cells, potentially helping them avoid cancer and disease for decades. Researchers hope these genetic tricks could eventually reveal new ways to protect human health during…"
-      },
-      "url": "https://www.sciencedaily.com/releases/2026/09/260911003852.htm",
-      "linkLabel": {
-        "en": "Read on ScienceDaily",
-        "zh-Hant": "前往 ScienceDaily",
-        "zh-Hans": "前往 ScienceDaily"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "7867223289169aa5",
-      "publishedAt": "2026-08-23T12:14:40Z",
-      "source": "ScienceDaily",
-      "title": {
-        "en": "A hidden “on switch” in human DNA has finally been decoded"
-      },
-      "summary": {
-        "en": "Researchers have used AI to uncover the DNA signature of a key genetic “switch” involved in turning genes on. After analyzing about 500,000 DNA sequences, the model identified the initiator in roughly 60% of human genes. The breakthrough could help predict the effects of…"
-      },
-      "url": "https://www.sciencedaily.com/releases/2026/08/260823014943.htm",
-      "linkLabel": {
-        "en": "Read on ScienceDaily",
-        "zh-Hant": "前往 ScienceDaily",
-        "zh-Hans": "前往 ScienceDaily"
+        "en": "Read on FDA biologics",
+        "zh-Hant": "前往 FDA biologics",
+        "zh-Hans": "前往 FDA biologics"
       },
       "langNote": {
         "en": "Source language: English",

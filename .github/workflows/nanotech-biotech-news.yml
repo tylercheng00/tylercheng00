@@ -7,12 +7,15 @@ name: Nanotech biotech news (6h)
 
 on:
   schedule:
-    # 00:00, 06:00, 12:00, 18:00 UTC
+    # News: 00:00, 06:00, 12:00, 18:00 UTC.
     - cron: "0 */6 * * *"
+    # Notes: 16:30 UTC = 00:30 Asia/Hong_Kong, so a new calendar day gets five notes.
+    - cron: "30 16 * * *"
   workflow_dispatch:
   push:
     paths:
       - "nanotech/scripts/fetch_biotech_news.py"
+      - "nanotech/scripts/write_daily_notes.py"
       - ".github/workflows/nanotech-biotech-news.yml"
 
 permissions:
@@ -37,14 +40,17 @@ jobs:
       - name: Fetch feeds
         run: python3 nanotech/scripts/fetch_biotech_news.py
 
+      - name: Write the day's five notes
+        run: python3 nanotech/scripts/write_daily_notes.py
+
       - name: Commit feed if changed
         run: |
-          if git diff --quiet -- nanotech/data/biotech-news.json; then
-            echo "No news feed changes."
+          if git diff --quiet -- nanotech/data/biotech-news.json nanotech/data/biotech-notes.json; then
+            echo "No news or notes changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add nanotech/data/biotech-news.json
-          git commit -m "chore(nanotech): refresh biotech news feed"
+          git add nanotech/data/biotech-news.json nanotech/data/biotech-notes.json
+          git commit -m "chore(nanotech): refresh biotech news and daily notes"
           git push
