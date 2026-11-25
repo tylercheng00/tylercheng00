@@ -1,7 +1,7 @@
 # Biotech news feed
 
 `biotech-news.json` powers the **新聞** section on `insights.html`.
-`biotech-notes.json` powers the **評論** section: five notes per Hong Kong date.
+`biotech-notes.json` powers the **評論** section: five notes per Hong Kong date, with about four days of history kept on the page.
 
 ## How the 6-hour refresh works
 
@@ -12,8 +12,8 @@
    - Fierce Biotech, BioPharma Dive, STAT
    - ScienceDaily biotechnology RSS
    - PubMed E-utilities (AI × nanomedicine / LNP / drug delivery)
-3. Items older than about 12 days are dropped. The rest are written to `biotech-news.json`.
-4. [`../scripts/write_daily_notes.py`](../scripts/write_daily_notes.py) writes five notes for the Hong Kong date into `biotech-notes.json`. A date with a hand-checked desk set is kept as written. Other days are drafted from that day's wires and do not invent trial numbers. A second cron at 16:30 UTC (00:30 Hong Kong) starts the new day.
+3. Items older than about 12 days are dropped. Up to about 24 items are kept (mixed across sources). The rest are written to `biotech-news.json`.
+4. [`../scripts/write_daily_notes.py`](../scripts/write_daily_notes.py) writes five notes for the Hong Kong date into `biotech-notes.json` and retains about four days of history. A date with a hand-checked desk set is kept as written. Other days are drafted from that day's wires and do not invent trial numbers. A second cron at 16:30 UTC (00:30 Hong Kong) starts the new day.
 5. **insights.html** loads the local JSON and also compares GitHub `raw` and jsDelivr, picking the copy with more recent items. The page prefers that over a newer timestamp full of old wires. Results are cached in `localStorage`.
 
 ## Manual refresh

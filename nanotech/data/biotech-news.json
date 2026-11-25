@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:14:40.618382Z",
+  "updatedAt": "2026-11-25T09:14:26.585448Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -13,10 +13,7 @@
     "sciencedaily-biotech",
     "pubmed-eutils"
   ],
-  "errors": [
-    "fail fda-press: HTTP Error 404: Not Found",
-    "fail fda-biologics: HTTP Error 404: Not Found"
-  ],
+  "errors": [],
   "items": [
     {
       "id": "0fc887a01ff2ece7",
@@ -107,6 +104,50 @@
       }
     },
     {
+      "id": "af740ab5cf40a3e2",
+      "publishedAt": "2026-11-24T09:30:00Z",
+      "source": "STAT",
+      "title": {
+        "en": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?"
+      },
+      "summary": {
+        "en": "As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care."
+      },
+      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "483e6265b6d45469",
+      "publishedAt": "2026-11-24T09:30:00Z",
+      "source": "STAT",
+      "title": {
+        "en": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier"
+      },
+      "summary": {
+        "en": "In Alaska, a small network of hospitals is betting on AI tools to triage stroke patients and get them to the right care, faster."
+      },
+      "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
       "id": "93e02becb4e76988",
       "publishedAt": "2026-11-24T00:00:00Z",
       "source": "Nature Biotechnology",
@@ -143,6 +184,248 @@
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
         "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "b72cd5dbe3b8fa7f",
+      "publishedAt": "2026-11-23T18:25:08Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Approves First Treatment for Limb-Girdle Muscular Dystrophy Type 2I/R9"
+      },
+      "summary": {
+        "en": "The U.S. Food and Drug Administration today approved the first medicine for treating limb-girdle muscular dystrophy type 2I/R9 (LGMD2I/R9), a rare inherited muscle disease, for adults and pediatric patients weighing at least 30 kg."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-limb-girdle-muscular-dystrophy-type-2ir9",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "f3bce6bac1efd8dd",
+      "publishedAt": "2026-11-23T15:55:37Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years"
+      },
+      "summary": {
+        "en": "The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "946c39f644df85fe",
+      "publishedAt": "2026-11-23T10:00:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "Why today’s leading drug developers are fine-tuning open models on their own data"
+      },
+      "summary": {
+        "en": "Open or proprietary AI models? What drug developers should weigh before they fine-tune."
+      },
+      "url": "https://www.biopharmadive.com/spons/why-todays-leading-drug-developers-are-fine-tuning-open-models-on-their-ow/875153/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "2be1bdffbfcdc34c",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+      },
+      "summary": {
+        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-82004-9",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "297f173c84be5111",
+      "publishedAt": "2026-11-22T20:53:18Z",
+      "source": "FDA biologics",
+      "title": {
+        "en": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products"
+      },
+      "summary": {
+        "en": "The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER."
+      },
+      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/fda-establishes-cber-safety-council-strengthen-postmarketing-oversight-biological-products",
+      "linkLabel": {
+        "en": "Read on FDA biologics",
+        "zh-Hant": "前往 FDA biologics",
+        "zh-Hans": "前往 FDA biologics"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "f8730274a97d9144",
+      "publishedAt": "2026-11-21T20:46:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "FDA again turns back Capricor Duchenne cell therapy"
+      },
+      "summary": {
+        "en": "In an unusual statement, the FDA accused Capricor of “serious data integrity violations” that compromised its study findings and led to deramiocel’s second rejection since 2025."
+      },
+      "url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "e8642e87b974c2c3",
+      "publishedAt": "2026-11-20T23:11:20Z",
+      "source": "FDA biologics",
+      "title": {
+        "en": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy"
+      },
+      "summary": {
+        "en": "FDA determined that the available evidence does not meet the evidentiary standard required for approval"
+      },
+      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+      "linkLabel": {
+        "en": "Read on FDA biologics",
+        "zh-Hant": "前往 FDA biologics",
+        "zh-Hans": "前往 FDA biologics"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "667db29a9daf4621",
+      "publishedAt": "2026-11-19T18:31:39Z",
+      "source": "FDA biologics",
+      "title": {
+        "en": "Cellular & Gene Therapy Guidances"
+      },
+      "summary": {
+        "en": "This page contains a listing of cellular and gene therapy guidances."
+      },
+      "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
+      "linkLabel": {
+        "en": "Read on FDA biologics",
+        "zh-Hant": "前往 FDA biologics",
+        "zh-Hans": "前往 FDA biologics"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "1f2bd5b6b421255f",
+      "publishedAt": "2026-11-19T16:45:14Z",
+      "source": "FDA biologics",
+      "title": {
+        "en": "Biologics Procedures (SOPPs)"
+      },
+      "summary": {
+        "en": "These Standard Operating Procedures and Policies (SOPPs) are used by staff in FDA's Center for Biologics Research and Review (CBER) in the performance of their duties. They are made available here to the public because CBER is committed to being as transparent as possible in…"
+      },
+      "url": "http://www.fda.gov/vaccines-blood-biologics/guidance-compliance-regulatory-information-biologics/biologics-procedures-sopps",
+      "linkLabel": {
+        "en": "Read on FDA biologics",
+        "zh-Hant": "前往 FDA biologics",
+        "zh-Hans": "前往 FDA biologics"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "16998746c4fb494b",
+      "publishedAt": "2026-11-18T19:13:26Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Approves First Drug to Treat Neurological Symptoms of Type 3 Gaucher Disease"
+      },
+      "summary": {
+        "en": "FDA today approved Infilbray (venglustat) tablets, the first treatment for the neurological symptoms of Type 3 Gaucher disease (GD3) in adults and pediatric patients weighing at least 15 kg (approximately 33 pounds)."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-neurological-symptoms-type-3-gaucher-disease",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "2e1f4d2037865204",
+      "publishedAt": "2026-11-17T20:32:16Z",
+      "source": "FDA",
+      "title": {
+        "en": "FDA Launches the Global Reliance Disclosure Program to Expand Patient Access to Medicines Worldwide"
+      },
+      "summary": {
+        "en": "FDA today announced the Global Reliance Disclosure Program (GRDP), a landmark initiative that will fundamentally transform how the FDA's regulatory drug and biologic approval decisions are leveraged by health authorities around the world."
+      },
+      "url": "http://www.fda.gov/news-events/press-announcements/fda-launches-global-reliance-disclosure-program-expand-patient-access-medicines-worldwide",
+      "linkLabel": {
+        "en": "Read on FDA",
+        "zh-Hant": "前往 FDA",
+        "zh-Hans": "前往 FDA"
       },
       "langNote": {
         "en": "Source language: English",

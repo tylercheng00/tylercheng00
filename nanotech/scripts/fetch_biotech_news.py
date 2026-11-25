@@ -23,7 +23,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "biotech-news.json"
-MAX_ITEMS = 12
+MAX_ITEMS = 24
+# Cap how many stories one outlet can take so the list stays mixed.
+MAX_PER_SOURCE = 4
 # Drop stale wires. A keyword-heavy August item was outranking this week's news.
 MAX_AGE_DAYS = 12
 # Agency RSS hosts often 404 non-browser UAs.
@@ -447,7 +449,7 @@ def main() -> int:
             print(msg, file=sys.stderr)
 
     try:
-        pm = fetch_pubmed(6)
+        pm = fetch_pubmed(10)
         for it in pm:
             it["_prefer"] = False
             it["_feed"] = "pubmed"
@@ -459,50 +461,67 @@ def main() -> int:
 
     # Newest first. Undated and anything older than MAX_AGE_DAYS stays out,
     # otherwise August ScienceDaily items keep occupying the page.
-    fresh = []
+    def is_skipped(it: dict) -> bool:
+        title = it.get("title") or ""
+        if SKIP_TITLES.search(title) or SKIP_TITLES.search(it.get("summary") or ""):
+            return True
+        # Newsletter roundups list several topics in one headline.
+        if title.count(",") >= 2:
+            return True
+        if re.search(r"types a and b|trivalent", title, re.I):
+            return True
+        return False
+
+    fresh_strict = []
+    fresh_loose = []
     for it in collected:
         age = age_days(it)
         if age is None or age < -1 or age > MAX_AGE_DAYS:
             continue
-        if it.get("_prefer") and not KEYWORDS.search(f"{it['title']} {it['summary']}"):
+        if is_skipped(it):
             continue
-        fresh.append(it)
+        blob = f"{it['title']} {it['summary']}"
+        if KEYWORDS.search(blob):
+            fresh_strict.append(it)
+        elif not it.get("_prefer"):
+            fresh_loose.append(it)
+        else:
+            # Keyword-preferring feeds: keep as backfill only.
+            fresh_loose.append(it)
 
-    ranked = sorted(
-        fresh,
-        key=lambda it: (
-            score_item(it, it.get("_prefer", False)),
-            it.get("publishedAt") or "",
-        ),
-        reverse=True,
-    )
-    seen = set()
-    per_source: dict[str, int] = {}
-    selected = []
-    for it in ranked:
-        title = it.get("title") or ""
-        if SKIP_TITLES.search(title) or SKIP_TITLES.search(it.get("summary") or ""):
-            continue
-        # Newsletter roundups list several topics in one headline.
-        if title.count(",") >= 2:
-            continue
-        if re.search(r"types a and b|trivalent", title, re.I):
-            continue
-        key = re.sub(r"[?#].*$", "", it["url"]).rstrip("/").lower()
-        if key in seen:
-            continue
-        source_key = re.sub(
-            r"\s+subject$",
-            "",
-            it["source"].split("·")[0].strip().lower(),
+    def pick(pool: list[dict], selected: list[dict], seen: set[str], per_source: dict[str, int]) -> None:
+        ranked = sorted(
+            pool,
+            key=lambda it: (
+                score_item(it, it.get("_prefer", False)),
+                it.get("publishedAt") or "",
+            ),
+            reverse=True,
         )
-        if per_source.get(source_key, 0) >= 2:
-            continue
-        seen.add(key)
-        per_source[source_key] = per_source.get(source_key, 0) + 1
-        selected.append(normalize(it))
-        if len(selected) >= MAX_ITEMS:
-            break
+        for it in ranked:
+            if len(selected) >= MAX_ITEMS:
+                return
+            key = re.sub(r"[?#].*$", "", it["url"]).rstrip("/").lower()
+            if key in seen:
+                continue
+            source_key = re.sub(
+                r"\s+subject$",
+                "",
+                it["source"].split("·")[0].strip().lower(),
+            )
+            if per_source.get(source_key, 0) >= MAX_PER_SOURCE:
+                continue
+            seen.add(key)
+            per_source[source_key] = per_source.get(source_key, 0) + 1
+            selected.append(normalize(it))
+
+    seen: set[str] = set()
+    per_source: dict[str, int] = {}
+    selected: list[dict] = []
+    pick(fresh_strict, selected, seen, per_source)
+    # Fill toward a fuller page if keyword-matched wires are thin.
+    if len(selected) < 18:
+        pick(fresh_loose, selected, seen, per_source)
 
     # If a source outage leaves the page almost empty, keep prior items that
     # are still inside the same age window. Never resurrect older wires.
@@ -513,7 +532,7 @@ def main() -> int:
         except Exception:
             previous = []
 
-    if len(selected) < 3 and previous:
+    if len(selected) < 8 and previous:
         print("warning: few fresh items; merging recent previous feed", file=sys.stderr)
         for old in previous:
             if len(selected) >= MAX_ITEMS:
