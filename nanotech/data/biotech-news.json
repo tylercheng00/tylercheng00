@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:03:14.697167Z",
+  "updatedAt": "2026-11-25T08:14:40.618382Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -29,6 +29,28 @@
         "en": "Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better."
       },
       "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
+      "linkLabel": {
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "9e9f16d7dd8f991b",
+      "publishedAt": "2026-11-24T15:36:00Z",
+      "source": "BioPharma Dive",
+      "title": {
+        "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
+      },
+      "summary": {
+        "en": "The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product."
+      },
+      "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
       "linkLabel": {
         "en": "Read on BioPharma Dive",
         "zh-Hant": "前往 BioPharma Dive",
@@ -121,28 +143,6 @@
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
         "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "946c39f644df85fe",
-      "publishedAt": "2026-11-23T10:00:00Z",
-      "source": "BioPharma Dive",
-      "title": {
-        "en": "Why today’s leading drug developers are fine-tuning open models on their own data"
-      },
-      "summary": {
-        "en": "Open or proprietary AI models? What drug developers should weigh before they fine-tune."
-      },
-      "url": "https://www.biopharmadive.com/spons/why-todays-leading-drug-developers-are-fine-tuning-open-models-on-their-ow/875153/",
-      "linkLabel": {
-        "en": "Read on BioPharma Dive",
-        "zh-Hant": "前往 BioPharma Dive",
-        "zh-Hans": "前往 BioPharma Dive"
       },
       "langNote": {
         "en": "Source language: English",
