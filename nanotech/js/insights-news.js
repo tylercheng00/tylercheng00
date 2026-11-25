@@ -39,6 +39,31 @@
       .replace(/"/g, "&quot;");
   }
 
+  /** Allow only http(s) or relative paths — blocks javascript:/data:/etc. */
+  function safeHref(raw) {
+    const value = String(raw || "").trim();
+    if (!value || value === "#") return "#";
+    // Protocol-relative //evil.example is treated as http(s) via URL parse below.
+    if (/^https?:\/\//i.test(value)) {
+      try {
+        const u = new URL(value);
+        if (u.protocol === "http:" || u.protocol === "https:") {
+          return escapeHtml(u.href);
+        }
+      } catch {
+        return "#";
+      }
+      return "#";
+    }
+    // Relative path only (no scheme). Reject "javascript:..." and "data:...".
+    if (/^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(value)) return "#";
+    if (value.startsWith("//")) return "#";
+    if (value.startsWith("/") || value.startsWith("./") || value.startsWith("../") || !value.includes(":")) {
+      return escapeHtml(value);
+    }
+    return "#";
+  }
+
   function formatStamp(iso, lang) {
     if (!iso) return "";
     try {
@@ -173,7 +198,7 @@
         const note = escapeHtml(pick(item.langNote, lang));
         const when = formatPub(item.publishedAt, lang);
         const meta = escapeHtml([when, item.source].filter(Boolean).join(" · "));
-        const url = escapeHtml(item.url || "#");
+        const url = safeHref(item.url);
         const same = title && summary && title === summary;
         return `
           <li class="insight-item is-visible">
@@ -213,7 +238,7 @@
       .map((item) => {
         const when = formatPub(item.publishedAt, lang);
         const meta = escapeHtml([when, item.source].filter(Boolean).join(" · "));
-        const url = escapeHtml(item.url || "#");
+        const url = safeHref(item.url);
         return `
           <article class="insight-item insight-commentary is-visible">
             <div class="insight-meta">${meta}</div>
