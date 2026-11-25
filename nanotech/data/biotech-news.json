@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T09:14:26.585448Z",
+  "updatedAt": "2026-11-25T09:14:41.929813Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -13,7 +13,10 @@
     "sciencedaily-biotech",
     "pubmed-eutils"
   ],
-  "errors": [],
+  "errors": [
+    "fail fda-press: HTTP Error 404: Not Found",
+    "fail fda-biologics: HTTP Error 404: Not Found"
+  ],
   "items": [
     {
       "id": "0fc887a01ff2ece7",
@@ -26,28 +29,6 @@
         "en": "Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better."
       },
       "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
-      "linkLabel": {
-        "en": "Read on BioPharma Dive",
-        "zh-Hant": "前往 BioPharma Dive",
-        "zh-Hans": "前往 BioPharma Dive"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "9e9f16d7dd8f991b",
-      "publishedAt": "2026-11-24T15:36:00Z",
-      "source": "BioPharma Dive",
-      "title": {
-        "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
-      },
-      "summary": {
-        "en": "The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product."
-      },
-      "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
       "linkLabel": {
         "en": "Read on BioPharma Dive",
         "zh-Hant": "前往 BioPharma Dive",
@@ -192,50 +173,6 @@
       }
     },
     {
-      "id": "b72cd5dbe3b8fa7f",
-      "publishedAt": "2026-11-23T18:25:08Z",
-      "source": "FDA",
-      "title": {
-        "en": "FDA Approves First Treatment for Limb-Girdle Muscular Dystrophy Type 2I/R9"
-      },
-      "summary": {
-        "en": "The U.S. Food and Drug Administration today approved the first medicine for treating limb-girdle muscular dystrophy type 2I/R9 (LGMD2I/R9), a rare inherited muscle disease, for adults and pediatric patients weighing at least 30 kg."
-      },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-limb-girdle-muscular-dystrophy-type-2ir9",
-      "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "f3bce6bac1efd8dd",
-      "publishedAt": "2026-11-23T15:55:37Z",
-      "source": "FDA",
-      "title": {
-        "en": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years"
-      },
-      "summary": {
-        "en": "The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease."
-      },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
-      "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
       "id": "946c39f644df85fe",
       "publishedAt": "2026-11-23T10:00:00Z",
       "source": "BioPharma Dive",
@@ -280,28 +217,6 @@
       }
     },
     {
-      "id": "297f173c84be5111",
-      "publishedAt": "2026-11-22T20:53:18Z",
-      "source": "FDA biologics",
-      "title": {
-        "en": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products"
-      },
-      "summary": {
-        "en": "The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER."
-      },
-      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/fda-establishes-cber-safety-council-strengthen-postmarketing-oversight-biological-products",
-      "linkLabel": {
-        "en": "Read on FDA biologics",
-        "zh-Hant": "前往 FDA biologics",
-        "zh-Hans": "前往 FDA biologics"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
       "id": "f8730274a97d9144",
       "publishedAt": "2026-11-21T20:46:00Z",
       "source": "BioPharma Dive",
@@ -324,20 +239,20 @@
       }
     },
     {
-      "id": "e8642e87b974c2c3",
-      "publishedAt": "2026-11-20T23:11:20Z",
-      "source": "FDA biologics",
+      "id": "73c9c528a0727161",
+      "publishedAt": "2026-11-20T19:53:09Z",
+      "source": "BioPharma Dive",
       "title": {
-        "en": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy"
+        "en": "Will the first approved psychedelic become a blockbuster?"
       },
       "summary": {
-        "en": "FDA determined that the available evidence does not meet the evidentiary standard required for approval"
+        "en": "Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner."
       },
-      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+      "url": "https://www.biopharmadive.com/news/race-first-psilocybin-blockbuster-compass-usona/875369/",
       "linkLabel": {
-        "en": "Read on FDA biologics",
-        "zh-Hant": "前往 FDA biologics",
-        "zh-Hans": "前往 FDA biologics"
+        "en": "Read on BioPharma Dive",
+        "zh-Hant": "前往 BioPharma Dive",
+        "zh-Hans": "前往 BioPharma Dive"
       },
       "langNote": {
         "en": "Source language: English",
@@ -346,20 +261,20 @@
       }
     },
     {
-      "id": "667db29a9daf4621",
-      "publishedAt": "2026-11-19T18:31:39Z",
-      "source": "FDA biologics",
+      "id": "709fe845a7dbe98e",
+      "publishedAt": "2026-11-24T00:00:00Z",
+      "source": "Nature Biotechnology subject",
       "title": {
-        "en": "Cellular & Gene Therapy Guidances"
+        "en": "Electroactive and antibacterial bioadhesive based on bio-ionic liquids for tissue repair"
       },
       "summary": {
-        "en": "This page contains a listing of cellular and gene therapy guidances."
+        "en": "Electroactive and antibacterial bioadhesive based on bio-ionic liquids for tissue repair"
       },
-      "url": "http://www.fda.gov/vaccines-blood-biologics/biologics-guidances/cellular-gene-therapy-guidances",
+      "url": "https://www.nature.com/articles/s41598-026-79603-x",
       "linkLabel": {
-        "en": "Read on FDA biologics",
-        "zh-Hant": "前往 FDA biologics",
-        "zh-Hans": "前往 FDA biologics"
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
       },
       "langNote": {
         "en": "Source language: English",
@@ -368,20 +283,20 @@
       }
     },
     {
-      "id": "1f2bd5b6b421255f",
-      "publishedAt": "2026-11-19T16:45:14Z",
-      "source": "FDA biologics",
+      "id": "8953e1490a73aa80",
+      "publishedAt": "2026-11-23T10:45:53Z",
+      "source": "ScienceDaily",
       "title": {
-        "en": "Biologics Procedures (SOPPs)"
+        "en": "Mysterious new viruses reveal a missing link in evolution"
       },
       "summary": {
-        "en": "These Standard Operating Procedures and Policies (SOPPs) are used by staff in FDA's Center for Biologics Research and Review (CBER) in the performance of their duties. They are made available here to the public because CBER is committed to being as transparent as possible in…"
+        "en": "Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. The surprising findings challenge a longstanding evolutionary theory and suggest that viruses may have hidden capabilities far beyond simply…"
       },
-      "url": "http://www.fda.gov/vaccines-blood-biologics/guidance-compliance-regulatory-information-biologics/biologics-procedures-sopps",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
       "linkLabel": {
-        "en": "Read on FDA biologics",
-        "zh-Hant": "前往 FDA biologics",
-        "zh-Hans": "前往 FDA biologics"
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
       },
       "langNote": {
         "en": "Source language: English",
@@ -390,20 +305,20 @@
       }
     },
     {
-      "id": "16998746c4fb494b",
-      "publishedAt": "2026-11-18T19:13:26Z",
-      "source": "FDA",
+      "id": "d4dafcb66499fa42",
+      "publishedAt": "2026-11-22T11:31:14Z",
+      "source": "ScienceDaily",
       "title": {
-        "en": "FDA Approves First Drug to Treat Neurological Symptoms of Type 3 Gaucher Disease"
+        "en": "DNA’s secret sunscreen may have helped life survive on early Earth"
       },
       "summary": {
-        "en": "FDA today approved Infilbray (venglustat) tablets, the first treatment for the neurological symptoms of Type 3 Gaucher disease (GD3) in adults and pediatric patients weighing at least 15 kg (approximately 33 pounds)."
+        "en": "Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. The discovery could help solve a decades-old evolutionary…"
       },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-neurological-symptoms-type-3-gaucher-disease",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm",
       "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
       },
       "langNote": {
         "en": "Source language: English",
@@ -412,20 +327,42 @@
       }
     },
     {
-      "id": "2e1f4d2037865204",
-      "publishedAt": "2026-11-17T20:32:16Z",
-      "source": "FDA",
+      "id": "1c66389d1efbe2e8",
+      "publishedAt": "2026-11-21T14:06:15Z",
+      "source": "ScienceDaily",
       "title": {
-        "en": "FDA Launches the Global Reliance Disclosure Program to Expand Patient Access to Medicines Worldwide"
+        "en": "A 50-year-old theory about evolution may have been wrong all along"
       },
       "summary": {
-        "en": "FDA today announced the Global Reliance Disclosure Program (GRDP), a landmark initiative that will fundamentally transform how the FDA's regulatory drug and biologic approval decisions are leveraged by health authorities around the world."
+        "en": "A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. An extensive new analysis of mutations in bacteria and yeast found no evidence that essential genes mutate less frequently than other genes. Researchers…"
       },
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-launches-global-reliance-disclosure-program-expand-patient-access-medicines-worldwide",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
       "linkLabel": {
-        "en": "Read on FDA",
-        "zh-Hant": "前往 FDA",
-        "zh-Hans": "前往 FDA"
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "4e16ba5dd1e27e19",
+      "publishedAt": "2026-11-19T10:33:03Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "Something strange is living beneath the skin of deep-sea pigs"
+      },
+      "summary": {
+        "en": "Scientists have discovered a strange bacterium hiding beneath the skin of deep-sea creatures known as sea pigs, revealing an unexpected biological partnership. The microbe has an unusually tiny genome, yet more than a quarter of its DNA is devoted to making surface proteins…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
       },
       "langNote": {
         "en": "Source language: English",

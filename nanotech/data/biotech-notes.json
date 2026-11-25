@@ -1,7 +1,7 @@
 {
   "day": "2026-11-25",
   "timezone": "Asia/Hong_Kong",
-  "updatedAt": "2026-11-25T09:14:26.617001Z",
+  "updatedAt": "2026-11-25T09:14:41.994142Z",
   "perDay": 5,
   "historyDays": 4,
   "origin": "desk",
@@ -254,38 +254,6 @@
     ],
     "2026-11-22": [
       {
-        "id": "f3bce6bac1efd8dd",
-        "publishedAt": "2026-11-23",
-        "source": "FDA",
-        "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
-        "title": {
-          "zh-Hant": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years",
-          "zh-Hans": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years",
-          "en": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years"
-        },
-        "body": {
-          "zh-Hant": "FDA 在 11 月 23 日 的報導，題目是「FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years」。報導寫道：The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
-          "zh-Hans": "FDA 在 11 月 23 日 的报道，题目是「FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years」。报道写道：The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
-          "en": "FDA, 23 November: FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years. The report says: The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
-        }
-      },
-      {
-        "id": "297f173c84be5111",
-        "publishedAt": "2026-11-22",
-        "source": "FDA biologics",
-        "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/fda-establishes-cber-safety-council-strengthen-postmarketing-oversight-biological-products",
-        "title": {
-          "zh-Hant": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products",
-          "zh-Hans": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products",
-          "en": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products"
-        },
-        "body": {
-          "zh-Hant": "FDA biologics 在 11 月 22 日 的報導，題目是「FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products」。報導寫道：The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "FDA biologics 在 11 月 22 日 的报道，题目是「FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products」。报道写道：The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "FDA biologics, 22 November: FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products. The report says: The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER. Keep the date, the subject and the number. Drop the adjectives from the release."
-        }
-      },
-      {
         "id": "f8730274a97d9144",
         "publishedAt": "2026-11-21",
         "source": "BioPharma Dive",
@@ -302,19 +270,67 @@
         }
       },
       {
-        "id": "e8642e87b974c2c3",
+        "id": "73c9c528a0727161",
         "publishedAt": "2026-11-20",
-        "source": "FDA biologics",
-        "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+        "source": "BioPharma Dive",
+        "url": "https://www.biopharmadive.com/news/race-first-psilocybin-blockbuster-compass-usona/875369/",
         "title": {
-          "zh-Hant": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
-          "zh-Hans": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
-          "en": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy"
+          "zh-Hant": "Will the first approved psychedelic become a blockbuster?",
+          "zh-Hans": "Will the first approved psychedelic become a blockbuster?",
+          "en": "Will the first approved psychedelic become a blockbuster?"
         },
         "body": {
-          "zh-Hant": "FDA biologics 在 11 月 20 日 的報導，題目是「Statement on Deramiocel BLA for Duchenne Muscular Dystrophy」。報導寫道：FDA determined that the available evidence does not meet the evidentiary standard required for approval 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "FDA biologics 在 11 月 20 日 的报道，题目是「Statement on Deramiocel BLA for Duchenne Muscular Dystrophy」。报道写道：FDA determined that the available evidence does not meet the evidentiary standard required for approval 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "FDA biologics, 20 November: Statement on Deramiocel BLA for Duchenne Muscular Dystrophy. The report says: FDA determined that the available evidence does not meet the evidentiary standard required for approval Keep the date, the subject and the number. Drop the adjectives from the release."
+          "zh-Hant": "BioPharma Dive 在 11 月 20 日 的報導，題目是「Will the first approved psychedelic become a blockbuster?」。報導寫道：Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
+          "zh-Hans": "BioPharma Dive 在 11 月 20 日 的报道，题目是「Will the first approved psychedelic become a blockbuster?」。报道写道：Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
+          "en": "BioPharma Dive, 20 November: Will the first approved psychedelic become a blockbuster?. The report says: Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
+        }
+      },
+      {
+        "id": "8953e1490a73aa80",
+        "publishedAt": "2026-11-23",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
+        "title": {
+          "zh-Hant": "Mysterious new viruses reveal a missing link in evolution",
+          "zh-Hans": "Mysterious new viruses reveal a missing link in evolution",
+          "en": "Mysterious new viruses reveal a missing link in evolution"
+        },
+        "body": {
+          "zh-Hant": "ScienceDaily 在 11 月 23 日 的報導，題目是「Mysterious new viruses reveal a missing link in evolution」。報導寫道：Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "ScienceDaily 在 11 月 23 日 的报道，题目是「Mysterious new viruses reveal a missing link in evolution」。报道写道：Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "ScienceDaily, 23 November: Mysterious new viruses reveal a missing link in evolution. The report says: Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      },
+      {
+        "id": "d4dafcb66499fa42",
+        "publishedAt": "2026-11-22",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm",
+        "title": {
+          "zh-Hant": "DNA’s secret sunscreen may have helped life survive on early Earth",
+          "zh-Hans": "DNA’s secret sunscreen may have helped life survive on early Earth",
+          "en": "DNA’s secret sunscreen may have helped life survive on early Earth"
+        },
+        "body": {
+          "zh-Hant": "ScienceDaily 在 11 月 22 日 的報導，題目是「DNA’s secret sunscreen may have helped life survive on early Earth」。報導寫道：Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "ScienceDaily 在 11 月 22 日 的报道，题目是「DNA’s secret sunscreen may have helped life survive on early Earth」。报道写道：Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "ScienceDaily, 22 November: DNA’s secret sunscreen may have helped life survive on early Earth. The report says: Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      },
+      {
+        "id": "1c66389d1efbe2e8",
+        "publishedAt": "2026-11-21",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
+        "title": {
+          "zh-Hant": "A 50-year-old theory about evolution may have been wrong all along",
+          "zh-Hans": "A 50-year-old theory about evolution may have been wrong all along",
+          "en": "A 50-year-old theory about evolution may have been wrong all along"
+        },
+        "body": {
+          "zh-Hant": "ScienceDaily 在 11 月 21 日 的報導，題目是「A 50-year-old theory about evolution may have been wrong all along」。報導寫道：A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "ScienceDaily 在 11 月 21 日 的报道，题目是「A 50-year-old theory about evolution may have been wrong all along」。报道写道：A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "ScienceDaily, 21 November: A 50-year-old theory about evolution may have been wrong all along. The report says: A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. Keep the date, the subject and the number. Drop the adjectives from the release."
         }
       }
     ]
@@ -481,38 +497,6 @@
       }
     },
     {
-      "id": "f3bce6bac1efd8dd",
-      "publishedAt": "2026-11-23",
-      "source": "FDA",
-      "url": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-hormone-therapy-early-stage-breast-cancer-more-20-years",
-      "title": {
-        "zh-Hant": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years",
-        "zh-Hans": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years",
-        "en": "FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years"
-      },
-      "body": {
-        "zh-Hant": "FDA 在 11 月 23 日 的報導，題目是「FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years」。報導寫道：The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
-        "zh-Hans": "FDA 在 11 月 23 日 的报道，题目是「FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years」。报道写道：The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
-        "en": "FDA, 23 November: FDA Approves First New Hormone Therapy for Early-Stage Breast Cancer in More Than 20 Years. The report says: The FDA today approved Wilserdly (giredestrant), used alone after surgery in adults with estrogen receptor–positive, HER2-negative breast cancer — the most common subtype of the disease. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
-      }
-    },
-    {
-      "id": "297f173c84be5111",
-      "publishedAt": "2026-11-22",
-      "source": "FDA biologics",
-      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/fda-establishes-cber-safety-council-strengthen-postmarketing-oversight-biological-products",
-      "title": {
-        "zh-Hant": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products",
-        "zh-Hans": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products",
-        "en": "FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products"
-      },
-      "body": {
-        "zh-Hant": "FDA biologics 在 11 月 22 日 的報導，題目是「FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products」。報導寫道：The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "FDA biologics 在 11 月 22 日 的报道，题目是「FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products」。报道写道：The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "FDA biologics, 22 November: FDA Establishes CBER Safety Council to Strengthen Postmarketing Oversight of Biological Products. The report says: The FDA announced the establishment of the CBER Safety Council (CSC), a new governance body dedicated to strengthening post-market safety oversight for biological products regulated by CBER. Keep the date, the subject and the number. Drop the adjectives from the release."
-      }
-    },
-    {
       "id": "f8730274a97d9144",
       "publishedAt": "2026-11-21",
       "source": "BioPharma Dive",
@@ -529,19 +513,67 @@
       }
     },
     {
-      "id": "e8642e87b974c2c3",
+      "id": "73c9c528a0727161",
       "publishedAt": "2026-11-20",
-      "source": "FDA biologics",
-      "url": "http://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/race-first-psilocybin-blockbuster-compass-usona/875369/",
       "title": {
-        "zh-Hant": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
-        "zh-Hans": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy",
-        "en": "Statement on Deramiocel BLA for Duchenne Muscular Dystrophy"
+        "zh-Hant": "Will the first approved psychedelic become a blockbuster?",
+        "zh-Hans": "Will the first approved psychedelic become a blockbuster?",
+        "en": "Will the first approved psychedelic become a blockbuster?"
       },
       "body": {
-        "zh-Hant": "FDA biologics 在 11 月 20 日 的報導，題目是「Statement on Deramiocel BLA for Duchenne Muscular Dystrophy」。報導寫道：FDA determined that the available evidence does not meet the evidentiary standard required for approval 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "FDA biologics 在 11 月 20 日 的报道，题目是「Statement on Deramiocel BLA for Duchenne Muscular Dystrophy」。报道写道：FDA determined that the available evidence does not meet the evidentiary standard required for approval 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "FDA biologics, 20 November: Statement on Deramiocel BLA for Duchenne Muscular Dystrophy. The report says: FDA determined that the available evidence does not meet the evidentiary standard required for approval Keep the date, the subject and the number. Drop the adjectives from the release."
+        "zh-Hant": "BioPharma Dive 在 11 月 20 日 的報導，題目是「Will the first approved psychedelic become a blockbuster?」。報導寫道：Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
+        "zh-Hans": "BioPharma Dive 在 11 月 20 日 的报道，题目是「Will the first approved psychedelic become a blockbuster?」。报道写道：Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
+        "en": "BioPharma Dive, 20 November: Will the first approved psychedelic become a blockbuster?. The report says: Compass and Usona are vying for an FDA first, but pricing, payer coverage and patient access could determine the commercial winner. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
+      }
+    },
+    {
+      "id": "8953e1490a73aa80",
+      "publishedAt": "2026-11-23",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
+      "title": {
+        "zh-Hant": "Mysterious new viruses reveal a missing link in evolution",
+        "zh-Hans": "Mysterious new viruses reveal a missing link in evolution",
+        "en": "Mysterious new viruses reveal a missing link in evolution"
+      },
+      "body": {
+        "zh-Hant": "ScienceDaily 在 11 月 23 日 的報導，題目是「Mysterious new viruses reveal a missing link in evolution」。報導寫道：Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "ScienceDaily 在 11 月 23 日 的报道，题目是「Mysterious new viruses reveal a missing link in evolution」。报道写道：Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "ScienceDaily, 23 November: Mysterious new viruses reveal a missing link in evolution. The report says: Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. Keep the date, the subject and the number. Drop the adjectives from the release."
+      }
+    },
+    {
+      "id": "d4dafcb66499fa42",
+      "publishedAt": "2026-11-22",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm",
+      "title": {
+        "zh-Hant": "DNA’s secret sunscreen may have helped life survive on early Earth",
+        "zh-Hans": "DNA’s secret sunscreen may have helped life survive on early Earth",
+        "en": "DNA’s secret sunscreen may have helped life survive on early Earth"
+      },
+      "body": {
+        "zh-Hant": "ScienceDaily 在 11 月 22 日 的報導，題目是「DNA’s secret sunscreen may have helped life survive on early Earth」。報導寫道：Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "ScienceDaily 在 11 月 22 日 的报道，题目是「DNA’s secret sunscreen may have helped life survive on early Earth」。报道写道：Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "ScienceDaily, 22 November: DNA’s secret sunscreen may have helped life survive on early Earth. The report says: Scientists have uncovered a surprising reason why early life may have survived Earth's intense ultraviolet radiation: a key component of DNA appears to turn potentially destructive damage into something easier to repair. Keep the date, the subject and the number. Drop the adjectives from the release."
+      }
+    },
+    {
+      "id": "1c66389d1efbe2e8",
+      "publishedAt": "2026-11-21",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
+      "title": {
+        "zh-Hant": "A 50-year-old theory about evolution may have been wrong all along",
+        "zh-Hans": "A 50-year-old theory about evolution may have been wrong all along",
+        "en": "A 50-year-old theory about evolution may have been wrong all along"
+      },
+      "body": {
+        "zh-Hant": "ScienceDaily 在 11 月 21 日 的報導，題目是「A 50-year-old theory about evolution may have been wrong all along」。報導寫道：A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "ScienceDaily 在 11 月 21 日 的报道，题目是「A 50-year-old theory about evolution may have been wrong all along」。报道写道：A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "ScienceDaily, 21 November: A 50-year-old theory about evolution may have been wrong all along. The report says: A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. Keep the date, the subject and the number. Drop the adjectives from the release."
       }
     }
   ],
