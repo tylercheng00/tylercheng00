@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T16:55:50.879546Z",
+  "updatedAt": "2026-11-26T00:33:36.675956Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -18,6 +18,28 @@
     "fail fda-biologics: HTTP Error 404: Not Found"
   ],
   "items": [
+    {
+      "id": "b89c36c1acbe7f1e",
+      "publishedAt": "2026-11-25T20:44:15Z",
+      "source": "STAT",
+      "title": {
+        "en": "STAT+: FDA approves Cogent’s drug for rare stomach cancer"
+      },
+      "summary": {
+        "en": "Cogent Biosciences won FDA clearance for its stomach cancer treatment, in combination with a much older drug from Pfizer called Sutent."
+      },
+      "url": "https://www.statnews.com/2026/11/25/biotech-news-fda-approves-cogents-drug-for-rare-stomach-cancer/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
     {
       "id": "c5338289ec5002c0",
       "publishedAt": "2026-11-25T16:24:00Z",
@@ -151,28 +173,6 @@
       }
     },
     {
-      "id": "ad395e52d32d1367",
-      "publishedAt": "2026-11-24T13:39:31Z",
-      "source": "STAT",
-      "title": {
-        "en": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database"
-      },
-      "summary": {
-        "en": "For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information."
-      },
-      "url": "https://www.statnews.com/pharmalot/2026/11/24/fda-cites-two-drugmakers-for-failing-to-report-clinical-trial-results/?utm_campaign=rss",
-      "linkLabel": {
-        "en": "Read on STAT",
-        "zh-Hant": "前往 STAT",
-        "zh-Hans": "前往 STAT"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
       "id": "93e02becb4e76988",
       "publishedAt": "2026-11-24T00:00:00Z",
       "source": "Nature Biotechnology",
@@ -239,16 +239,16 @@
       }
     },
     {
-      "id": "2be1bdffbfcdc34c",
-      "publishedAt": "2026-11-23T00:00:00Z",
+      "id": "f947adad42e1d580",
+      "publishedAt": "2026-11-25T00:00:00Z",
       "source": "Nature Biotechnology subject",
       "title": {
-        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+        "en": "When heat switches genes off"
       },
       "summary": {
-        "en": "A tetravalent mRNA-LNP dengue vaccine incorporating antigen engineering confers broad protective immunity"
+        "en": "When heat switches genes off"
       },
-      "url": "https://www.nature.com/articles/s41598-026-82004-9",
+      "url": "https://www.nature.com/articles/s41477-026-02483-6",
       "linkLabel": {
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
@@ -261,16 +261,16 @@
       }
     },
     {
-      "id": "f947adad42e1d580",
+      "id": "d7a04a3ad20a9589",
       "publishedAt": "2026-11-25T00:00:00Z",
       "source": "Nature Biotechnology subject",
       "title": {
-        "en": "When heat switches genes off"
+        "en": "Development of PVA/chitosan nanofibrous wound dressings containing Stachys lavandulifolia extract and cerium oxide nanoparticles"
       },
       "summary": {
-        "en": "When heat switches genes off"
+        "en": "Development of PVA/chitosan nanofibrous wound dressings containing Stachys lavandulifolia extract and cerium oxide nanoparticles"
       },
-      "url": "https://www.nature.com/articles/s41477-026-02483-6",
+      "url": "https://www.nature.com/articles/s41598-026-82093-6",
       "linkLabel": {
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
