@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T01:40:22.189361Z",
+  "updatedAt": "2026-11-26T16:34:32.951683Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -18,6 +18,94 @@
     "fail fda-biologics: HTTP Error 404: Not Found"
   ],
   "items": [
+    {
+      "id": "f024c40e25886819",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Targeting chemotherapy-induced CD200 via a nucleoside-enhanced nanocarrier for cancer immunochemotherapy"
+      },
+      "summary": {
+        "en": "Targeting chemotherapy-induced CD200 via a nucleoside-enhanced nanocarrier for cancer immunochemotherapy"
+      },
+      "url": "https://www.nature.com/articles/s41467-026-79655-7",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "4c58b95491b91651",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Apigenin-functionalized Fe3O4@SP nanocomposites modulate the expression of P53/miR-34a, miR-181a and their potential targets in AGS gastric cancer cells: in vitro analysis with docking insights"
+      },
+      "summary": {
+        "en": "Apigenin-functionalized Fe3O4@SP nanocomposites modulate the expression of P53/miR-34a, miR-181a and their potential targets in AGS gastric cancer cells: in vitro analysis with docking insights"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-80969-1",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "cbd44343b2688efd",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Immunoinformatics applied to analyze Monkeypox virus isolates from Africa to design a broad-spectrum multi-epitope vaccine"
+      },
+      "summary": {
+        "en": "Immunoinformatics applied to analyze Monkeypox virus isolates from Africa to design a broad-spectrum multi-epitope vaccine"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-81021-y",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "bcbea80ae9f82d58",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Artificial intelligence in DNA repair: from mechanism to medicine"
+      },
+      "summary": {
+        "en": "Artificial intelligence in DNA repair: from mechanism to medicine"
+      },
+      "url": "https://www.nature.com/articles/s12276-026-01896-9",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
     {
       "id": "b89c36c1acbe7f1e",
       "publishedAt": "2026-11-25T20:44:15Z",
@@ -173,50 +261,6 @@
       }
     },
     {
-      "id": "93e02becb4e76988",
-      "publishedAt": "2026-11-24T00:00:00Z",
-      "source": "Nature Biotechnology",
-      "title": {
-        "en": "Modular mRNA-encoded helper proteins enhance DNA delivery"
-      },
-      "summary": {
-        "en": "Modular mRNA-encoded helper proteins enhance DNA delivery"
-      },
-      "url": "https://www.nature.com/articles/s41587-026-03351-6",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology",
-        "zh-Hant": "前往 Nature Biotechnology",
-        "zh-Hans": "前往 Nature Biotechnology"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "aa180da6d4f0baa4",
-      "publishedAt": "2026-11-24T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "Reverse vaccinology guided novel antigen construct intended for an mRNA vaccine targeting Jamestown Canyon Virus (JCV)"
-      },
-      "summary": {
-        "en": "Reverse vaccinology guided novel antigen construct intended for an mRNA vaccine targeting Jamestown Canyon Virus (JCV)"
-      },
-      "url": "https://www.nature.com/articles/s41598-026-77125-0",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
       "id": "946c39f644df85fe",
       "publishedAt": "2026-11-23T10:00:00Z",
       "source": "BioPharma Dive",
@@ -231,50 +275,6 @@
         "en": "Read on BioPharma Dive",
         "zh-Hant": "前往 BioPharma Dive",
         "zh-Hans": "前往 BioPharma Dive"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "f947adad42e1d580",
-      "publishedAt": "2026-11-25T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "When heat switches genes off"
-      },
-      "summary": {
-        "en": "When heat switches genes off"
-      },
-      "url": "https://www.nature.com/articles/s41477-026-02483-6",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "d7a04a3ad20a9589",
-      "publishedAt": "2026-11-25T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "Development of PVA/chitosan nanofibrous wound dressings containing Stachys lavandulifolia extract and cerium oxide nanoparticles"
-      },
-      "summary": {
-        "en": "Development of PVA/chitosan nanofibrous wound dressings containing Stachys lavandulifolia extract and cerium oxide nanoparticles"
-      },
-      "url": "https://www.nature.com/articles/s41598-026-82093-6",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
       },
       "langNote": {
         "en": "Source language: English",
