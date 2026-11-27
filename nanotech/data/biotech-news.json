@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:42:03.879899Z",
+  "updatedAt": "2026-11-27T01:33:55.602289Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -18,6 +18,28 @@
     "fail fda-biologics: HTTP Error 404: Not Found"
   ],
   "items": [
+    {
+      "id": "ba0359d661c74923",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Green synthesized zinc oxide nanoparticles combined with papaverine induce apoptosis and modulate microRNAs in breast cancer cells"
+      },
+      "summary": {
+        "en": "Green synthesized zinc oxide nanoparticles combined with papaverine induce apoptosis and modulate microRNAs in breast cancer cells"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-82543-1",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
     {
       "id": "726a42cf5bcb96b2",
       "publishedAt": "2026-11-27T00:00:00Z",
@@ -73,28 +95,6 @@
         "en": "Molecular and immunological profiling of Streptococcus parauberis extracellular vesicles reveals their potential as a cell-free vaccine platform"
       },
       "url": "https://www.nature.com/articles/s41598-026-82268-1",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "4c58b95491b91651",
-      "publishedAt": "2026-11-26T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "Apigenin-functionalized Fe3O4@SP nanocomposites modulate the expression of P53/miR-34a, miR-181a and their potential targets in AGS gastric cancer cells: in vitro analysis with docking insights"
-      },
-      "summary": {
-        "en": "Apigenin-functionalized Fe3O4@SP nanocomposites modulate the expression of P53/miR-34a, miR-181a and their potential targets in AGS gastric cancer cells: in vitro analysis with docking insights"
-      },
-      "url": "https://www.nature.com/articles/s41598-026-80969-1",
       "linkLabel": {
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
