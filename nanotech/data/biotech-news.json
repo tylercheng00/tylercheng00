@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T16:34:32.951683Z",
+  "updatedAt": "2026-11-27T00:42:03.879899Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -18,6 +18,28 @@
     "fail fda-biologics: HTTP Error 404: Not Found"
   ],
   "items": [
+    {
+      "id": "726a42cf5bcb96b2",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "N4-acetylcytidine in synthetic mRNA: enhanced protein yield without loss of translational fidelity"
+      },
+      "summary": {
+        "en": "N4-acetylcytidine in synthetic mRNA: enhanced protein yield without loss of translational fidelity"
+      },
+      "url": "https://www.nature.com/articles/s41392-026-03101-9",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
     {
       "id": "f024c40e25886819",
       "publishedAt": "2026-11-26T00:00:00Z",
@@ -41,6 +63,28 @@
       }
     },
     {
+      "id": "b107f84a4ea7f008",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "Molecular and immunological profiling of Streptococcus parauberis extracellular vesicles reveals their potential as a cell-free vaccine platform"
+      },
+      "summary": {
+        "en": "Molecular and immunological profiling of Streptococcus parauberis extracellular vesicles reveals their potential as a cell-free vaccine platform"
+      },
+      "url": "https://www.nature.com/articles/s41598-026-82268-1",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
       "id": "4c58b95491b91651",
       "publishedAt": "2026-11-26T00:00:00Z",
       "source": "Nature Biotechnology subject",
@@ -51,50 +95,6 @@
         "en": "Apigenin-functionalized Fe3O4@SP nanocomposites modulate the expression of P53/miR-34a, miR-181a and their potential targets in AGS gastric cancer cells: in vitro analysis with docking insights"
       },
       "url": "https://www.nature.com/articles/s41598-026-80969-1",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "cbd44343b2688efd",
-      "publishedAt": "2026-11-26T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "Immunoinformatics applied to analyze Monkeypox virus isolates from Africa to design a broad-spectrum multi-epitope vaccine"
-      },
-      "summary": {
-        "en": "Immunoinformatics applied to analyze Monkeypox virus isolates from Africa to design a broad-spectrum multi-epitope vaccine"
-      },
-      "url": "https://www.nature.com/articles/s41598-026-81021-y",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "bcbea80ae9f82d58",
-      "publishedAt": "2026-11-26T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "Artificial intelligence in DNA repair: from mechanism to medicine"
-      },
-      "summary": {
-        "en": "Artificial intelligence in DNA repair: from mechanism to medicine"
-      },
-      "url": "https://www.nature.com/articles/s12276-026-01896-9",
       "linkLabel": {
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
