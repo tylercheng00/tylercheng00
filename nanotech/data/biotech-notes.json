@@ -1,12 +1,62 @@
 {
-  "day": "2026-11-27",
+  "day": "2026-11-28",
   "timezone": "Asia/Hong_Kong",
-  "updatedAt": "2026-11-27T01:33:55.646677Z",
+  "updatedAt": "2026-11-27T16:20:03.646560Z",
   "perDay": 5,
   "historyDays": 4,
   "origin": "wire",
   "days": {
+    "2026-11-28": [
+      {
+        "id": "2bcc0c67fac13efc",
+        "publishedAt": "2026-11-27",
+        "source": "STAT",
+        "url": "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/?utm_campaign=rss",
+        "title": {
+          "zh-Hant": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+          "zh-Hans": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+          "en": "STAT+: FDA extends assessment of experimental Vertex kidney drug"
+        },
+        "body": {
+          "zh-Hant": "STAT 在 11 月 27 日 的報導，題目是「STAT+: FDA extends assessment of experimental Vertex kidney drug」。報導寫道：The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "STAT 在 11 月 27 日 的报道，题目是「STAT+: FDA extends assessment of experimental Vertex kidney drug」。报道写道：The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "STAT, 27 November: STAT+: FDA extends assessment of experimental Vertex kidney drug. The report says: The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      },
+      {
+        "id": "cf675863745eb75d",
+        "publishedAt": "2026-11-27",
+        "source": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm",
+        "title": {
+          "zh-Hant": "These bizarre prehistoric mammals may have been misunderstood for 150 years",
+          "zh-Hans": "These bizarre prehistoric mammals may have been misunderstood for 150 years",
+          "en": "These bizarre prehistoric mammals may have been misunderstood for 150 years"
+        },
+        "body": {
+          "zh-Hant": "ScienceDaily 在 11 月 27 日 的報導，題目是「These bizarre prehistoric mammals may have been misunderstood for 150 years」。報導寫道：Giant horned mammals that emerged shortly after the extinction of the dinosaurs may have had far fewer physical differences between males and females than scientists once believed. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "ScienceDaily 在 11 月 27 日 的报道，题目是「These bizarre prehistoric mammals may have been misunderstood for 150 years」。报道写道：Giant horned mammals that emerged shortly after the extinction of the dinosaurs may have had far fewer physical differences between males and females than scientists once believed. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "ScienceDaily, 27 November: These bizarre prehistoric mammals may have been misunderstood for 150 years. The report says: Giant horned mammals that emerged shortly after the extinction of the dinosaurs may have had far fewer physical differences between males and females than scientists once believed. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      }
+    ],
     "2026-11-27": [
+      {
+        "id": "2bcc0c67fac13efc",
+        "publishedAt": "2026-11-27",
+        "source": "STAT",
+        "url": "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/?utm_campaign=rss",
+        "title": {
+          "zh-Hant": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+          "zh-Hans": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+          "en": "STAT+: FDA extends assessment of experimental Vertex kidney drug"
+        },
+        "body": {
+          "zh-Hant": "STAT 在 11 月 27 日 的報導，題目是「STAT+: FDA extends assessment of experimental Vertex kidney drug」。報導寫道：The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+          "zh-Hans": "STAT 在 11 月 27 日 的报道，题目是「STAT+: FDA extends assessment of experimental Vertex kidney drug」。报道写道：The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+          "en": "STAT, 27 November: STAT+: FDA extends assessment of experimental Vertex kidney drug. The report says: The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. Keep the date, the subject and the number. Drop the adjectives from the release."
+        }
+      },
       {
         "id": "b89c36c1acbe7f1e",
         "publishedAt": "2026-11-25",
@@ -235,91 +285,41 @@
           "en": "Scientific Reports on 23 November, from Han-Chung Wu's group: a tetravalent dengue mRNA-LNP. Asparagine 8 on the envelope protein is switched to arginine (N8R), the ionisable lipid is AS-CL-28, and the four mRNAs are mixed 4:1:4:4 so DENV2 does not dominate the response. In passive-protection tests the N8R change added protection across serotypes. Dengue vaccines fail when cross-reactive, weakly neutralising antibodies help the virus into cells. This paper is about ratio and one epitope. The data stop at animals and transferred serum. That is not a clinically balanced vaccine."
         }
       }
-    ],
-    "2026-11-24": [
-      {
-        "id": "0fc887a01ff2ece7",
-        "publishedAt": "2026-11-24",
-        "source": "BioPharma Dive",
-        "url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
-        "title": {
-          "zh-Hant": "FDA approves BridgeBio muscular dystrophy drug",
-          "zh-Hans": "FDA approves BridgeBio muscular dystrophy drug",
-          "en": "FDA approves BridgeBio muscular dystrophy drug"
-        },
-        "body": {
-          "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA approves BridgeBio muscular dystrophy drug」。報導寫道：Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. 獲批要分清是完整批准還是加速批准，標籤上的試驗做到第幾個月。",
-          "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA approves BridgeBio muscular dystrophy drug」。报道写道：Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. 获批要分清是完整批准还是加速批准，标签上的试验做到第几个月。",
-          "en": "BioPharma Dive, 24 November: FDA approves BridgeBio muscular dystrophy drug. The report says: Wall Street analysts say a price of nearly $1 million a year should drive blockbuster sales for a medicine that helped patients walk and breathe better. Check whether the approval is traditional or accelerated, and how many months of the trial are actually on the label."
-        }
-      },
-      {
-        "id": "9e9f16d7dd8f991b",
-        "publishedAt": "2026-11-24",
-        "source": "BioPharma Dive",
-        "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
-        "title": {
-          "zh-Hant": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
-          "zh-Hans": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
-          "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
-        },
-        "body": {
-          "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。報導寫道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。报道写道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "BioPharma Dive, 24 November: FDA clears Roche’s oral SERD as treatment in early-stage breast cancer. The report says: The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. Keep the date, the subject and the number. Drop the adjectives from the release."
-        }
-      },
-      {
-        "id": "90962b3f4119d456",
-        "publishedAt": "2026-11-24",
-        "source": "STAT",
-        "url": "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss",
-        "title": {
-          "zh-Hant": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod",
-          "zh-Hans": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod",
-          "en": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod"
-        },
-        "body": {
-          "zh-Hant": "STAT 在 11 月 24 日 的報導，題目是「STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod」。報導寫道：Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "STAT 在 11 月 24 日 的报道，题目是「STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod」。报道写道：Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "STAT, 24 November: STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod. The report says: Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery. Keep the date, the subject and the number. Drop the adjectives from the release."
-        }
-      },
-      {
-        "id": "ad395e52d32d1367",
-        "publishedAt": "2026-11-24",
-        "source": "STAT",
-        "url": "https://www.statnews.com/pharmalot/2026/11/24/fda-cites-two-drugmakers-for-failing-to-report-clinical-trial-results/?utm_campaign=rss",
-        "title": {
-          "zh-Hant": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database",
-          "zh-Hans": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database",
-          "en": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database"
-        },
-        "body": {
-          "zh-Hant": "STAT 在 11 月 24 日 的報導，題目是「STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database」。報導寫道：For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information. 有沒有病人入組，比平台名稱重要。沒有入組就不要寫成臨床結果。",
-          "zh-Hans": "STAT 在 11 月 24 日 的报道，题目是「STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database」。报道写道：For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information. 有没有病人入组，比平台名称重要。没有入组就不要写成临床结果。",
-          "en": "STAT, 24 November: STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database. The report says: For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information. Whether anyone has been dosed matters more than the platform name. No dosing means it is not a clinical result."
-        }
-      },
-      {
-        "id": "af740ab5cf40a3e2",
-        "publishedAt": "2026-11-24",
-        "source": "STAT",
-        "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
-        "title": {
-          "zh-Hant": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
-          "zh-Hans": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
-          "en": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?"
-        },
-        "body": {
-          "zh-Hant": "STAT 在 11 月 24 日 的報導，題目是「STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?」。報導寫道：As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-          "zh-Hans": "STAT 在 11 月 24 日 的报道，题目是「STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?」。报道写道：As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-          "en": "STAT, 24 November: STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?. The report says: As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. Keep the date, the subject and the number. Drop the adjectives from the release."
-        }
-      }
     ]
   },
   "articles": [
+    {
+      "id": "2bcc0c67fac13efc",
+      "publishedAt": "2026-11-27",
+      "source": "STAT",
+      "url": "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/?utm_campaign=rss",
+      "title": {
+        "zh-Hant": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+        "zh-Hans": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+        "en": "STAT+: FDA extends assessment of experimental Vertex kidney drug"
+      },
+      "body": {
+        "zh-Hant": "STAT 在 11 月 27 日 的報導，題目是「STAT+: FDA extends assessment of experimental Vertex kidney drug」。報導寫道：The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "STAT 在 11 月 27 日 的报道，题目是「STAT+: FDA extends assessment of experimental Vertex kidney drug」。报道写道：The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "STAT, 27 November: STAT+: FDA extends assessment of experimental Vertex kidney drug. The report says: The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns. Keep the date, the subject and the number. Drop the adjectives from the release."
+      }
+    },
+    {
+      "id": "cf675863745eb75d",
+      "publishedAt": "2026-11-27",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm",
+      "title": {
+        "zh-Hant": "These bizarre prehistoric mammals may have been misunderstood for 150 years",
+        "zh-Hans": "These bizarre prehistoric mammals may have been misunderstood for 150 years",
+        "en": "These bizarre prehistoric mammals may have been misunderstood for 150 years"
+      },
+      "body": {
+        "zh-Hant": "ScienceDaily 在 11 月 27 日 的報導，題目是「These bizarre prehistoric mammals may have been misunderstood for 150 years」。報導寫道：Giant horned mammals that emerged shortly after the extinction of the dinosaurs may have had far fewer physical differences between males and females than scientists once believed. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
+        "zh-Hans": "ScienceDaily 在 11 月 27 日 的报道，题目是「These bizarre prehistoric mammals may have been misunderstood for 150 years」。报道写道：Giant horned mammals that emerged shortly after the extinction of the dinosaurs may have had far fewer physical differences between males and females than scientists once believed. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
+        "en": "ScienceDaily, 27 November: These bizarre prehistoric mammals may have been misunderstood for 150 years. The report says: Giant horned mammals that emerged shortly after the extinction of the dinosaurs may have had far fewer physical differences between males and females than scientists once believed. Keep the date, the subject and the number. Drop the adjectives from the release."
+      }
+    },
     {
       "id": "b89c36c1acbe7f1e",
       "publishedAt": "2026-11-25",
@@ -478,70 +478,6 @@
         "zh-Hant": "Scientific Reports 11 月 23 日，韓文忠團隊的四價登革熱 mRNA-LNP。信封蛋白第 8 位天冬酰胺改成精氨酸（N8R），脂質用 AS-CL-28，四型 mRNA 配成 4:1:4:4，用來壓 DENV2 的免疫主導。被動保護裡，N8R 對多個血清型多了一層保護。登革熱疫苗的老問題是抗體依賴增強：交叉但中和不足的抗體會幫病毒進細胞。這篇處理的是配比和一個表位，數據停在動物和血清轉移。不能寫成已經平衡好的臨床疫苗。",
         "zh-Hans": "Scientific Reports 11 月 23 日，韩文忠团队的四价登革热 mRNA-LNP。信封蛋白第 8 位天冬酰胺改成精氨酸（N8R），脂质用 AS-CL-28，四型 mRNA 配成 4:1:4:4，用来压 DENV2 的免疫主导。被动保护里，N8R 对多个血清型多了一层保护。登革热疫苗的老问题是抗体依赖增强：交叉但中和不足的抗体会帮病毒进细胞。这篇处理的是配比和一个表位，数据停在动物和血清转移。不能写成已经平衡好的临床疫苗。",
         "en": "Scientific Reports on 23 November, from Han-Chung Wu's group: a tetravalent dengue mRNA-LNP. Asparagine 8 on the envelope protein is switched to arginine (N8R), the ionisable lipid is AS-CL-28, and the four mRNAs are mixed 4:1:4:4 so DENV2 does not dominate the response. In passive-protection tests the N8R change added protection across serotypes. Dengue vaccines fail when cross-reactive, weakly neutralising antibodies help the virus into cells. This paper is about ratio and one epitope. The data stop at animals and transferred serum. That is not a clinically balanced vaccine."
-      }
-    },
-    {
-      "id": "9e9f16d7dd8f991b",
-      "publishedAt": "2026-11-24",
-      "source": "BioPharma Dive",
-      "url": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
-      "title": {
-        "zh-Hant": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
-        "zh-Hans": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer",
-        "en": "FDA clears Roche’s oral SERD as treatment in early-stage breast cancer"
-      },
-      "body": {
-        "zh-Hant": "BioPharma Dive 在 11 月 24 日 的報導，題目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。報導寫道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "BioPharma Dive 在 11 月 24 日 的报道，题目是「FDA clears Roche’s oral SERD as treatment in early-stage breast cancer」。报道写道：The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "BioPharma Dive, 24 November: FDA clears Roche’s oral SERD as treatment in early-stage breast cancer. The report says: The latest approval represents a large market opportunity for a drug Roche has touted to become a top-selling, multibillion-dollar product. Keep the date, the subject and the number. Drop the adjectives from the release."
-      }
-    },
-    {
-      "id": "90962b3f4119d456",
-      "publishedAt": "2026-11-24",
-      "source": "STAT",
-      "url": "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss",
-      "title": {
-        "zh-Hant": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod",
-        "zh-Hans": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod",
-        "en": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod"
-      },
-      "body": {
-        "zh-Hant": "STAT 在 11 月 24 日 的報導，題目是「STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod」。報導寫道：Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "STAT 在 11 月 24 日 的报道，题目是「STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod」。报道写道：Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "STAT, 24 November: STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod. The report says: Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery. Keep the date, the subject and the number. Drop the adjectives from the release."
-      }
-    },
-    {
-      "id": "ad395e52d32d1367",
-      "publishedAt": "2026-11-24",
-      "source": "STAT",
-      "url": "https://www.statnews.com/pharmalot/2026/11/24/fda-cites-two-drugmakers-for-failing-to-report-clinical-trial-results/?utm_campaign=rss",
-      "title": {
-        "zh-Hant": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database",
-        "zh-Hans": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database",
-        "en": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database"
-      },
-      "body": {
-        "zh-Hant": "STAT 在 11 月 24 日 的報導，題目是「STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database」。報導寫道：For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information. 有沒有病人入組，比平台名稱重要。沒有入組就不要寫成臨床結果。",
-        "zh-Hans": "STAT 在 11 月 24 日 的报道，题目是「STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database」。报道写道：For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information. 有没有病人入组，比平台名称重要。没有入组就不要写成临床结果。",
-        "en": "STAT, 24 November: STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database. The report says: For the first time in more than a year, the FDA sent notices to companies for failing to report required clinical trial information. Whether anyone has been dosed matters more than the platform name. No dosing means it is not a clinical result."
-      }
-    },
-    {
-      "id": "af740ab5cf40a3e2",
-      "publishedAt": "2026-11-24",
-      "source": "STAT",
-      "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
-      "title": {
-        "zh-Hant": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
-        "zh-Hans": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
-        "en": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?"
-      },
-      "body": {
-        "zh-Hant": "STAT 在 11 月 24 日 的報導，題目是「STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?」。報導寫道：As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. 先把日期、對象和數字記下來。新聞稿裡的形容詞可以先丟掉。",
-        "zh-Hans": "STAT 在 11 月 24 日 的报道，题目是「STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?」。报道写道：As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. 先把日期、对象和数字记下来。新闻稿里的形容词可以先丢掉。",
-        "en": "STAT, 24 November: STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?. The report says: As the Radiological Society of North America meets in Chicago, industry insiders are expected to debate if AI draft reporting will improve care. Keep the date, the subject and the number. Drop the adjectives from the release."
       }
     }
   ],

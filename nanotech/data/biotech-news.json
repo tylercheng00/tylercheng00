@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T01:33:55.602289Z",
+  "updatedAt": "2026-11-27T16:20:03.587039Z",
   "refreshHours": 6,
   "generator": "nanotech/scripts/fetch_biotech_news.py",
   "sources": [
@@ -19,6 +19,28 @@
   ],
   "items": [
     {
+      "id": "2bcc0c67fac13efc",
+      "publishedAt": "2026-11-27T16:00:54Z",
+      "source": "STAT",
+      "title": {
+        "en": "STAT+: FDA extends assessment of experimental Vertex kidney drug"
+      },
+      "summary": {
+        "en": "The FDA is extending its assessment of Vertex's investigational kidney drug, as the company faces questions about potential safety concerns."
+      },
+      "url": "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/?utm_campaign=rss",
+      "linkLabel": {
+        "en": "Read on STAT",
+        "zh-Hant": "前往 STAT",
+        "zh-Hans": "前往 STAT"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
       "id": "ba0359d661c74923",
       "publishedAt": "2026-11-27T00:00:00Z",
       "source": "Nature Biotechnology subject",
@@ -29,6 +51,28 @@
         "en": "Green synthesized zinc oxide nanoparticles combined with papaverine induce apoptosis and modulate microRNAs in breast cancer cells"
       },
       "url": "https://www.nature.com/articles/s41598-026-82543-1",
+      "linkLabel": {
+        "en": "Read on Nature Biotechnology subject",
+        "zh-Hant": "前往 Nature Biotechnology subject",
+        "zh-Hans": "前往 Nature Biotechnology subject"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "1fade453da330f34",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "source": "Nature Biotechnology subject",
+      "title": {
+        "en": "NSUN2-mediated m⁵C reprogramming sustains replication stress adaptation in ovarian cancer PARP inhibitor resistance"
+      },
+      "summary": {
+        "en": "NSUN2-mediated m⁵C reprogramming sustains replication stress adaptation in ovarian cancer PARP inhibitor resistance"
+      },
+      "url": "https://www.nature.com/articles/s41419-026-09447-w",
       "linkLabel": {
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
@@ -63,38 +107,16 @@
       }
     },
     {
-      "id": "f024c40e25886819",
-      "publishedAt": "2026-11-26T00:00:00Z",
+      "id": "d44edd2076e9cbe0",
+      "publishedAt": "2026-11-27T00:00:00Z",
       "source": "Nature Biotechnology subject",
       "title": {
-        "en": "Targeting chemotherapy-induced CD200 via a nucleoside-enhanced nanocarrier for cancer immunochemotherapy"
+        "en": "Programmable immunity: Logic-gated CAR T cells for precision cancer therapy"
       },
       "summary": {
-        "en": "Targeting chemotherapy-induced CD200 via a nucleoside-enhanced nanocarrier for cancer immunochemotherapy"
+        "en": "Programmable immunity: Logic-gated CAR T cells for precision cancer therapy"
       },
-      "url": "https://www.nature.com/articles/s41467-026-79655-7",
-      "linkLabel": {
-        "en": "Read on Nature Biotechnology subject",
-        "zh-Hant": "前往 Nature Biotechnology subject",
-        "zh-Hans": "前往 Nature Biotechnology subject"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "b107f84a4ea7f008",
-      "publishedAt": "2026-11-26T00:00:00Z",
-      "source": "Nature Biotechnology subject",
-      "title": {
-        "en": "Molecular and immunological profiling of Streptococcus parauberis extracellular vesicles reveals their potential as a cell-free vaccine platform"
-      },
-      "summary": {
-        "en": "Molecular and immunological profiling of Streptococcus parauberis extracellular vesicles reveals their potential as a cell-free vaccine platform"
-      },
-      "url": "https://www.nature.com/articles/s41598-026-82268-1",
+      "url": "https://www.nature.com/articles/s41568-026-00994-0",
       "linkLabel": {
         "en": "Read on Nature Biotechnology subject",
         "zh-Hant": "前往 Nature Biotechnology subject",
@@ -239,28 +261,6 @@
       }
     },
     {
-      "id": "90962b3f4119d456",
-      "publishedAt": "2026-11-24T14:26:07Z",
-      "source": "STAT",
-      "title": {
-        "en": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod"
-      },
-      "summary": {
-        "en": "Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery."
-      },
-      "url": "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss",
-      "linkLabel": {
-        "en": "Read on STAT",
-        "zh-Hant": "前往 STAT",
-        "zh-Hans": "前往 STAT"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
       "id": "946c39f644df85fe",
       "publishedAt": "2026-11-23T10:00:00Z",
       "source": "BioPharma Dive",
@@ -275,6 +275,28 @@
         "en": "Read on BioPharma Dive",
         "zh-Hant": "前往 BioPharma Dive",
         "zh-Hans": "前往 BioPharma Dive"
+      },
+      "langNote": {
+        "en": "Source language: English",
+        "zh-Hant": "原文為英文",
+        "zh-Hans": "原文为英文"
+      }
+    },
+    {
+      "id": "cf675863745eb75d",
+      "publishedAt": "2026-11-27T01:05:56Z",
+      "source": "ScienceDaily",
+      "title": {
+        "en": "These bizarre prehistoric mammals may have been misunderstood for 150 years"
+      },
+      "summary": {
+        "en": "Giant horned mammals that emerged shortly after the extinction of the dinosaurs may have had far fewer physical differences between males and females than scientists once believed. The discovery challenges a classic example of sexual dimorphism and raises questions about how…"
+      },
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm",
+      "linkLabel": {
+        "en": "Read on ScienceDaily",
+        "zh-Hant": "前往 ScienceDaily",
+        "zh-Hans": "前往 ScienceDaily"
       },
       "langNote": {
         "en": "Source language: English",
@@ -337,28 +359,6 @@
         "en": "A decades-old theory suggesting that evolution protects its most important genes from mutations has been dealt a major blow. An extensive new analysis of mutations in bacteria and yeast found no evidence that essential genes mutate less frequently than other genes. Researchers…"
       },
       "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
-      "linkLabel": {
-        "en": "Read on ScienceDaily",
-        "zh-Hant": "前往 ScienceDaily",
-        "zh-Hans": "前往 ScienceDaily"
-      },
-      "langNote": {
-        "en": "Source language: English",
-        "zh-Hant": "原文為英文",
-        "zh-Hans": "原文为英文"
-      }
-    },
-    {
-      "id": "4e16ba5dd1e27e19",
-      "publishedAt": "2026-11-19T10:33:03Z",
-      "source": "ScienceDaily",
-      "title": {
-        "en": "Something strange is living beneath the skin of deep-sea pigs"
-      },
-      "summary": {
-        "en": "Scientists have discovered a strange bacterium hiding beneath the skin of deep-sea creatures known as sea pigs, revealing an unexpected biological partnership. The microbe has an unusually tiny genome, yet more than a quarter of its DNA is devoted to making surface proteins…"
-      },
-      "url": "https://www.sciencedaily.com/releases/2026/11/261118065512.htm",
       "linkLabel": {
         "en": "Read on ScienceDaily",
         "zh-Hant": "前往 ScienceDaily",
